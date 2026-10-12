@@ -1,0 +1,2854 @@
+{
+ "grid": 0.01,
+ "num_sequences": 27,
+ "bases": [
+  {
+   "base_id": "base_000",
+   "signature": "<square>",
+   "canonical_state": {
+    "representative": {
+     "sequence": "ladybug",
+     "step": 1
+    },
+    "segments": [],
+    "num_creases": 0
+   },
+   "num_sequences": 27,
+   "sequences": [
+    {
+     "name": "bird",
+     "last_step": 2,
+     "steps": [
+      1,
+      2
+     ]
+    },
+    {
+     "name": "car",
+     "last_step": 1,
+     "steps": [
+      1
+     ]
+    },
+    {
+     "name": "cat",
+     "last_step": 2,
+     "steps": [
+      1,
+      2
+     ]
+    },
+    {
+     "name": "cat_face",
+     "last_step": 2,
+     "steps": [
+      1,
+      2
+     ]
+    },
+    {
+     "name": "cup",
+     "last_step": 2,
+     "steps": [
+      1,
+      2
+     ]
+    },
+    {
+     "name": "dog",
+     "last_step": 2,
+     "steps": [
+      1,
+      2
+     ]
+    },
+    {
+     "name": "fox_head",
+     "last_step": 2,
+     "steps": [
+      1,
+      2
+     ]
+    },
+    {
+     "name": "gift_card_holder",
+     "last_step": 1,
+     "steps": [
+      1
+     ]
+    },
+    {
+     "name": "girl",
+     "last_step": 1,
+     "steps": [
+      1
+     ]
+    },
+    {
+     "name": "heart",
+     "last_step": 2,
+     "steps": [
+      1,
+      2
+     ]
+    },
+    {
+     "name": "horse_head",
+     "last_step": 2,
+     "steps": [
+      1,
+      2
+     ]
+    },
+    {
+     "name": "ladybug",
+     "last_step": 2,
+     "steps": [
+      1,
+      2
+     ]
+    },
+    {
+     "name": "paper_bird",
+     "last_step": 2,
+     "steps": [
+      1,
+      2
+     ]
+    },
+    {
+     "name": "penguin",
+     "last_step": 2,
+     "steps": [
+      1,
+      2
+     ]
+    },
+    {
+     "name": "pig",
+     "last_step": 1,
+     "steps": [
+      1
+     ]
+    },
+    {
+     "name": "rabbit_head_v1",
+     "last_step": 2,
+     "steps": [
+      1,
+      2
+     ]
+    },
+    {
+     "name": "rabbit_head_v2",
+     "last_step": 2,
+     "steps": [
+      1,
+      2
+     ]
+    },
+    {
+     "name": "rocket",
+     "last_step": 1,
+     "steps": [
+      1
+     ]
+    },
+    {
+     "name": "santa_hat",
+     "last_step": 1,
+     "steps": [
+      1
+     ]
+    },
+    {
+     "name": "shield",
+     "last_step": 1,
+     "steps": [
+      1
+     ]
+    },
+    {
+     "name": "sloth",
+     "last_step": 1,
+     "steps": [
+      1
+     ]
+    },
+    {
+     "name": "snake",
+     "last_step": 2,
+     "steps": [
+      1,
+      2
+     ]
+    },
+    {
+     "name": "sunflower",
+     "last_step": 1,
+     "steps": [
+      1
+     ]
+    },
+    {
+     "name": "tulip",
+     "last_step": 2,
+     "steps": [
+      1,
+      2
+     ]
+    },
+    {
+     "name": "tulip_stem",
+     "last_step": 2,
+     "steps": [
+      1,
+      2
+     ]
+    },
+    {
+     "name": "walrus",
+     "last_step": 2,
+     "steps": [
+      1,
+      2
+     ]
+    },
+    {
+     "name": "yacht",
+     "last_step": 2,
+     "steps": [
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "base_id": "base_001",
+   "signature": "0.00,0.00,1.00,1.00,M",
+   "canonical_state": {
+    "representative": {
+     "sequence": "ladybug",
+     "step": 3
+    },
+    "segments": [
+     [
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      "V"
+     ]
+    ],
+    "num_creases": 1
+   },
+   "num_sequences": 20,
+   "sequences": [
+    {
+     "name": "bird",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    },
+    {
+     "name": "cat",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    },
+    {
+     "name": "cat_face",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    },
+    {
+     "name": "cup",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    },
+    {
+     "name": "dog",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    },
+    {
+     "name": "fox_head",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    },
+    {
+     "name": "heart",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    },
+    {
+     "name": "horse_head",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    },
+    {
+     "name": "ladybug",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    },
+    {
+     "name": "paper_bird",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    },
+    {
+     "name": "penguin",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    },
+    {
+     "name": "pig",
+     "last_step": 2,
+     "steps": [
+      2
+     ]
+    },
+    {
+     "name": "rabbit_head_v1",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    },
+    {
+     "name": "rabbit_head_v2",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    },
+    {
+     "name": "sloth",
+     "last_step": 2,
+     "steps": [
+      2
+     ]
+    },
+    {
+     "name": "snake",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    },
+    {
+     "name": "tulip",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    },
+    {
+     "name": "tulip_stem",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    },
+    {
+     "name": "walrus",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    },
+    {
+     "name": "yacht",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "base_id": "base_002",
+   "signature": "0.00,0.00,0.50,0.50,F|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,F",
+   "canonical_state": {
+    "representative": {
+     "sequence": "ladybug",
+     "step": 5
+    },
+    "segments": [
+     [
+      0.0,
+      0.0,
+      0.5,
+      0.5,
+      "V"
+     ],
+     [
+      0.0,
+      1.0,
+      0.5,
+      0.5,
+      "F"
+     ],
+     [
+      1.0,
+      0.0,
+      0.5,
+      0.5,
+      "F"
+     ],
+     [
+      1.0,
+      1.0,
+      0.5,
+      0.5,
+      "V"
+     ]
+    ],
+    "num_creases": 4
+   },
+   "num_sequences": 13,
+   "sequences": [
+    {
+     "name": "cat",
+     "last_step": 5,
+     "steps": [
+      5
+     ]
+    },
+    {
+     "name": "dog",
+     "last_step": 5,
+     "steps": [
+      5
+     ]
+    },
+    {
+     "name": "fox_head",
+     "last_step": 5,
+     "steps": [
+      5
+     ]
+    },
+    {
+     "name": "heart",
+     "last_step": 6,
+     "steps": [
+      5,
+      6
+     ]
+    },
+    {
+     "name": "horse_head",
+     "last_step": 5,
+     "steps": [
+      5
+     ]
+    },
+    {
+     "name": "ladybug",
+     "last_step": 5,
+     "steps": [
+      5
+     ]
+    },
+    {
+     "name": "penguin",
+     "last_step": 5,
+     "steps": [
+      5
+     ]
+    },
+    {
+     "name": "pig",
+     "last_step": 4,
+     "steps": [
+      4
+     ]
+    },
+    {
+     "name": "rabbit_head_v1",
+     "last_step": 5,
+     "steps": [
+      5
+     ]
+    },
+    {
+     "name": "rabbit_head_v2",
+     "last_step": 5,
+     "steps": [
+      5
+     ]
+    },
+    {
+     "name": "snake",
+     "last_step": 6,
+     "steps": [
+      6
+     ]
+    },
+    {
+     "name": "tulip",
+     "last_step": 5,
+     "steps": [
+      5
+     ]
+    },
+    {
+     "name": "walrus",
+     "last_step": 5,
+     "steps": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "base_id": "base_003",
+   "signature": "0.00,0.00,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,V",
+   "canonical_state": {
+    "representative": {
+     "sequence": "ladybug",
+     "step": 4
+    },
+    "segments": [
+     [
+      0.0,
+      0.0,
+      0.5,
+      0.5,
+      "V"
+     ],
+     [
+      0.0,
+      1.0,
+      0.5,
+      0.5,
+      "M"
+     ],
+     [
+      1.0,
+      0.0,
+      0.5,
+      0.5,
+      "V"
+     ],
+     [
+      1.0,
+      1.0,
+      0.5,
+      0.5,
+      "V"
+     ]
+    ],
+    "num_creases": 4
+   },
+   "num_sequences": 9,
+   "sequences": [
+    {
+     "name": "bird",
+     "last_step": 4,
+     "steps": [
+      4
+     ]
+    },
+    {
+     "name": "cat",
+     "last_step": 4,
+     "steps": [
+      4
+     ]
+    },
+    {
+     "name": "dog",
+     "last_step": 4,
+     "steps": [
+      4
+     ]
+    },
+    {
+     "name": "fox_head",
+     "last_step": 4,
+     "steps": [
+      4
+     ]
+    },
+    {
+     "name": "ladybug",
+     "last_step": 4,
+     "steps": [
+      4
+     ]
+    },
+    {
+     "name": "rabbit_head_v1",
+     "last_step": 4,
+     "steps": [
+      4
+     ]
+    },
+    {
+     "name": "rabbit_head_v2",
+     "last_step": 4,
+     "steps": [
+      4
+     ]
+    },
+    {
+     "name": "tulip",
+     "last_step": 4,
+     "steps": [
+      4
+     ]
+    },
+    {
+     "name": "walrus",
+     "last_step": 4,
+     "steps": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "base_id": "base_004",
+   "signature": "0.00,0.00,1.00,1.00,F",
+   "canonical_state": {
+    "representative": {
+     "sequence": "cat_face",
+     "step": 4
+    },
+    "segments": [
+     [
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      "F"
+     ]
+    ],
+    "num_creases": 1
+   },
+   "num_sequences": 7,
+   "sequences": [
+    {
+     "name": "cat_face",
+     "last_step": 4,
+     "steps": [
+      4
+     ]
+    },
+    {
+     "name": "heart",
+     "last_step": 4,
+     "steps": [
+      4
+     ]
+    },
+    {
+     "name": "horse_head",
+     "last_step": 4,
+     "steps": [
+      4
+     ]
+    },
+    {
+     "name": "penguin",
+     "last_step": 4,
+     "steps": [
+      4
+     ]
+    },
+    {
+     "name": "pig",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    },
+    {
+     "name": "snake",
+     "last_step": 5,
+     "steps": [
+      4,
+      5
+     ]
+    },
+    {
+     "name": "tulip_stem",
+     "last_step": 4,
+     "steps": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "base_id": "base_005",
+   "signature": "0.00,0.50,1.00,0.50,M",
+   "canonical_state": {
+    "representative": {
+     "sequence": "gift_card_holder",
+     "step": 2
+    },
+    "segments": [
+     [
+      0.0,
+      0.5,
+      1.0,
+      0.5,
+      "V"
+     ]
+    ],
+    "num_creases": 1
+   },
+   "num_sequences": 6,
+   "sequences": [
+    {
+     "name": "car",
+     "last_step": 2,
+     "steps": [
+      2
+     ]
+    },
+    {
+     "name": "gift_card_holder",
+     "last_step": 2,
+     "steps": [
+      2
+     ]
+    },
+    {
+     "name": "girl",
+     "last_step": 2,
+     "steps": [
+      2
+     ]
+    },
+    {
+     "name": "rocket",
+     "last_step": 2,
+     "steps": [
+      2
+     ]
+    },
+    {
+     "name": "shield",
+     "last_step": 2,
+     "steps": [
+      2
+     ]
+    },
+    {
+     "name": "sunflower",
+     "last_step": 2,
+     "steps": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "base_id": "base_006",
+   "signature": "0.00,0.50,1.00,0.50,F",
+   "canonical_state": {
+    "representative": {
+     "sequence": "gift_card_holder",
+     "step": 3
+    },
+    "segments": [
+     [
+      0.0,
+      0.5,
+      1.0,
+      0.5,
+      "F"
+     ]
+    ],
+    "num_creases": 1
+   },
+   "num_sequences": 6,
+   "sequences": [
+    {
+     "name": "car",
+     "last_step": 4,
+     "steps": [
+      3,
+      4
+     ]
+    },
+    {
+     "name": "gift_card_holder",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    },
+    {
+     "name": "girl",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    },
+    {
+     "name": "rocket",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    },
+    {
+     "name": "shield",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    },
+    {
+     "name": "sunflower",
+     "last_step": 3,
+     "steps": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "base_id": "base_007",
+   "signature": "0.00,0.00,0.50,0.50,F|0.00,1.00,0.50,0.50,F|0.50,0.50,1.00,0.00,F|0.50,0.50,1.00,1.00,F",
+   "canonical_state": {
+    "representative": {
+     "sequence": "heart",
+     "step": 7
+    },
+    "segments": [
+     [
+      1.0,
+      1.4142e-06,
+      0.5000003536,
+      0.5000003536,
+      "F"
+     ],
+     [
+      1.0,
+      1.0,
+      0.5000003536,
+      0.5000003536,
+      "F"
+     ],
+     [
+      0.0,
+      0.0,
+      0.5000003536,
+      0.5000003536,
+      "F"
+     ],
+     [
+      0.0,
+      1.0,
+      0.5000003536,
+      0.5000003536,
+      "F"
+     ]
+    ],
+    "num_creases": 4
+   },
+   "num_sequences": 5,
+   "sequences": [
+    {
+     "name": "heart",
+     "last_step": 7,
+     "steps": [
+      7
+     ]
+    },
+    {
+     "name": "horse_head",
+     "last_step": 6,
+     "steps": [
+      6
+     ]
+    },
+    {
+     "name": "penguin",
+     "last_step": 6,
+     "steps": [
+      6
+     ]
+    },
+    {
+     "name": "pig",
+     "last_step": 6,
+     "steps": [
+      5,
+      6
+     ]
+    },
+    {
+     "name": "snake",
+     "last_step": 7,
+     "steps": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "base_id": "base_008",
+   "signature": "0.00,0.50,0.50,0.50,F|0.50,0.00,0.50,0.50,M|0.50,0.50,0.50,1.00,M|0.50,0.50,1.00,0.50,F",
+   "canonical_state": {
+    "representative": {
+     "sequence": "shield",
+     "step": 4
+    },
+    "segments": [
+     [
+      0.0,
+      0.5,
+      0.5,
+      0.5,
+      "F"
+     ],
+     [
+      0.5,
+      0.0,
+      0.5,
+      0.5,
+      "V"
+     ],
+     [
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      "V"
+     ],
+     [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      "F"
+     ]
+    ],
+    "num_creases": 4
+   },
+   "num_sequences": 4,
+   "sequences": [
+    {
+     "name": "car",
+     "last_step": 5,
+     "steps": [
+      5
+     ]
+    },
+    {
+     "name": "girl",
+     "last_step": 4,
+     "steps": [
+      4
+     ]
+    },
+    {
+     "name": "shield",
+     "last_step": 4,
+     "steps": [
+      4
+     ]
+    },
+    {
+     "name": "sunflower",
+     "last_step": 4,
+     "steps": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "base_id": "base_009",
+   "signature": "0.00,0.50,0.50,0.50,F|0.50,0.00,0.50,0.50,F|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F",
+   "canonical_state": {
+    "representative": {
+     "sequence": "shield",
+     "step": 5
+    },
+    "segments": [
+     [
+      0.0,
+      0.5,
+      0.5,
+      0.5,
+      "F"
+     ],
+     [
+      0.5,
+      0.0,
+      0.5,
+      0.5,
+      "F"
+     ],
+     [
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      "F"
+     ],
+     [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      "F"
+     ]
+    ],
+    "num_creases": 4
+   },
+   "num_sequences": 4,
+   "sequences": [
+    {
+     "name": "car",
+     "last_step": 6,
+     "steps": [
+      6
+     ]
+    },
+    {
+     "name": "girl",
+     "last_step": 5,
+     "steps": [
+      5
+     ]
+    },
+    {
+     "name": "shield",
+     "last_step": 5,
+     "steps": [
+      5
+     ]
+    },
+    {
+     "name": "sunflower",
+     "last_step": 5,
+     "steps": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "base_id": "base_010",
+   "signature": "0.00,0.00,0.25,0.25,F|0.00,0.50,0.25,0.25,M|0.00,1.00,0.50,0.50,F|0.25,0.25,0.50,0.00,M|0.25,0.25,0.50,0.50,F|0.50,0.50,1.00,0.00,F|0.50,0.50,1.00,1.00,F",
+   "canonical_state": {
+    "representative": {
+     "sequence": "heart",
+     "step": 8
+    },
+    "segments": [
+     [
+      1.0,
+      1.4142e-06,
+      0.5000003536,
+      0.5000003536,
+      "F"
+     ],
+     [
+      1.0,
+      0.5000007071,
+      0.7500001768,
+      0.7500001768,
+      "V"
+     ],
+     [
+      1.0,
+      1.0,
+      0.7500001768,
+      0.7500001768,
+      "F"
+     ],
+     [
+      0.5000003536,
+      0.5000003536,
+      0.7500001768,
+      0.7500001768,
+      "F"
+     ],
+     [
+      0.4999996464,
+      1.0000003536,
+      0.7500001768,
+      0.7500001768,
+      "V"
+     ],
+     [
+      0.0,
+      0.0,
+      0.5000003536,
+      0.5000003536,
+      "F"
+     ],
+     [
+      0.0,
+      1.0,
+      0.5000003536,
+      0.5000003536,
+      "F"
+     ]
+    ],
+    "num_creases": 7
+   },
+   "num_sequences": 4,
+   "sequences": [
+    {
+     "name": "heart",
+     "last_step": 8,
+     "steps": [
+      8
+     ]
+    },
+    {
+     "name": "horse_head",
+     "last_step": 7,
+     "steps": [
+      7
+     ]
+    },
+    {
+     "name": "pig",
+     "last_step": 7,
+     "steps": [
+      7
+     ]
+    },
+    {
+     "name": "snake",
+     "last_step": 8,
+     "steps": [
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "base_id": "base_011",
+   "signature": "0.00,0.25,1.00,0.25,M|0.00,0.50,1.00,0.50,F",
+   "canonical_state": {
+    "representative": {
+     "sequence": "gift_card_holder",
+     "step": 4
+    },
+    "segments": [
+     [
+      0.0,
+      0.5,
+      1.0,
+      0.5,
+      "F"
+     ],
+     [
+      0.0,
+      0.75,
+      1.0,
+      0.75,
+      "V"
+     ]
+    ],
+    "num_creases": 2
+   },
+   "num_sequences": 2,
+   "sequences": [
+    {
+     "name": "gift_card_holder",
+     "last_step": 4,
+     "steps": [
+      4
+     ]
+    },
+    {
+     "name": "rocket",
+     "last_step": 4,
+     "steps": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "base_id": "base_012",
+   "signature": "0.00,0.00,0.41,1.00,M|0.00,0.00,1.00,1.00,V",
+   "canonical_state": {
+    "representative": {
+     "sequence": "yacht",
+     "step": 4
+    },
+    "segments": [
+     [
+      0.0,
+      1.0,
+      1.0000003974,
+      1.82e-07,
+      "M"
+     ],
+     [
+      0.0,
+      1.0,
+      1.0000003974,
+      0.585800182,
+      "V"
+     ]
+    ],
+    "num_creases": 2
+   },
+   "num_sequences": 2,
+   "sequences": [
+    {
+     "name": "cup",
+     "last_step": 4,
+     "steps": [
+      4
+     ]
+    },
+    {
+     "name": "yacht",
+     "last_step": 4,
+     "steps": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "base_id": "base_013",
+   "signature": "0.00,0.25,1.00,0.25,M|0.00,0.50,1.00,0.50,F|0.00,0.75,1.00,0.75,M",
+   "canonical_state": {
+    "representative": {
+     "sequence": "gift_card_holder",
+     "step": 5
+    },
+    "segments": [
+     [
+      0.0,
+      0.75,
+      1.0,
+      0.75,
+      "V"
+     ],
+     [
+      0.0,
+      0.5,
+      1.0,
+      0.5,
+      "F"
+     ],
+     [
+      0.0,
+      0.25,
+      1.0,
+      0.25,
+      "V"
+     ]
+    ],
+    "num_creases": 3
+   },
+   "num_sequences": 2,
+   "sequences": [
+    {
+     "name": "gift_card_holder",
+     "last_step": 5,
+     "steps": [
+      5
+     ]
+    },
+    {
+     "name": "rocket",
+     "last_step": 5,
+     "steps": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "base_id": "base_014",
+   "signature": "0.00,0.00,0.50,0.50,F|0.00,0.60,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.40,1.00,0.50,0.50,V|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,F",
+   "canonical_state": {
+    "representative": {
+     "sequence": "ladybug",
+     "step": 6
+    },
+    "segments": [
+     [
+      0.0,
+      0.0,
+      0.5000002992,
+      0.499999864,
+      "V"
+     ],
+     [
+      0.0,
+      1.0,
+      0.5000002992,
+      0.499999864,
+      "F"
+     ],
+     [
+      1.0000005983,
+      -2.72e-07,
+      0.5000002992,
+      0.499999864,
+      "F"
+     ],
+     [
+      0.5000002992,
+      0.499999864,
+      0.6000000761,
+      0.9999998368,
+      "M"
+     ],
+     [
+      0.5000002992,
+      0.499999864,
+      1.0000005983,
+      0.5999994452,
+      "V"
+     ],
+     [
+      1.0,
+      1.0,
+      0.5000002992,
+      0.499999864,
+      "V"
+     ]
+    ],
+    "num_creases": 6
+   },
+   "num_sequences": 2,
+   "sequences": [
+    {
+     "name": "cat",
+     "last_step": 6,
+     "steps": [
+      6
+     ]
+    },
+    {
+     "name": "ladybug",
+     "last_step": 6,
+     "steps": [
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "base_id": "base_015",
+   "signature": "0.00,0.25,1.00,0.25,F|0.00,0.50,1.00,0.50,F|0.00,0.75,1.00,0.75,M",
+   "canonical_state": {
+    "representative": {
+     "sequence": "gift_card_holder",
+     "step": 6
+    },
+    "segments": [
+     [
+      0.0,
+      0.75,
+      1.0,
+      0.75,
+      "F"
+     ],
+     [
+      0.0,
+      0.5,
+      1.0,
+      0.5,
+      "F"
+     ],
+     [
+      0.0,
+      0.25,
+      1.0,
+      0.25,
+      "V"
+     ]
+    ],
+    "num_creases": 3
+   },
+   "num_sequences": 2,
+   "sequences": [
+    {
+     "name": "gift_card_holder",
+     "last_step": 6,
+     "steps": [
+      6
+     ]
+    },
+    {
+     "name": "rocket",
+     "last_step": 6,
+     "steps": [
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "base_id": "base_016",
+   "signature": "0.00,0.00,0.40,0.40,F|0.00,0.80,0.40,0.40,M|0.00,1.00,0.50,0.50,M|0.20,1.00,0.60,0.60,V|0.40,0.40,0.50,0.50,F|0.40,0.40,0.80,0.00,M|0.50,0.50,0.60,0.60,F|0.50,0.50,1.00,0.00,M|0.60,0.60,1.00,0.20,V|0.60,0.60,1.00,1.00,F",
+   "canonical_state": {
+    "representative": {
+     "sequence": "rabbit_head_v1",
+     "step": 6
+    },
+    "segments": [
+     [
+      0.0,
+      0.0,
+      0.5,
+      0.5,
+      "V"
+     ],
+     [
+      0.2000007071,
+      1.414e-07,
+      0.6000002828,
+      0.3999997172,
+      "M"
+     ],
+     [
+      0.3999997172,
+      0.6000002828,
+      1.414e-07,
+      0.2000007071,
+      "V"
+     ],
+     [
+      1.0,
+      0.0,
+      0.6000002828,
+      0.3999997172,
+      "F"
+     ],
+     [
+      0.5,
+      0.5,
+      0.6000002828,
+      0.3999997172,
+      "F"
+     ],
+     [
+      0.9999998586,
+      0.7999992929,
+      0.6000002828,
+      0.3999997172,
+      "M"
+     ],
+     [
+      0.5,
+      0.5,
+      0.3999997172,
+      0.6000002828,
+      "F"
+     ],
+     [
+      1.0,
+      1.0,
+      0.5,
+      0.5,
+      "V"
+     ],
+     [
+      0.0,
+      1.0,
+      0.3999997172,
+      0.6000002828,
+      "F"
+     ],
+     [
+      0.3999997172,
+      0.6000002828,
+      0.7999992929,
+      0.9999998586,
+      "V"
+     ]
+    ],
+    "num_creases": 10
+   },
+   "num_sequences": 2,
+   "sequences": [
+    {
+     "name": "rabbit_head_v1",
+     "last_step": 6,
+     "steps": [
+      6
+     ]
+    },
+    {
+     "name": "rabbit_head_v2",
+     "last_step": 6,
+     "steps": [
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "base_id": "base_017",
+   "signature": "0.00,0.50,0.50,0.00,M|0.00,0.50,0.50,0.50,F|0.50,0.00,0.50,0.50,F|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F",
+   "canonical_state": {
+    "representative": {
+     "sequence": "girl",
+     "step": 6
+    },
+    "segments": [
+     [
+      0.0,
+      0.5,
+      0.5,
+      0.5,
+      "F"
+     ],
+     [
+      0.5,
+      0.0,
+      0.5,
+      0.5,
+      "F"
+     ],
+     [
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      "F"
+     ],
+     [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      "F"
+     ],
+     [
+      0.5,
+      1.0,
+      1.0,
+      0.5,
+      "V"
+     ]
+    ],
+    "num_creases": 5
+   },
+   "num_sequences": 2,
+   "sequences": [
+    {
+     "name": "girl",
+     "last_step": 6,
+     "steps": [
+      6
+     ]
+    },
+    {
+     "name": "sunflower",
+     "last_step": 6,
+     "steps": [
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "base_id": "base_018",
+   "signature": "0.00,0.00,0.50,0.50,F|0.00,0.60,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.40,1.00,0.50,0.50,V|0.50,0.50,0.60,0.00,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,0.40,V|0.50,0.50,1.00,1.00,F",
+   "canonical_state": {
+    "representative": {
+     "sequence": "ladybug",
+     "step": 7
+    },
+    "segments": [
+     [
+      0.0,
+      0.0,
+      0.5000004351,
+      0.4999995649,
+      "V"
+     ],
+     [
+      0.5000004351,
+      0.4999995649,
+      1.632e-07,
+      0.3999999238,
+      "M"
+     ],
+     [
+      0.5000004351,
+      0.4999995649,
+      0.3999999238,
+      -5.331e-07,
+      "V"
+     ],
+     [
+      0.0,
+      1.0,
+      0.5000004351,
+      0.4999995649,
+      "F"
+     ],
+     [
+      1.0,
+      -1.7406e-06,
+      0.5000004351,
+      0.4999995649,
+      "F"
+     ],
+     [
+      0.5000004351,
+      0.4999995649,
+      0.6000000761,
+      0.9999998368,
+      "M"
+     ],
+     [
+      0.5000004351,
+      0.4999995649,
+      1.0000008812,
+      0.5999983356,
+      "V"
+     ],
+     [
+      1.0,
+      1.0,
+      0.5000004351,
+      0.4999995649,
+      "V"
+     ]
+    ],
+    "num_creases": 8
+   },
+   "num_sequences": 2,
+   "sequences": [
+    {
+     "name": "cat",
+     "last_step": 7,
+     "steps": [
+      7
+     ]
+    },
+    {
+     "name": "ladybug",
+     "last_step": 8,
+     "steps": [
+      7,
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "base_id": "base_019",
+   "signature": "0.00,0.25,1.00,0.25,F|0.00,0.50,1.00,0.50,F|0.00,0.75,1.00,0.75,F",
+   "canonical_state": {
+    "representative": {
+     "sequence": "gift_card_holder",
+     "step": 7
+    },
+    "segments": [
+     [
+      0.0,
+      0.25,
+      1.0,
+      0.25,
+      "F"
+     ],
+     [
+      0.0,
+      0.5,
+      1.0,
+      0.5,
+      "F"
+     ],
+     [
+      0.0,
+      0.75,
+      1.0,
+      0.75,
+      "F"
+     ]
+    ],
+    "num_creases": 3
+   },
+   "num_sequences": 2,
+   "sequences": [
+    {
+     "name": "gift_card_holder",
+     "last_step": 7,
+     "steps": [
+      7
+     ]
+    },
+    {
+     "name": "rocket",
+     "last_step": 7,
+     "steps": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "base_id": "base_020",
+   "signature": "0.00,0.50,0.50,0.00,M|0.00,0.50,0.50,0.50,F|0.00,0.50,0.50,1.00,M|0.50,0.00,0.50,0.50,F|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F",
+   "canonical_state": {
+    "representative": {
+     "sequence": "girl",
+     "step": 7
+    },
+    "segments": [
+     [
+      0.0,
+      0.5,
+      0.5,
+      0.5,
+      "F"
+     ],
+     [
+      0.5,
+      1.0,
+      0.0,
+      0.5,
+      "V"
+     ],
+     [
+      0.5,
+      0.0,
+      0.5,
+      0.5,
+      "F"
+     ],
+     [
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      "F"
+     ],
+     [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      "F"
+     ],
+     [
+      0.5,
+      1.0,
+      1.0,
+      0.5,
+      "V"
+     ]
+    ],
+    "num_creases": 6
+   },
+   "num_sequences": 2,
+   "sequences": [
+    {
+     "name": "girl",
+     "last_step": 8,
+     "steps": [
+      7,
+      8
+     ]
+    },
+    {
+     "name": "sunflower",
+     "last_step": 7,
+     "steps": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "base_id": "base_021",
+   "signature": "0.00,0.00,0.25,0.25,F|0.00,0.50,0.25,0.25,M|0.00,1.00,0.50,0.50,F|0.25,0.25,0.50,0.00,M|0.25,0.25,0.50,0.50,F|0.50,0.50,0.75,0.75,F|0.50,0.50,1.00,0.00,F|0.50,1.00,0.75,0.75,M|0.75,0.75,1.00,0.50,M|0.75,0.75,1.00,1.00,F",
+   "canonical_state": {
+    "representative": {
+     "sequence": "snake",
+     "step": 9
+    },
+    "segments": [
+     [
+      1.0,
+      0.0,
+      0.5,
+      0.5,
+      "F"
+     ],
+     [
+      0.4999996464,
+      3.536e-07,
+      0.25,
+      0.25,
+      "V"
+     ],
+     [
+      0.9999996464,
+      0.5000003536,
+      0.75,
+      0.75,
+      "V"
+     ],
+     [
+      0.0,
+      0.0,
+      0.25,
+      0.25,
+      "F"
+     ],
+     [
+      0.5,
+      0.5,
+      0.25,
+      0.25,
+      "F"
+     ],
+     [
+      3.536e-07,
+      0.4999996464,
+      0.25,
+      0.25,
+      "V"
+     ],
+     [
+      0.5,
+      0.5,
+      0.75,
+      0.75,
+      "F"
+     ],
+     [
+      0.0,
+      1.0,
+      0.5,
+      0.5,
+      "F"
+     ],
+     [
+      1.0,
+      1.0,
+      0.75,
+      0.75,
+      "F"
+     ],
+     [
+      0.5000003536,
+      0.9999996464,
+      0.75,
+      0.75,
+      "V"
+     ]
+    ],
+    "num_creases": 10
+   },
+   "num_sequences": 2,
+   "sequences": [
+    {
+     "name": "pig",
+     "last_step": 8,
+     "steps": [
+      8
+     ]
+    },
+    {
+     "name": "snake",
+     "last_step": 10,
+     "steps": [
+      9,
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "base_id": "base_022",
+   "signature": "0.00,0.00,0.10,0.10,F|0.00,0.20,0.10,0.10,M|0.00,0.40,0.40,0.40,M|0.00,0.80,0.40,0.40,M|0.00,1.00,0.40,0.60,M|0.10,0.10,0.20,0.00,M|0.10,0.10,0.40,0.40,F|0.20,1.00,0.60,0.60,V|0.40,0.00,0.40,0.40,M|0.40,0.40,0.40,0.60,V|0.40,0.40,0.50,0.50,F|0.40,0.40,0.60,0.40,V|0.40,0.40,0.80,0.00,M|0.40,0.60,0.50,0.50,M|0.40,0.60,0.60,0.60,M|0.50,0.50,0.60,0.40,M|0.50,0.50,0.60,0.60,F|0.60,0.40,0.60,0.60,M|0.60,0.40,1.00,0.00,M|0.60,0.60,0.60,1.00,V|0.60,0.60,0.90,0.90,F|0.60,0.60,1.00,0.20,V|0.60,0.60,1.00,0.60,V|0.80,1.00,0.90,0.90,V|0.90,0.90,1.00,0.80,V|0.90,0.90,1.00,1.00,F",
+   "canonical_state": {
+    "representative": {
+     "sequence": "rabbit_head_v1",
+     "step": 13
+    },
+    "segments": [
+     [
+      0.0,
+      0.0,
+      0.3999995757,
+      0.3999995757,
+      "V"
+     ],
+     [
+      0.1999995757,
+      -1.414e-07,
+      0.5999998586,
+      0.4000001414,
+      "M"
+     ],
+     [
+      0.4000001414,
+      0.5999998586,
+      -1.414e-07,
+      0.1999995757,
+      "V"
+     ],
+     [
+      0.5999998586,
+      0.4000001414,
+      0.6000001414,
+      -4.243e-07,
+      "M"
+     ],
+     [
+      0.4000001414,
+      0.5999998586,
+      -4.243e-07,
+      0.6000001414,
+      "V"
+     ],
+     [
+      0.9000001414,
+      0.0999998586,
+      0.8000004243,
+      1.414e-07,
+      "M"
+     ],
+     [
+      0.5999998586,
+      0.4000001414,
+      0.3999995757,
+      0.3999995757,
+      "V"
+     ],
+     [
+      0.5000014142,
+      0.5,
+      0.3999995757,
+      0.3999995757,
+      "V"
+     ],
+     [
+      0.4000001414,
+      0.5999998586,
+      0.3999995757,
+      0.3999995757,
+      "M"
+     ],
+     [
+      1.414e-07,
+      0.8000004243,
+      0.0999998586,
+      0.9000001414,
+      "V"
+     ],
+     [
+      1.0,
+      0.0,
+      0.9000001414,
+      0.0999998586,
+      "F"
+     ],
+     [
+      0.5999998586,
+      0.4000001414,
+      0.9000001414,
+      0.0999998586,
+      "F"
+     ],
+     [
+      0.9999998586,
+      0.1999995757,
+      0.9000001414,
+      0.0999998586,
+      "M"
+     ],
+     [
+      0.5000014142,
+      0.5,
+      0.5999998586,
+      0.4000001414,
+      "F"
+     ],
+     [
+      0.5999998586,
+      0.4000001414,
+      0.6000004243,
+      0.6000004243,
+      "V"
+     ],
+     [
+      0.5999998586,
+      0.4000001414,
+      1.0000004243,
+      0.3999998586,
+      "M"
+     ],
+     [
+      1.0000001414,
+      0.8000004243,
+      0.5999998586,
+      0.4000001414,
+      "M"
+     ],
+     [
+      0.5000014142,
+      0.5,
+      0.4000001414,
+      0.5999998586,
+      "F"
+     ],
+     [
+      0.5000014142,
+      0.5,
+      0.6000004243,
+      0.6000004243,
+      "V"
+     ],
+     [
+      0.4000001414,
+      0.5999998586,
+      0.0999998586,
+      0.9000001414,
+      "F"
+     ],
+     [
+      0.4000001414,
+      0.5999998586,
+      0.6000004243,
+      0.6000004243,
+      "M"
+     ],
+     [
+      0.4000001414,
+      0.5999998586,
+      0.3999998586,
+      1.0000004243,
+      "V"
+     ],
+     [
+      0.4000001414,
+      0.5999998586,
+      0.8000004243,
+      1.0000001414,
+      "V"
+     ],
+     [
+      0.0,
+      1.0,
+      0.0999998586,
+      0.9000001414,
+      "F"
+     ],
+     [
+      0.1999995757,
+      0.9999998586,
+      0.0999998586,
+      0.9000001414,
+      "V"
+     ],
+     [
+      1.0,
+      1.0,
+      0.6000004243,
+      0.6000004243,
+      "V"
+     ]
+    ],
+    "num_creases": 26
+   },
+   "num_sequences": 2,
+   "sequences": [
+    {
+     "name": "rabbit_head_v1",
+     "last_step": 14,
+     "steps": [
+      13,
+      14
+     ]
+    },
+    {
+     "name": "rabbit_head_v2",
+     "last_step": 10,
+     "steps": [
+      9,
+      10
+     ]
+    }
+   ]
+  }
+ ],
+ "prefix_lengths": {
+  "ladybug|cat_face": 3,
+  "ladybug|cat": 7,
+  "ladybug|dog": 5,
+  "ladybug|gift_card_holder": 1,
+  "ladybug|rabbit_head_v1": 5,
+  "ladybug|rabbit_head_v2": 5,
+  "ladybug|walrus": 5,
+  "ladybug|yacht": 3,
+  "ladybug|rocket": 1,
+  "ladybug|heart": 3,
+  "ladybug|snake": 3,
+  "ladybug|shield": 1,
+  "ladybug|pig": 1,
+  "ladybug|bird": 4,
+  "ladybug|car": 1,
+  "ladybug|girl": 1,
+  "ladybug|penguin": 3,
+  "ladybug|sunflower": 1,
+  "ladybug|tulip": 5,
+  "ladybug|tulip_stem": 3,
+  "ladybug|cup": 3,
+  "ladybug|horse_head": 3,
+  "ladybug|paper_bird": 3,
+  "ladybug|fox_head": 5,
+  "ladybug|santa_hat": 1,
+  "ladybug|sloth": 1,
+  "cat_face|cat": 3,
+  "cat_face|dog": 3,
+  "cat_face|gift_card_holder": 1,
+  "cat_face|rabbit_head_v1": 3,
+  "cat_face|rabbit_head_v2": 3,
+  "cat_face|walrus": 3,
+  "cat_face|yacht": 3,
+  "cat_face|rocket": 1,
+  "cat_face|heart": 4,
+  "cat_face|snake": 4,
+  "cat_face|shield": 1,
+  "cat_face|pig": 1,
+  "cat_face|bird": 3,
+  "cat_face|car": 1,
+  "cat_face|girl": 1,
+  "cat_face|penguin": 4,
+  "cat_face|sunflower": 1,
+  "cat_face|tulip": 3,
+  "cat_face|tulip_stem": 4,
+  "cat_face|cup": 3,
+  "cat_face|horse_head": 4,
+  "cat_face|paper_bird": 3,
+  "cat_face|fox_head": 3,
+  "cat_face|santa_hat": 1,
+  "cat_face|sloth": 1,
+  "cat|dog": 5,
+  "cat|gift_card_holder": 1,
+  "cat|rabbit_head_v1": 5,
+  "cat|rabbit_head_v2": 5,
+  "cat|walrus": 5,
+  "cat|yacht": 3,
+  "cat|rocket": 1,
+  "cat|heart": 3,
+  "cat|snake": 3,
+  "cat|shield": 1,
+  "cat|pig": 1,
+  "cat|bird": 4,
+  "cat|car": 1,
+  "cat|girl": 1,
+  "cat|penguin": 3,
+  "cat|sunflower": 1,
+  "cat|tulip": 5,
+  "cat|tulip_stem": 3,
+  "cat|cup": 3,
+  "cat|horse_head": 3,
+  "cat|paper_bird": 3,
+  "cat|fox_head": 5,
+  "cat|santa_hat": 1,
+  "cat|sloth": 1,
+  "dog|gift_card_holder": 1,
+  "dog|rabbit_head_v1": 5,
+  "dog|rabbit_head_v2": 5,
+  "dog|walrus": 5,
+  "dog|yacht": 3,
+  "dog|rocket": 1,
+  "dog|heart": 3,
+  "dog|snake": 3,
+  "dog|shield": 1,
+  "dog|pig": 1,
+  "dog|bird": 4,
+  "dog|car": 1,
+  "dog|girl": 1,
+  "dog|penguin": 3,
+  "dog|sunflower": 1,
+  "dog|tulip": 5,
+  "dog|tulip_stem": 3,
+  "dog|cup": 3,
+  "dog|horse_head": 3,
+  "dog|paper_bird": 3,
+  "dog|fox_head": 5,
+  "dog|santa_hat": 1,
+  "dog|sloth": 1,
+  "gift_card_holder|rabbit_head_v1": 1,
+  "gift_card_holder|rabbit_head_v2": 1,
+  "gift_card_holder|walrus": 1,
+  "gift_card_holder|yacht": 1,
+  "gift_card_holder|rocket": 7,
+  "gift_card_holder|heart": 1,
+  "gift_card_holder|snake": 1,
+  "gift_card_holder|shield": 3,
+  "gift_card_holder|pig": 1,
+  "gift_card_holder|bird": 1,
+  "gift_card_holder|car": 3,
+  "gift_card_holder|girl": 3,
+  "gift_card_holder|penguin": 1,
+  "gift_card_holder|sunflower": 3,
+  "gift_card_holder|tulip": 1,
+  "gift_card_holder|tulip_stem": 1,
+  "gift_card_holder|cup": 1,
+  "gift_card_holder|horse_head": 1,
+  "gift_card_holder|paper_bird": 1,
+  "gift_card_holder|fox_head": 1,
+  "gift_card_holder|santa_hat": 1,
+  "gift_card_holder|sloth": 1,
+  "rabbit_head_v1|rabbit_head_v2": 6,
+  "rabbit_head_v1|walrus": 5,
+  "rabbit_head_v1|yacht": 3,
+  "rabbit_head_v1|rocket": 1,
+  "rabbit_head_v1|heart": 3,
+  "rabbit_head_v1|snake": 3,
+  "rabbit_head_v1|shield": 1,
+  "rabbit_head_v1|pig": 1,
+  "rabbit_head_v1|bird": 4,
+  "rabbit_head_v1|car": 1,
+  "rabbit_head_v1|girl": 1,
+  "rabbit_head_v1|penguin": 3,
+  "rabbit_head_v1|sunflower": 1,
+  "rabbit_head_v1|tulip": 5,
+  "rabbit_head_v1|tulip_stem": 3,
+  "rabbit_head_v1|cup": 3,
+  "rabbit_head_v1|horse_head": 3,
+  "rabbit_head_v1|paper_bird": 3,
+  "rabbit_head_v1|fox_head": 5,
+  "rabbit_head_v1|santa_hat": 1,
+  "rabbit_head_v1|sloth": 1,
+  "rabbit_head_v2|walrus": 5,
+  "rabbit_head_v2|yacht": 3,
+  "rabbit_head_v2|rocket": 1,
+  "rabbit_head_v2|heart": 3,
+  "rabbit_head_v2|snake": 3,
+  "rabbit_head_v2|shield": 1,
+  "rabbit_head_v2|pig": 1,
+  "rabbit_head_v2|bird": 4,
+  "rabbit_head_v2|car": 1,
+  "rabbit_head_v2|girl": 1,
+  "rabbit_head_v2|penguin": 3,
+  "rabbit_head_v2|sunflower": 1,
+  "rabbit_head_v2|tulip": 5,
+  "rabbit_head_v2|tulip_stem": 3,
+  "rabbit_head_v2|cup": 3,
+  "rabbit_head_v2|horse_head": 3,
+  "rabbit_head_v2|paper_bird": 3,
+  "rabbit_head_v2|fox_head": 5,
+  "rabbit_head_v2|santa_hat": 1,
+  "rabbit_head_v2|sloth": 1,
+  "walrus|yacht": 3,
+  "walrus|rocket": 1,
+  "walrus|heart": 3,
+  "walrus|snake": 3,
+  "walrus|shield": 1,
+  "walrus|pig": 1,
+  "walrus|bird": 4,
+  "walrus|car": 1,
+  "walrus|girl": 1,
+  "walrus|penguin": 3,
+  "walrus|sunflower": 1,
+  "walrus|tulip": 5,
+  "walrus|tulip_stem": 3,
+  "walrus|cup": 3,
+  "walrus|horse_head": 3,
+  "walrus|paper_bird": 3,
+  "walrus|fox_head": 5,
+  "walrus|santa_hat": 1,
+  "walrus|sloth": 1,
+  "yacht|rocket": 1,
+  "yacht|heart": 3,
+  "yacht|snake": 3,
+  "yacht|shield": 1,
+  "yacht|pig": 1,
+  "yacht|bird": 3,
+  "yacht|car": 1,
+  "yacht|girl": 1,
+  "yacht|penguin": 3,
+  "yacht|sunflower": 1,
+  "yacht|tulip": 3,
+  "yacht|tulip_stem": 3,
+  "yacht|cup": 4,
+  "yacht|horse_head": 3,
+  "yacht|paper_bird": 3,
+  "yacht|fox_head": 3,
+  "yacht|santa_hat": 1,
+  "yacht|sloth": 1,
+  "rocket|heart": 1,
+  "rocket|snake": 1,
+  "rocket|shield": 3,
+  "rocket|pig": 1,
+  "rocket|bird": 1,
+  "rocket|car": 3,
+  "rocket|girl": 3,
+  "rocket|penguin": 1,
+  "rocket|sunflower": 3,
+  "rocket|tulip": 1,
+  "rocket|tulip_stem": 1,
+  "rocket|cup": 1,
+  "rocket|horse_head": 1,
+  "rocket|paper_bird": 1,
+  "rocket|fox_head": 1,
+  "rocket|santa_hat": 1,
+  "rocket|sloth": 1,
+  "heart|snake": 4,
+  "heart|shield": 1,
+  "heart|pig": 1,
+  "heart|bird": 3,
+  "heart|car": 1,
+  "heart|girl": 1,
+  "heart|penguin": 5,
+  "heart|sunflower": 1,
+  "heart|tulip": 3,
+  "heart|tulip_stem": 4,
+  "heart|cup": 3,
+  "heart|horse_head": 5,
+  "heart|paper_bird": 3,
+  "heart|fox_head": 3,
+  "heart|santa_hat": 1,
+  "heart|sloth": 1,
+  "snake|shield": 1,
+  "snake|pig": 1,
+  "snake|bird": 3,
+  "snake|car": 1,
+  "snake|girl": 1,
+  "snake|penguin": 4,
+  "snake|sunflower": 1,
+  "snake|tulip": 3,
+  "snake|tulip_stem": 4,
+  "snake|cup": 3,
+  "snake|horse_head": 4,
+  "snake|paper_bird": 3,
+  "snake|fox_head": 3,
+  "snake|santa_hat": 1,
+  "snake|sloth": 1,
+  "shield|pig": 1,
+  "shield|bird": 1,
+  "shield|car": 3,
+  "shield|girl": 5,
+  "shield|penguin": 1,
+  "shield|sunflower": 5,
+  "shield|tulip": 1,
+  "shield|tulip_stem": 1,
+  "shield|cup": 1,
+  "shield|horse_head": 1,
+  "shield|paper_bird": 1,
+  "shield|fox_head": 1,
+  "shield|santa_hat": 1,
+  "shield|sloth": 1,
+  "pig|bird": 1,
+  "pig|car": 1,
+  "pig|girl": 1,
+  "pig|penguin": 1,
+  "pig|sunflower": 1,
+  "pig|tulip": 1,
+  "pig|tulip_stem": 1,
+  "pig|cup": 1,
+  "pig|horse_head": 1,
+  "pig|paper_bird": 1,
+  "pig|fox_head": 1,
+  "pig|santa_hat": 1,
+  "pig|sloth": 2,
+  "bird|car": 1,
+  "bird|girl": 1,
+  "bird|penguin": 3,
+  "bird|sunflower": 1,
+  "bird|tulip": 4,
+  "bird|tulip_stem": 3,
+  "bird|cup": 3,
+  "bird|horse_head": 3,
+  "bird|paper_bird": 3,
+  "bird|fox_head": 4,
+  "bird|santa_hat": 1,
+  "bird|sloth": 1,
+  "car|girl": 3,
+  "car|penguin": 1,
+  "car|sunflower": 3,
+  "car|tulip": 1,
+  "car|tulip_stem": 1,
+  "car|cup": 1,
+  "car|horse_head": 1,
+  "car|paper_bird": 1,
+  "car|fox_head": 1,
+  "car|santa_hat": 1,
+  "car|sloth": 1,
+  "girl|penguin": 1,
+  "girl|sunflower": 7,
+  "girl|tulip": 1,
+  "girl|tulip_stem": 1,
+  "girl|cup": 1,
+  "girl|horse_head": 1,
+  "girl|paper_bird": 1,
+  "girl|fox_head": 1,
+  "girl|santa_hat": 1,
+  "girl|sloth": 1,
+  "penguin|sunflower": 1,
+  "penguin|tulip": 3,
+  "penguin|tulip_stem": 4,
+  "penguin|cup": 3,
+  "penguin|horse_head": 6,
+  "penguin|paper_bird": 3,
+  "penguin|fox_head": 3,
+  "penguin|santa_hat": 1,
+  "penguin|sloth": 1,
+  "sunflower|tulip": 1,
+  "sunflower|tulip_stem": 1,
+  "sunflower|cup": 1,
+  "sunflower|horse_head": 1,
+  "sunflower|paper_bird": 1,
+  "sunflower|fox_head": 1,
+  "sunflower|santa_hat": 1,
+  "sunflower|sloth": 1,
+  "tulip|tulip_stem": 3,
+  "tulip|cup": 3,
+  "tulip|horse_head": 3,
+  "tulip|paper_bird": 3,
+  "tulip|fox_head": 5,
+  "tulip|santa_hat": 1,
+  "tulip|sloth": 1,
+  "tulip_stem|cup": 3,
+  "tulip_stem|horse_head": 4,
+  "tulip_stem|paper_bird": 3,
+  "tulip_stem|fox_head": 3,
+  "tulip_stem|santa_hat": 1,
+  "tulip_stem|sloth": 1,
+  "cup|horse_head": 3,
+  "cup|paper_bird": 3,
+  "cup|fox_head": 3,
+  "cup|santa_hat": 1,
+  "cup|sloth": 1,
+  "horse_head|paper_bird": 3,
+  "horse_head|fox_head": 3,
+  "horse_head|santa_hat": 1,
+  "horse_head|sloth": 1,
+  "paper_bird|fox_head": 3,
+  "paper_bird|santa_hat": 1,
+  "paper_bird|sloth": 1,
+  "fox_head|santa_hat": 1,
+  "fox_head|sloth": 1,
+  "santa_hat|sloth": 1
+ },
+ "step_signatures": {
+  "ladybug": [
+   "<square>",
+   "<square>",
+   "0.00,0.00,1.00,1.00,M",
+   "0.00,0.00,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,V",
+   "0.00,0.00,0.50,0.50,F|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.50,0.50,F|0.00,0.60,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.40,1.00,0.50,0.50,V|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.50,0.50,F|0.00,0.60,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.40,1.00,0.50,0.50,V|0.50,0.50,0.60,0.00,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,0.40,V|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.50,0.50,F|0.00,0.60,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.40,1.00,0.50,0.50,V|0.50,0.50,0.60,0.00,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,0.40,V|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.41,0.41,M|0.00,0.40,0.30,0.46,M|0.00,1.00,0.42,0.58,F|0.30,0.46,0.41,0.41,V|0.30,0.46,0.42,0.58,M|0.30,0.46,0.50,0.50,M|0.40,0.00,0.46,0.30,V|0.41,0.41,0.46,0.30,M|0.41,0.41,0.50,0.50,M|0.42,0.58,0.50,0.50,F|0.42,0.58,0.54,0.70,M|0.46,0.30,0.50,0.50,V|0.46,0.30,0.58,0.42,V|0.50,0.50,0.54,0.70,M|0.50,0.50,0.58,0.42,F|0.50,0.50,0.59,0.59,M|0.50,0.50,0.70,0.54,V|0.54,0.70,0.59,0.59,V|0.54,0.70,0.60,1.00,M|0.58,0.42,0.70,0.54,V|0.58,0.42,1.00,0.00,F|0.59,0.59,0.70,0.54,M|0.59,0.59,1.00,1.00,M|0.70,0.54,1.00,0.60,V",
+   "0.00,0.00,0.41,0.41,M|0.00,0.40,0.30,0.46,M|0.00,1.00,0.42,0.58,F|0.30,0.46,0.34,0.47,M|0.30,0.46,0.41,0.41,V|0.30,0.46,0.42,0.58,M|0.34,0.47,0.43,0.43,M|0.34,0.47,0.44,0.56,V|0.34,0.47,0.50,0.50,M|0.40,0.00,0.46,0.30,V|0.41,0.41,0.43,0.43,M|0.41,0.41,0.46,0.30,M|0.42,0.58,0.44,0.56,F|0.42,0.58,0.54,0.70,M|0.43,0.43,0.47,0.34,V|0.43,0.43,0.50,0.50,M|0.44,0.56,0.50,0.50,F|0.44,0.56,0.53,0.66,V|0.46,0.30,0.47,0.34,V|0.46,0.30,0.58,0.42,V|0.47,0.34,0.50,0.50,V|0.47,0.34,0.56,0.44,M|0.50,0.50,0.53,0.66,M|0.50,0.50,0.56,0.44,F|0.50,0.50,0.57,0.57,M|0.50,0.50,0.66,0.53,V|0.53,0.66,0.54,0.70,M|0.53,0.66,0.57,0.57,M|0.54,0.70,0.59,0.59,V|0.54,0.70,0.60,1.00,M|0.56,0.44,0.58,0.42,F|0.56,0.44,0.66,0.53,M|0.57,0.57,0.59,0.59,M|0.57,0.57,0.66,0.53,V|0.58,0.42,0.70,0.54,V|0.58,0.42,1.00,0.00,F|0.59,0.59,0.70,0.54,M|0.59,0.59,1.00,1.00,M|0.66,0.53,0.70,0.54,V|0.70,0.54,1.00,0.60,V",
+   "0.00,0.00,0.41,0.41,M|0.00,0.20,0.12,0.42,M|0.00,0.40,0.12,0.42,V|0.00,0.52,0.12,0.42,V|0.00,1.00,0.42,0.58,F|0.12,0.42,0.30,0.46,V|0.20,0.00,0.42,0.12,V|0.30,0.46,0.34,0.47,V|0.30,0.46,0.41,0.41,M|0.30,0.46,0.42,0.58,V|0.34,0.47,0.43,0.43,V|0.34,0.47,0.44,0.56,M|0.34,0.47,0.50,0.50,V|0.40,0.00,0.42,0.12,M|0.41,0.41,0.43,0.43,M|0.41,0.41,0.46,0.30,V|0.42,0.12,0.46,0.30,M|0.42,0.12,0.52,0.00,M|0.42,0.58,0.44,0.56,F|0.42,0.58,0.54,0.70,V|0.43,0.43,0.47,0.34,M|0.43,0.43,0.50,0.50,M|0.44,0.56,0.50,0.50,F|0.44,0.56,0.53,0.66,M|0.46,0.30,0.47,0.34,M|0.46,0.30,0.58,0.42,M|0.47,0.34,0.50,0.50,M|0.47,0.34,0.56,0.44,V|0.50,0.50,0.53,0.66,V|0.50,0.50,0.56,0.44,F|0.50,0.50,0.57,0.57,M|0.50,0.50,0.66,0.53,M|0.53,0.66,0.54,0.70,V|0.53,0.66,0.57,0.57,V|0.54,0.70,0.59,0.59,M|0.54,0.70,0.60,1.00,V|0.56,0.44,0.58,0.42,F|0.56,0.44,0.66,0.53,V|0.57,0.57,0.59,0.59,M|0.57,0.57,0.66,0.53,M|0.58,0.42,0.70,0.54,M|0.58,0.42,1.00,0.00,F|0.59,0.59,0.70,0.54,V|0.59,0.59,1.00,1.00,M|0.66,0.53,0.70,0.54,M|0.70,0.54,1.00,0.60,M",
+   "0.00,0.00,0.41,0.41,M|0.00,0.20,0.12,0.42,M|0.00,0.40,0.12,0.42,V|0.00,0.52,0.12,0.42,V|0.00,1.00,0.42,0.58,F|0.12,0.42,0.30,0.46,V|0.20,0.00,0.42,0.12,V|0.30,0.46,0.34,0.47,V|0.30,0.46,0.41,0.41,M|0.30,0.46,0.42,0.58,V|0.34,0.47,0.43,0.43,V|0.34,0.47,0.44,0.56,M|0.34,0.47,0.50,0.50,V|0.40,0.00,0.42,0.12,M|0.41,0.41,0.43,0.43,M|0.41,0.41,0.46,0.30,V|0.42,0.12,0.46,0.30,M|0.42,0.12,0.52,0.00,M|0.42,0.58,0.44,0.56,F|0.42,0.58,0.54,0.70,V|0.43,0.43,0.47,0.34,M|0.43,0.43,0.50,0.50,M|0.44,0.56,0.50,0.50,F|0.44,0.56,0.53,0.66,M|0.46,0.30,0.47,0.34,M|0.46,0.30,0.58,0.42,M|0.47,0.34,0.50,0.50,M|0.47,0.34,0.56,0.44,V|0.48,1.00,0.58,0.88,V|0.50,0.50,0.53,0.66,V|0.50,0.50,0.56,0.44,F|0.50,0.50,0.57,0.57,M|0.50,0.50,0.66,0.53,M|0.53,0.66,0.54,0.70,V|0.53,0.66,0.57,0.57,V|0.54,0.70,0.58,0.88,V|0.54,0.70,0.59,0.59,M|0.56,0.44,0.58,0.42,F|0.56,0.44,0.66,0.53,V|0.57,0.57,0.59,0.59,M|0.57,0.57,0.66,0.53,M|0.58,0.42,0.70,0.54,M|0.58,0.42,1.00,0.00,F|0.58,0.88,0.60,1.00,V|0.58,0.88,0.80,1.00,M|0.59,0.59,0.70,0.54,V|0.59,0.59,1.00,1.00,M|0.66,0.53,0.70,0.54,M|0.70,0.54,0.88,0.58,M|0.88,0.58,1.00,0.48,M|0.88,0.58,1.00,0.60,M|0.88,0.58,1.00,0.80,V",
+   "0.00,0.00,0.41,0.41,M|0.00,0.20,0.12,0.42,M|0.00,0.40,0.12,0.42,V|0.00,0.52,0.12,0.42,V|0.00,1.00,0.42,0.58,F|0.12,0.42,0.30,0.46,V|0.20,0.00,0.42,0.12,V|0.30,0.46,0.34,0.47,V|0.30,0.46,0.41,0.41,M|0.30,0.46,0.42,0.58,V|0.34,0.47,0.43,0.43,V|0.34,0.47,0.44,0.56,M|0.34,0.47,0.50,0.50,V|0.40,0.00,0.42,0.12,M|0.41,0.41,0.43,0.43,M|0.41,0.41,0.46,0.30,V|0.42,0.12,0.46,0.30,M|0.42,0.12,0.52,0.00,M|0.42,0.58,0.44,0.56,F|0.42,0.58,0.54,0.70,V|0.43,0.43,0.47,0.34,M|0.43,0.43,0.50,0.50,M|0.44,0.56,0.50,0.50,F|0.44,0.56,0.53,0.66,M|0.46,0.30,0.47,0.34,M|0.46,0.30,0.58,0.42,M|0.47,0.34,0.50,0.50,M|0.47,0.34,0.56,0.44,V|0.48,1.00,0.58,0.88,V|0.50,0.50,0.53,0.66,V|0.50,0.50,0.56,0.44,F|0.50,0.50,0.57,0.57,M|0.50,0.50,0.66,0.53,M|0.53,0.66,0.54,0.70,V|0.53,0.66,0.57,0.57,V|0.54,0.70,0.58,0.88,V|0.54,0.70,0.59,0.59,M|0.56,0.44,0.58,0.42,F|0.56,0.44,0.66,0.53,V|0.57,0.57,0.59,0.59,M|0.57,0.57,0.66,0.53,M|0.58,0.42,0.70,0.54,M|0.58,0.42,1.00,0.00,F|0.58,0.88,0.60,1.00,V|0.58,0.88,0.80,1.00,M|0.59,0.59,0.70,0.54,V|0.59,0.59,1.00,1.00,M|0.66,0.53,0.70,0.54,M|0.70,0.54,0.88,0.58,M|0.88,0.58,1.00,0.48,M|0.88,0.58,1.00,0.60,M|0.88,0.58,1.00,0.80,V"
+  ],
+  "cat_face": [
+   "<square>",
+   "<square>",
+   "0.00,0.00,1.00,1.00,M",
+   "0.00,0.00,1.00,1.00,F",
+   "0.00,0.00,1.00,1.00,F|0.00,0.50,0.50,1.00,M",
+   "0.00,0.00,1.00,1.00,M|0.00,0.50,0.50,1.00,M",
+   "0.00,0.00,0.25,0.25,M|0.00,0.50,0.25,0.25,M|0.00,1.00,0.50,0.50,M|0.25,0.25,0.50,0.00,M|0.25,0.25,0.50,0.50,V|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,M",
+   "0.00,0.00,0.25,0.25,F|0.00,0.50,0.25,0.25,M|0.00,1.00,0.50,0.50,M|0.25,0.25,0.50,0.00,M|0.25,0.25,0.50,0.50,F|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.25,0.25,F|0.00,0.50,0.25,0.25,M|0.00,0.50,0.50,0.50,V|0.00,1.00,0.50,0.50,M|0.25,0.25,0.50,0.00,M|0.25,0.25,0.50,0.50,F|0.50,0.50,0.50,1.00,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.25,0.25,F|0.00,0.50,0.25,0.25,M|0.00,0.50,0.50,0.50,V|0.00,1.00,0.50,0.50,M|0.25,0.25,0.50,0.00,M|0.25,0.25,0.50,0.50,F|0.50,0.00,0.50,0.50,V|0.50,0.50,0.50,1.00,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,0.50,M|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.10,0.10,F|0.00,0.20,0.10,0.10,M|0.00,0.50,0.25,0.25,M|0.00,0.50,0.30,0.50,V|0.00,1.00,0.40,0.60,M|0.10,0.10,0.20,0.00,M|0.10,0.10,0.25,0.25,F|0.25,0.25,0.40,0.40,F|0.25,0.25,0.50,0.00,M|0.30,0.50,0.40,0.40,V|0.30,0.50,0.40,0.60,M|0.30,0.50,0.50,0.50,V|0.40,0.40,0.50,0.30,V|0.40,0.40,0.50,0.50,F|0.40,0.60,0.50,0.50,M|0.40,0.60,0.50,0.70,V|0.50,0.00,0.50,0.30,V|0.50,0.30,0.50,0.50,V|0.50,0.30,0.60,0.40,M|0.50,0.50,0.50,0.70,M|0.50,0.50,0.60,0.40,M|0.50,0.50,0.60,0.60,F|0.50,0.50,0.70,0.50,M|0.50,0.70,0.50,1.00,M|0.50,0.70,0.60,0.60,M|0.60,0.40,0.70,0.50,V|0.60,0.40,1.00,0.00,M|0.60,0.60,0.70,0.50,M|0.60,0.60,1.00,1.00,F|0.70,0.50,1.00,0.50,M",
+   "0.00,0.00,0.10,0.10,F|0.00,0.20,0.10,0.10,M|0.00,0.50,0.25,0.25,M|0.00,0.50,0.30,0.50,V|0.00,0.60,0.30,0.70,M|0.00,1.00,0.30,0.70,M|0.10,0.10,0.20,0.00,M|0.10,0.10,0.25,0.25,F|0.25,0.25,0.40,0.40,F|0.25,0.25,0.50,0.00,M|0.30,0.50,0.40,0.40,V|0.30,0.50,0.40,0.60,M|0.30,0.50,0.50,0.50,V|0.30,0.70,0.40,0.60,M|0.30,0.70,0.40,1.00,V|0.40,0.40,0.50,0.30,V|0.40,0.40,0.50,0.50,F|0.40,0.60,0.50,0.50,M|0.40,0.60,0.50,0.70,V|0.50,0.00,0.50,0.30,V|0.50,0.30,0.50,0.50,V|0.50,0.30,0.60,0.40,M|0.50,0.50,0.50,0.70,M|0.50,0.50,0.60,0.40,M|0.50,0.50,0.60,0.60,F|0.50,0.50,0.70,0.50,M|0.50,0.70,0.50,1.00,M|0.50,0.70,0.60,0.60,M|0.60,0.40,0.70,0.50,V|0.60,0.40,1.00,0.00,M|0.60,0.60,0.70,0.50,M|0.60,0.60,1.00,1.00,F|0.70,0.50,1.00,0.50,M",
+   "0.00,0.00,0.10,0.10,F|0.00,0.20,0.10,0.10,M|0.00,0.50,0.25,0.25,M|0.00,0.50,0.30,0.50,V|0.00,0.60,0.30,0.70,M|0.00,1.00,0.30,0.70,M|0.10,0.10,0.20,0.00,M|0.10,0.10,0.25,0.25,F|0.25,0.25,0.40,0.40,F|0.25,0.25,0.50,0.00,M|0.30,0.50,0.40,0.40,V|0.30,0.50,0.40,0.60,M|0.30,0.50,0.50,0.50,V|0.30,0.70,0.40,0.60,M|0.30,0.70,0.40,1.00,V|0.40,0.40,0.50,0.30,V|0.40,0.40,0.50,0.50,F|0.40,0.60,0.50,0.50,M|0.40,0.60,0.50,0.70,V|0.50,0.00,0.50,0.30,V|0.50,0.30,0.50,0.50,V|0.50,0.30,0.60,0.40,M|0.50,0.50,0.50,0.70,M|0.50,0.50,0.60,0.40,M|0.50,0.50,0.60,0.60,F|0.50,0.50,0.70,0.50,M|0.50,0.70,0.50,1.00,M|0.50,0.70,0.60,0.60,M|0.60,0.00,0.70,0.30,M|0.60,0.40,0.70,0.30,M|0.60,0.40,0.70,0.50,V|0.60,0.60,0.70,0.50,M|0.60,0.60,1.00,1.00,F|0.70,0.30,1.00,0.00,M|0.70,0.30,1.00,0.40,V|0.70,0.50,1.00,0.50,M",
+   "0.00,0.00,0.10,0.10,F|0.00,0.20,0.10,0.10,M|0.00,0.50,0.25,0.25,M|0.00,0.50,0.30,0.50,V|0.00,0.60,0.30,0.70,M|0.00,1.00,0.30,0.70,M|0.10,0.10,0.20,0.00,M|0.10,0.10,0.25,0.25,F|0.25,0.25,0.40,0.40,F|0.25,0.25,0.50,0.00,M|0.30,0.50,0.40,0.40,V|0.30,0.50,0.40,0.60,M|0.30,0.50,0.50,0.50,V|0.30,0.70,0.40,0.60,M|0.30,0.70,0.40,1.00,V|0.40,0.40,0.50,0.30,V|0.40,0.40,0.50,0.50,F|0.40,0.60,0.50,0.50,M|0.40,0.60,0.50,0.70,V|0.50,0.00,0.50,0.30,V|0.50,0.30,0.50,0.50,V|0.50,0.30,0.60,0.40,M|0.50,0.50,0.50,0.70,M|0.50,0.50,0.60,0.40,M|0.50,0.50,0.60,0.60,F|0.50,0.50,0.70,0.50,M|0.50,0.70,0.50,1.00,M|0.50,0.70,0.60,0.60,M|0.60,0.00,0.70,0.30,M|0.60,0.40,0.70,0.30,M|0.60,0.40,0.70,0.50,V|0.60,0.60,0.70,0.50,M|0.60,0.60,0.90,0.90,F|0.70,0.30,1.00,0.00,M|0.70,0.30,1.00,0.40,V|0.70,0.50,1.00,0.50,M|0.80,1.00,0.90,0.90,M|0.90,0.90,1.00,0.80,M|0.90,0.90,1.00,1.00,F",
+   "0.00,0.00,0.10,0.10,F|0.00,0.20,0.10,0.10,M|0.00,0.50,0.25,0.25,M|0.00,0.50,0.30,0.50,V|0.00,0.60,0.30,0.70,M|0.00,1.00,0.30,0.70,M|0.10,0.10,0.20,0.00,M|0.10,0.10,0.25,0.25,F|0.25,0.25,0.40,0.40,F|0.25,0.25,0.50,0.00,M|0.30,0.50,0.40,0.40,V|0.30,0.50,0.40,0.60,M|0.30,0.50,0.50,0.50,V|0.30,0.70,0.40,0.60,M|0.30,0.70,0.40,1.00,V|0.40,0.40,0.50,0.30,V|0.40,0.40,0.50,0.50,F|0.40,0.60,0.50,0.50,M|0.40,0.60,0.50,0.70,V|0.50,0.00,0.50,0.30,V|0.50,0.30,0.50,0.50,V|0.50,0.30,0.60,0.40,M|0.50,0.50,0.50,0.70,M|0.50,0.50,0.60,0.40,M|0.50,0.50,0.60,0.60,F|0.50,0.50,0.70,0.50,M|0.50,0.70,0.50,1.00,M|0.50,0.70,0.60,0.60,M|0.60,0.00,0.70,0.30,M|0.60,0.40,0.70,0.30,M|0.60,0.40,0.70,0.50,V|0.60,0.60,0.70,0.50,M|0.60,0.60,0.90,0.90,F|0.70,0.30,1.00,0.00,M|0.70,0.30,1.00,0.40,V|0.70,0.50,1.00,0.50,M|0.80,1.00,0.90,0.90,M|0.90,0.90,1.00,0.80,M|0.90,0.90,1.00,1.00,F"
+  ],
+  "cat": [
+   "<square>",
+   "<square>",
+   "0.00,0.00,1.00,1.00,M",
+   "0.00,0.00,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,V",
+   "0.00,0.00,0.50,0.50,F|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.50,0.50,F|0.00,0.60,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.40,1.00,0.50,0.50,V|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.50,0.50,F|0.00,0.60,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.40,1.00,0.50,0.50,V|0.50,0.50,0.60,0.00,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,0.40,V|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.09,0.09,F|0.00,0.18,0.09,0.09,M|0.00,0.60,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.09,0.09,0.18,0.00,M|0.09,0.09,0.50,0.50,F|0.40,1.00,0.50,0.50,V|0.50,0.50,0.60,0.00,M|0.50,0.50,0.91,0.91,F|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,0.40,V|0.82,1.00,0.91,0.91,V|0.91,0.91,1.00,0.82,V|0.91,0.91,1.00,1.00,F",
+   "0.00,0.00,0.09,0.09,F|0.00,0.18,0.09,0.09,M|0.00,0.60,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.09,0.09,0.18,0.00,M|0.09,0.09,0.50,0.50,F|0.40,1.00,0.50,0.50,V|0.50,0.50,0.60,0.00,M|0.50,0.50,0.91,0.91,F|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,0.40,V|0.82,1.00,0.91,0.91,V|0.91,0.91,1.00,0.82,V|0.91,0.91,1.00,1.00,F"
+  ],
+  "dog": [
+   "<square>",
+   "<square>",
+   "0.00,0.00,1.00,1.00,M",
+   "0.00,0.00,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,V",
+   "0.00,0.00,0.50,0.50,F|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.50,0.50,F|0.00,0.65,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.35,1.00,0.50,0.50,V|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.50,0.50,F|0.00,0.65,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.35,1.00,0.50,0.50,V|0.50,0.50,0.65,0.00,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,0.35,V|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.50,0.50,F|0.00,0.65,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.35,1.00,0.50,0.50,V|0.50,0.50,0.65,0.00,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,0.35,V|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.40,0.40,M|0.00,0.35,0.25,0.42,M|0.00,1.00,0.41,0.59,F|0.25,0.42,0.40,0.40,V|0.25,0.42,0.41,0.59,M|0.25,0.42,0.50,0.50,M|0.35,0.00,0.42,0.25,V|0.40,0.40,0.42,0.25,M|0.40,0.40,0.50,0.50,M|0.41,0.59,0.50,0.50,F|0.41,0.59,0.57,0.75,M|0.42,0.25,0.50,0.50,V|0.42,0.25,0.59,0.41,V|0.50,0.50,0.57,0.75,M|0.50,0.50,0.59,0.41,F|0.50,0.50,0.60,0.60,M|0.50,0.50,0.75,0.57,V|0.57,0.75,0.60,0.60,V|0.57,0.75,0.65,1.00,M|0.59,0.41,0.75,0.57,V|0.59,0.41,1.00,0.00,F|0.60,0.60,0.75,0.57,M|0.60,0.60,1.00,1.00,M|0.75,0.57,1.00,0.65,V",
+   "0.00,0.00,0.10,0.10,F|0.00,0.20,0.10,0.10,M|0.00,0.65,0.25,0.57,M|0.00,1.00,0.40,0.60,M|0.10,0.10,0.20,0.00,M|0.10,0.10,0.41,0.41,F|0.25,0.57,0.40,0.60,V|0.25,0.57,0.41,0.41,M|0.25,0.57,0.50,0.50,M|0.35,1.00,0.42,0.75,V|0.40,0.60,0.42,0.75,M|0.40,0.60,0.50,0.50,M|0.41,0.41,0.50,0.50,F|0.41,0.41,0.57,0.25,M|0.42,0.75,0.50,0.50,V|0.42,0.75,0.59,0.59,V|0.50,0.50,0.57,0.25,M|0.50,0.50,0.59,0.59,F|0.50,0.50,0.60,0.40,M|0.50,0.50,0.75,0.42,V|0.57,0.25,0.60,0.40,V|0.57,0.25,0.65,0.00,M|0.59,0.59,0.75,0.42,V|0.59,0.59,1.00,1.00,F|0.60,0.40,0.75,0.42,M|0.60,0.40,1.00,0.00,M|0.75,0.42,1.00,0.35,V",
+   "0.00,0.00,0.10,0.10,F|0.00,0.20,0.10,0.10,M|0.00,0.65,0.25,0.57,M|0.00,1.00,0.40,0.60,M|0.10,0.10,0.20,0.00,M|0.10,0.10,0.41,0.41,F|0.25,0.57,0.40,0.60,V|0.25,0.57,0.41,0.41,M|0.25,0.57,0.50,0.50,M|0.35,1.00,0.42,0.75,V|0.40,0.60,0.42,0.75,M|0.40,0.60,0.50,0.50,M|0.41,0.41,0.50,0.50,F|0.41,0.41,0.57,0.25,M|0.42,0.75,0.50,0.50,V|0.42,0.75,0.59,0.59,V|0.50,0.50,0.57,0.25,M|0.50,0.50,0.59,0.59,F|0.50,0.50,0.60,0.40,M|0.50,0.50,0.75,0.42,V|0.57,0.25,0.60,0.40,V|0.57,0.25,0.65,0.00,M|0.59,0.59,0.75,0.42,V|0.59,0.59,0.90,0.90,F|0.60,0.40,0.75,0.42,M|0.60,0.40,1.00,0.00,M|0.75,0.42,1.00,0.35,V|0.80,1.00,0.90,0.90,V|0.90,0.90,1.00,0.80,V|0.90,0.90,1.00,1.00,F",
+   "0.00,0.00,0.10,0.10,F|0.00,0.20,0.10,0.10,M|0.00,0.65,0.25,0.57,M|0.00,1.00,0.40,0.60,M|0.10,0.10,0.20,0.00,M|0.10,0.10,0.41,0.41,F|0.25,0.57,0.40,0.60,V|0.25,0.57,0.41,0.41,M|0.25,0.57,0.50,0.50,M|0.35,1.00,0.42,0.75,V|0.40,0.60,0.42,0.75,M|0.40,0.60,0.50,0.50,M|0.41,0.41,0.50,0.50,F|0.41,0.41,0.57,0.25,M|0.42,0.75,0.50,0.50,V|0.42,0.75,0.59,0.59,V|0.50,0.50,0.57,0.25,M|0.50,0.50,0.59,0.59,F|0.50,0.50,0.60,0.40,M|0.50,0.50,0.75,0.42,V|0.57,0.25,0.60,0.40,V|0.57,0.25,0.65,0.00,M|0.59,0.59,0.75,0.42,V|0.59,0.59,0.90,0.90,F|0.60,0.40,0.75,0.42,M|0.60,0.40,1.00,0.00,M|0.75,0.42,1.00,0.35,V|0.80,1.00,0.90,0.90,V|0.90,0.90,1.00,0.80,V|0.90,0.90,1.00,1.00,F"
+  ],
+  "gift_card_holder": [
+   "<square>",
+   "0.00,0.50,1.00,0.50,M",
+   "0.00,0.50,1.00,0.50,F",
+   "0.00,0.25,1.00,0.25,M|0.00,0.50,1.00,0.50,F",
+   "0.00,0.25,1.00,0.25,M|0.00,0.50,1.00,0.50,F|0.00,0.75,1.00,0.75,M",
+   "0.00,0.25,1.00,0.25,F|0.00,0.50,1.00,0.50,F|0.00,0.75,1.00,0.75,M",
+   "0.00,0.25,1.00,0.25,F|0.00,0.50,1.00,0.50,F|0.00,0.75,1.00,0.75,F",
+   "0.00,0.25,0.25,0.00,M|0.00,0.25,1.00,0.25,F|0.00,0.50,1.00,0.50,F|0.00,0.75,1.00,0.75,F",
+   "0.00,0.25,0.25,0.00,M|0.00,0.25,1.00,0.25,F|0.00,0.50,1.00,0.50,F|0.00,0.75,0.25,1.00,M|0.00,0.75,1.00,0.75,F",
+   "0.00,0.25,0.25,0.00,M|0.00,0.25,1.00,0.25,F|0.00,0.50,1.00,0.50,F|0.00,0.75,0.25,1.00,M|0.00,0.75,1.00,0.75,F|0.75,0.00,1.00,0.25,M",
+   "0.00,0.25,0.25,0.00,M|0.00,0.25,1.00,0.25,F|0.00,0.50,1.00,0.50,F|0.00,0.75,0.25,1.00,M|0.00,0.75,1.00,0.75,F|0.75,0.00,1.00,0.25,M|0.75,1.00,1.00,0.75,M",
+   "0.00,0.25,0.25,0.00,M|0.00,0.25,1.00,0.25,F|0.00,0.50,1.00,0.50,F|0.00,0.75,0.25,1.00,M|0.00,0.75,1.00,0.75,M|0.75,0.00,1.00,0.25,M|0.75,1.00,1.00,0.75,M",
+   "0.00,0.25,0.25,0.00,M|0.00,0.25,1.00,0.25,M|0.00,0.50,1.00,0.50,F|0.00,0.75,0.25,1.00,M|0.00,0.75,1.00,0.75,M|0.75,0.00,1.00,0.25,M|0.75,1.00,1.00,0.75,M",
+   "0.00,0.25,0.25,0.00,M|0.00,0.25,1.00,0.25,M|0.00,0.50,1.00,0.50,F|0.00,0.75,0.25,1.00,M|0.00,0.75,1.00,0.75,M|0.75,0.00,1.00,0.25,M|0.75,1.00,1.00,0.75,M",
+   "0.00,0.25,0.25,0.00,M|0.00,0.25,0.25,0.25,M|0.00,0.50,0.25,0.50,F|0.00,0.75,0.25,0.75,M|0.00,0.75,0.25,1.00,M|0.25,0.00,0.25,0.25,V|0.25,0.25,0.25,0.50,M|0.25,0.25,1.00,0.25,M|0.25,0.50,0.25,0.75,M|0.25,0.50,1.00,0.50,F|0.25,0.75,0.25,1.00,V|0.25,0.75,1.00,0.75,M|0.75,0.00,1.00,0.25,M|0.75,1.00,1.00,0.75,M",
+   "0.00,0.25,0.25,0.00,M|0.00,0.25,0.25,0.25,M|0.00,0.50,0.25,0.50,F|0.00,0.75,0.25,0.75,M|0.00,0.75,0.25,1.00,M|0.25,0.00,0.25,0.25,V|0.25,0.25,0.25,0.50,M|0.25,0.25,0.75,0.25,M|0.25,0.50,0.25,0.75,M|0.25,0.50,0.75,0.50,F|0.25,0.75,0.25,1.00,V|0.25,0.75,0.75,0.75,M|0.75,0.00,0.75,0.25,V|0.75,0.00,1.00,0.25,M|0.75,0.25,0.75,0.50,M|0.75,0.25,1.00,0.25,M|0.75,0.50,0.75,0.75,M|0.75,0.50,1.00,0.50,F|0.75,0.75,0.75,1.00,V|0.75,0.75,1.00,0.75,M|0.75,1.00,1.00,0.75,M",
+   "0.00,0.25,0.25,0.00,M|0.00,0.25,0.25,0.25,M|0.00,0.50,0.25,0.50,F|0.00,0.75,0.25,0.75,M|0.00,0.75,0.25,1.00,M|0.25,0.00,0.25,0.25,V|0.25,0.25,0.25,0.50,M|0.25,0.25,0.75,0.25,M|0.25,0.50,0.25,0.75,M|0.25,0.50,0.75,0.50,F|0.25,0.75,0.25,1.00,V|0.25,0.75,0.75,0.75,M|0.75,0.00,0.75,0.25,V|0.75,0.00,1.00,0.25,M|0.75,0.25,0.75,0.50,M|0.75,0.25,1.00,0.25,M|0.75,0.50,0.75,0.75,M|0.75,0.50,1.00,0.50,F|0.75,0.75,0.75,1.00,V|0.75,0.75,1.00,0.75,M|0.75,1.00,1.00,0.75,M"
+  ],
+  "rabbit_head_v1": [
+   "<square>",
+   "<square>",
+   "0.00,0.00,1.00,1.00,M",
+   "0.00,0.00,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,V",
+   "0.00,0.00,0.50,0.50,F|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.40,0.40,F|0.00,0.80,0.40,0.40,M|0.00,1.00,0.50,0.50,M|0.20,1.00,0.60,0.60,V|0.40,0.40,0.50,0.50,F|0.40,0.40,0.80,0.00,M|0.50,0.50,0.60,0.60,F|0.50,0.50,1.00,0.00,M|0.60,0.60,1.00,0.20,V|0.60,0.60,1.00,1.00,F",
+   "0.00,0.00,0.40,0.40,F|0.00,0.40,0.40,0.40,M|0.00,0.80,0.40,0.40,M|0.00,1.00,0.40,0.60,M|0.20,1.00,0.60,0.60,V|0.40,0.40,0.40,0.60,V|0.40,0.40,0.50,0.50,F|0.40,0.40,0.80,0.00,M|0.40,0.60,0.50,0.50,M|0.40,0.60,0.60,0.60,M|0.50,0.50,0.60,0.60,F|0.50,0.50,1.00,0.00,M|0.60,0.60,0.60,1.00,V|0.60,0.60,1.00,0.20,V|0.60,0.60,1.00,1.00,F",
+   "0.00,0.00,0.40,0.40,F|0.00,0.40,0.40,0.40,M|0.00,0.80,0.40,0.40,M|0.00,1.00,0.40,0.60,M|0.20,1.00,0.60,0.60,V|0.40,0.00,0.40,0.40,M|0.40,0.40,0.40,0.60,V|0.40,0.40,0.50,0.50,F|0.40,0.40,0.60,0.40,V|0.40,0.40,0.80,0.00,M|0.40,0.60,0.50,0.50,M|0.40,0.60,0.60,0.60,M|0.50,0.50,0.60,0.40,M|0.50,0.50,0.60,0.60,F|0.60,0.40,0.60,0.60,M|0.60,0.40,1.00,0.00,M|0.60,0.60,0.60,1.00,V|0.60,0.60,1.00,0.20,V|0.60,0.60,1.00,0.60,V|0.60,0.60,1.00,1.00,F",
+   "0.00,0.00,0.40,0.40,F|0.00,0.40,0.40,0.40,F|0.00,0.80,0.40,0.40,M|0.00,1.00,0.40,0.60,M|0.20,1.00,0.60,0.60,V|0.40,0.00,0.40,0.40,M|0.40,0.40,0.40,0.60,F|0.40,0.40,0.50,0.50,F|0.40,0.40,0.60,0.40,V|0.40,0.40,0.80,0.00,M|0.40,0.60,0.50,0.50,M|0.40,0.60,0.60,0.60,F|0.50,0.50,0.60,0.40,M|0.50,0.50,0.60,0.60,F|0.60,0.40,0.60,0.60,M|0.60,0.40,1.00,0.00,M|0.60,0.60,0.60,1.00,F|0.60,0.60,1.00,0.20,V|0.60,0.60,1.00,0.60,V|0.60,0.60,1.00,1.00,F",
+   "0.00,0.00,0.40,0.40,F|0.00,0.40,0.40,0.40,F|0.00,0.80,0.40,0.40,M|0.00,1.00,0.40,0.60,M|0.20,1.00,0.60,0.60,V|0.40,0.00,0.40,0.40,F|0.40,0.40,0.40,0.60,F|0.40,0.40,0.50,0.50,F|0.40,0.40,0.60,0.40,F|0.40,0.40,0.80,0.00,M|0.40,0.60,0.50,0.50,M|0.40,0.60,0.60,0.60,F|0.50,0.50,0.60,0.40,M|0.50,0.50,0.60,0.60,F|0.60,0.40,0.60,0.60,F|0.60,0.40,1.00,0.00,M|0.60,0.60,0.60,1.00,F|0.60,0.60,1.00,0.20,V|0.60,0.60,1.00,0.60,F|0.60,0.60,1.00,1.00,F",
+   "0.00,0.00,0.10,0.10,F|0.00,0.20,0.10,0.10,M|0.00,0.40,0.40,0.40,F|0.00,0.80,0.40,0.40,M|0.00,1.00,0.40,0.60,M|0.10,0.10,0.20,0.00,M|0.10,0.10,0.40,0.40,F|0.20,1.00,0.60,0.60,V|0.40,0.00,0.40,0.40,F|0.40,0.40,0.40,0.60,F|0.40,0.40,0.50,0.50,F|0.40,0.40,0.60,0.40,F|0.40,0.40,0.80,0.00,M|0.40,0.60,0.50,0.50,M|0.40,0.60,0.60,0.60,F|0.50,0.50,0.60,0.40,M|0.50,0.50,0.60,0.60,F|0.60,0.40,0.60,0.60,F|0.60,0.40,1.00,0.00,M|0.60,0.60,0.60,1.00,F|0.60,0.60,0.90,0.90,F|0.60,0.60,1.00,0.20,V|0.60,0.60,1.00,0.60,F|0.80,1.00,0.90,0.90,V|0.90,0.90,1.00,0.80,V|0.90,0.90,1.00,1.00,F",
+   "0.00,0.00,0.10,0.10,F|0.00,0.20,0.10,0.10,M|0.00,0.40,0.40,0.40,F|0.00,0.80,0.40,0.40,M|0.00,1.00,0.40,0.60,M|0.10,0.10,0.20,0.00,M|0.10,0.10,0.40,0.40,F|0.20,1.00,0.60,0.60,V|0.40,0.00,0.40,0.40,M|0.40,0.40,0.40,0.60,F|0.40,0.40,0.50,0.50,F|0.40,0.40,0.60,0.40,V|0.40,0.40,0.80,0.00,M|0.40,0.60,0.50,0.50,M|0.40,0.60,0.60,0.60,F|0.50,0.50,0.60,0.40,M|0.50,0.50,0.60,0.60,F|0.60,0.40,0.60,0.60,M|0.60,0.40,1.00,0.00,M|0.60,0.60,0.60,1.00,F|0.60,0.60,0.90,0.90,F|0.60,0.60,1.00,0.20,V|0.60,0.60,1.00,0.60,V|0.80,1.00,0.90,0.90,V|0.90,0.90,1.00,0.80,V|0.90,0.90,1.00,1.00,F",
+   "0.00,0.00,0.10,0.10,F|0.00,0.20,0.10,0.10,M|0.00,0.40,0.40,0.40,M|0.00,0.80,0.40,0.40,M|0.00,1.00,0.40,0.60,M|0.10,0.10,0.20,0.00,M|0.10,0.10,0.40,0.40,F|0.20,1.00,0.60,0.60,V|0.40,0.00,0.40,0.40,M|0.40,0.40,0.40,0.60,V|0.40,0.40,0.50,0.50,F|0.40,0.40,0.60,0.40,V|0.40,0.40,0.80,0.00,M|0.40,0.60,0.50,0.50,M|0.40,0.60,0.60,0.60,M|0.50,0.50,0.60,0.40,M|0.50,0.50,0.60,0.60,F|0.60,0.40,0.60,0.60,M|0.60,0.40,1.00,0.00,M|0.60,0.60,0.60,1.00,V|0.60,0.60,0.90,0.90,F|0.60,0.60,1.00,0.20,V|0.60,0.60,1.00,0.60,V|0.80,1.00,0.90,0.90,V|0.90,0.90,1.00,0.80,V|0.90,0.90,1.00,1.00,F",
+   "0.00,0.00,0.10,0.10,F|0.00,0.20,0.10,0.10,M|0.00,0.40,0.40,0.40,M|0.00,0.80,0.40,0.40,M|0.00,1.00,0.40,0.60,M|0.10,0.10,0.20,0.00,M|0.10,0.10,0.40,0.40,F|0.20,1.00,0.60,0.60,V|0.40,0.00,0.40,0.40,M|0.40,0.40,0.40,0.60,V|0.40,0.40,0.50,0.50,F|0.40,0.40,0.60,0.40,V|0.40,0.40,0.80,0.00,M|0.40,0.60,0.50,0.50,M|0.40,0.60,0.60,0.60,M|0.50,0.50,0.60,0.40,M|0.50,0.50,0.60,0.60,F|0.60,0.40,0.60,0.60,M|0.60,0.40,1.00,0.00,M|0.60,0.60,0.60,1.00,V|0.60,0.60,0.90,0.90,F|0.60,0.60,1.00,0.20,V|0.60,0.60,1.00,0.60,V|0.80,1.00,0.90,0.90,V|0.90,0.90,1.00,0.80,V|0.90,0.90,1.00,1.00,F"
+  ],
+  "rabbit_head_v2": [
+   "<square>",
+   "<square>",
+   "0.00,0.00,1.00,1.00,M",
+   "0.00,0.00,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,V",
+   "0.00,0.00,0.50,0.50,F|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.40,0.40,F|0.00,0.80,0.40,0.40,M|0.00,1.00,0.50,0.50,M|0.20,1.00,0.60,0.60,V|0.40,0.40,0.50,0.50,F|0.40,0.40,0.80,0.00,M|0.50,0.50,0.60,0.60,F|0.50,0.50,1.00,0.00,M|0.60,0.60,1.00,0.20,V|0.60,0.60,1.00,1.00,F",
+   "0.00,0.00,0.10,0.10,F|0.00,0.20,0.10,0.10,M|0.00,0.80,0.40,0.40,M|0.00,1.00,0.50,0.50,M|0.10,0.10,0.20,0.00,M|0.10,0.10,0.40,0.40,F|0.20,1.00,0.60,0.60,V|0.40,0.40,0.50,0.50,F|0.40,0.40,0.80,0.00,M|0.50,0.50,0.60,0.60,F|0.50,0.50,1.00,0.00,M|0.60,0.60,0.90,0.90,F|0.60,0.60,1.00,0.20,V|0.80,1.00,0.90,0.90,V|0.90,0.90,1.00,0.80,V|0.90,0.90,1.00,1.00,F",
+   "0.00,0.00,0.10,0.10,F|0.00,0.20,0.10,0.10,M|0.00,0.40,0.40,0.40,M|0.00,0.80,0.40,0.40,M|0.00,1.00,0.40,0.60,M|0.10,0.10,0.20,0.00,M|0.10,0.10,0.40,0.40,F|0.20,1.00,0.60,0.60,V|0.40,0.40,0.40,0.60,V|0.40,0.40,0.50,0.50,F|0.40,0.40,0.80,0.00,M|0.40,0.60,0.50,0.50,M|0.40,0.60,0.60,0.60,M|0.50,0.50,0.60,0.60,F|0.50,0.50,1.00,0.00,M|0.60,0.60,0.60,1.00,V|0.60,0.60,0.90,0.90,F|0.60,0.60,1.00,0.20,V|0.80,1.00,0.90,0.90,V|0.90,0.90,1.00,0.80,V|0.90,0.90,1.00,1.00,F",
+   "0.00,0.00,0.10,0.10,F|0.00,0.20,0.10,0.10,M|0.00,0.40,0.40,0.40,M|0.00,0.80,0.40,0.40,M|0.00,1.00,0.40,0.60,M|0.10,0.10,0.20,0.00,M|0.10,0.10,0.40,0.40,F|0.20,1.00,0.60,0.60,V|0.40,0.00,0.40,0.40,M|0.40,0.40,0.40,0.60,V|0.40,0.40,0.50,0.50,F|0.40,0.40,0.60,0.40,V|0.40,0.40,0.80,0.00,M|0.40,0.60,0.50,0.50,M|0.40,0.60,0.60,0.60,M|0.50,0.50,0.60,0.40,M|0.50,0.50,0.60,0.60,F|0.60,0.40,0.60,0.60,M|0.60,0.40,1.00,0.00,M|0.60,0.60,0.60,1.00,V|0.60,0.60,0.90,0.90,F|0.60,0.60,1.00,0.20,V|0.60,0.60,1.00,0.60,V|0.80,1.00,0.90,0.90,V|0.90,0.90,1.00,0.80,V|0.90,0.90,1.00,1.00,F",
+   "0.00,0.00,0.10,0.10,F|0.00,0.20,0.10,0.10,M|0.00,0.40,0.40,0.40,M|0.00,0.80,0.40,0.40,M|0.00,1.00,0.40,0.60,M|0.10,0.10,0.20,0.00,M|0.10,0.10,0.40,0.40,F|0.20,1.00,0.60,0.60,V|0.40,0.00,0.40,0.40,M|0.40,0.40,0.40,0.60,V|0.40,0.40,0.50,0.50,F|0.40,0.40,0.60,0.40,V|0.40,0.40,0.80,0.00,M|0.40,0.60,0.50,0.50,M|0.40,0.60,0.60,0.60,M|0.50,0.50,0.60,0.40,M|0.50,0.50,0.60,0.60,F|0.60,0.40,0.60,0.60,M|0.60,0.40,1.00,0.00,M|0.60,0.60,0.60,1.00,V|0.60,0.60,0.90,0.90,F|0.60,0.60,1.00,0.20,V|0.60,0.60,1.00,0.60,V|0.80,1.00,0.90,0.90,V|0.90,0.90,1.00,0.80,V|0.90,0.90,1.00,1.00,F"
+  ],
+  "walrus": [
+   "<square>",
+   "<square>",
+   "0.00,0.00,1.00,1.00,M",
+   "0.00,0.00,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,V",
+   "0.00,0.00,0.50,0.50,F|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.25,0.25,M|0.00,1.00,0.25,0.25,M|0.00,1.00,0.50,0.50,F|0.25,0.25,0.50,0.50,M|0.25,0.25,1.00,0.00,V|0.50,0.50,1.00,0.00,F|0.50,0.50,1.00,1.00,M",
+   "0.00,0.00,0.25,0.25,M|0.00,1.00,0.25,0.25,M|0.00,1.00,0.50,0.50,F|0.00,1.00,0.75,0.75,M|0.25,0.25,0.50,0.50,M|0.25,0.25,1.00,0.00,V|0.50,0.50,0.75,0.75,M|0.50,0.50,1.00,0.00,F|0.75,0.75,1.00,0.00,V|0.75,0.75,1.00,1.00,M",
+   "0.00,0.00,0.12,0.38,M|0.00,0.00,0.25,0.25,F|0.00,0.00,0.38,0.12,M|0.00,0.36,0.12,0.38,V|0.00,1.00,0.25,0.75,M|0.12,0.38,0.25,0.25,M|0.12,0.38,0.25,0.75,M|0.25,0.25,0.38,0.12,M|0.25,0.25,0.50,0.50,F|0.25,0.75,0.50,0.50,M|0.25,0.75,0.62,0.88,V|0.36,0.00,0.38,0.12,V|0.38,0.12,0.75,0.25,M|0.50,0.50,0.75,0.25,M|0.50,0.50,0.75,0.75,F|0.62,0.88,0.64,1.00,M|0.62,0.88,0.75,0.75,V|0.62,0.88,1.00,1.00,V|0.75,0.25,0.88,0.62,V|0.75,0.25,1.00,0.00,M|0.75,0.75,0.88,0.62,V|0.75,0.75,1.00,1.00,F|0.88,0.62,1.00,0.64,M|0.88,0.62,1.00,1.00,V",
+   "0.00,0.00,0.12,0.38,M|0.00,0.00,0.25,0.25,F|0.00,0.00,0.38,0.12,M|0.00,0.36,0.12,0.38,V|0.00,1.00,0.19,0.56,V|0.00,1.00,0.25,0.75,M|0.00,1.00,0.44,0.81,M|0.12,0.38,0.19,0.56,M|0.12,0.38,0.25,0.25,M|0.19,0.56,0.25,0.75,M|0.19,0.56,0.35,0.65,M|0.25,0.25,0.38,0.12,M|0.25,0.25,0.50,0.50,F|0.25,0.75,0.35,0.65,M|0.25,0.75,0.44,0.81,V|0.35,0.65,0.44,0.81,V|0.35,0.65,0.50,0.50,M|0.36,0.00,0.38,0.12,V|0.38,0.12,0.75,0.25,M|0.44,0.81,0.62,0.88,V|0.50,0.50,0.75,0.25,M|0.50,0.50,0.75,0.75,F|0.62,0.88,0.64,1.00,M|0.62,0.88,0.75,0.75,V|0.62,0.88,1.00,1.00,V|0.75,0.25,0.88,0.62,V|0.75,0.25,1.00,0.00,M|0.75,0.75,0.88,0.62,V|0.75,0.75,1.00,1.00,F|0.88,0.62,1.00,0.64,M|0.88,0.62,1.00,1.00,V",
+   "0.00,0.00,0.12,0.38,M|0.00,0.00,0.25,0.25,F|0.00,0.00,0.38,0.12,M|0.00,0.36,0.12,0.38,V|0.00,1.00,0.19,0.56,V|0.00,1.00,0.25,0.75,M|0.00,1.00,0.44,0.81,M|0.12,0.38,0.19,0.56,M|0.12,0.38,0.25,0.25,M|0.19,0.56,0.25,0.75,M|0.19,0.56,0.35,0.65,M|0.25,0.25,0.38,0.12,M|0.25,0.25,0.50,0.50,F|0.25,0.75,0.35,0.65,M|0.25,0.75,0.44,0.81,V|0.35,0.65,0.44,0.81,V|0.35,0.65,0.50,0.50,M|0.36,0.00,0.38,0.12,V|0.38,0.12,0.56,0.19,M|0.44,0.81,0.62,0.88,V|0.50,0.50,0.65,0.35,M|0.50,0.50,0.75,0.75,F|0.56,0.19,0.65,0.35,M|0.56,0.19,0.75,0.25,M|0.56,0.19,1.00,0.00,V|0.62,0.88,0.64,1.00,M|0.62,0.88,0.75,0.75,V|0.62,0.88,1.00,1.00,V|0.65,0.35,0.75,0.25,M|0.65,0.35,0.81,0.44,V|0.75,0.25,0.81,0.44,V|0.75,0.25,1.00,0.00,M|0.75,0.75,0.88,0.62,V|0.75,0.75,1.00,1.00,F|0.81,0.44,0.88,0.62,V|0.81,0.44,1.00,0.00,M|0.88,0.62,1.00,0.64,M|0.88,0.62,1.00,1.00,V",
+   "0.00,0.00,0.12,0.38,M|0.00,0.00,0.25,0.25,F|0.00,0.00,0.38,0.12,M|0.00,0.36,0.12,0.38,V|0.00,1.00,0.19,0.56,V|0.00,1.00,0.25,0.75,M|0.00,1.00,0.44,0.81,M|0.12,0.38,0.19,0.56,M|0.12,0.38,0.25,0.25,M|0.19,0.56,0.25,0.75,M|0.19,0.56,0.35,0.65,M|0.25,0.25,0.38,0.12,M|0.25,0.25,0.50,0.50,F|0.25,0.75,0.35,0.65,M|0.25,0.75,0.44,0.81,V|0.35,0.65,0.44,0.81,V|0.35,0.65,0.50,0.50,M|0.36,0.00,0.38,0.12,V|0.38,0.12,0.56,0.19,M|0.44,0.81,0.62,0.88,V|0.50,0.50,0.65,0.35,M|0.50,0.50,0.75,0.75,F|0.56,0.19,0.65,0.35,M|0.56,0.19,0.75,0.25,M|0.56,0.19,1.00,0.00,V|0.62,0.88,0.64,1.00,M|0.62,0.88,0.75,0.75,V|0.62,0.88,1.00,1.00,V|0.65,0.35,0.75,0.25,M|0.65,0.35,0.81,0.44,V|0.75,0.25,0.81,0.44,V|0.75,0.25,1.00,0.00,M|0.75,0.75,0.88,0.62,V|0.75,0.75,1.00,1.00,F|0.81,0.44,0.88,0.62,V|0.81,0.44,1.00,0.00,M|0.88,0.62,1.00,0.64,M|0.88,0.62,1.00,1.00,V"
+  ],
+  "yacht": [
+   "<square>",
+   "<square>",
+   "0.00,0.00,1.00,1.00,M",
+   "0.00,0.00,0.41,1.00,M|0.00,0.00,1.00,1.00,V",
+   "0.00,0.00,0.30,0.30,M|0.00,0.59,0.24,0.69,V|0.01,1.00,0.24,0.69,M|0.24,0.69,0.30,0.30,V|0.24,0.69,1.00,1.00,V|0.30,0.30,1.00,0.20,M|0.30,0.30,1.00,1.00,M"
+  ],
+  "rocket": [
+   "<square>",
+   "0.00,0.50,1.00,0.50,M",
+   "0.00,0.50,1.00,0.50,F",
+   "0.00,0.25,1.00,0.25,M|0.00,0.50,1.00,0.50,F",
+   "0.00,0.25,1.00,0.25,M|0.00,0.50,1.00,0.50,F|0.00,0.75,1.00,0.75,M",
+   "0.00,0.25,1.00,0.25,F|0.00,0.50,1.00,0.50,F|0.00,0.75,1.00,0.75,M",
+   "0.00,0.25,1.00,0.25,F|0.00,0.50,1.00,0.50,F|0.00,0.75,1.00,0.75,F",
+   "0.00,0.25,0.25,0.25,F|0.00,0.50,0.25,0.25,M|0.00,0.50,1.00,0.50,F|0.00,0.75,1.00,0.75,F|0.25,0.25,0.50,0.00,M|0.25,0.25,1.00,0.25,F",
+   "0.00,0.25,0.25,0.25,F|0.00,0.50,0.25,0.25,M|0.00,0.50,0.25,0.75,M|0.00,0.50,1.00,0.50,F|0.00,0.75,0.25,0.75,F|0.25,0.25,0.50,0.00,M|0.25,0.25,1.00,0.25,F|0.25,0.75,0.50,1.00,M|0.25,0.75,1.00,0.75,F",
+   "0.00,0.12,0.25,0.12,M|0.00,0.50,0.25,0.25,V|0.25,0.00,0.25,0.12,F|0.25,0.12,0.25,0.25,F|0.25,0.12,0.38,0.12,M|0.25,0.25,0.25,1.00,F|0.25,0.25,0.38,0.12,V|0.38,0.12,0.38,1.00,V|0.38,0.12,0.50,0.00,V|0.50,0.00,0.50,1.00,F|0.50,0.00,0.75,0.25,V|0.75,0.00,0.75,0.25,F|0.75,0.25,0.75,1.00,F|0.75,0.25,1.00,0.50,V",
+   "0.00,0.12,0.25,0.12,M|0.00,0.25,0.25,0.25,V|0.00,0.50,0.25,0.25,V|0.25,0.00,0.25,0.12,F|0.25,0.12,0.25,0.25,F|0.25,0.12,0.38,0.12,M|0.25,0.25,0.25,1.00,M|0.25,0.25,0.38,0.12,V|0.38,0.12,0.38,1.00,V|0.38,0.12,0.50,0.00,V|0.50,0.00,0.50,1.00,F|0.50,0.00,0.75,0.25,V|0.75,0.00,0.75,0.25,F|0.75,0.25,0.75,1.00,F|0.75,0.25,1.00,0.50,V",
+   "0.00,0.12,0.25,0.12,M|0.00,0.25,0.25,0.25,V|0.00,0.50,0.25,0.25,V|0.25,0.00,0.25,0.12,F|0.25,0.12,0.25,0.25,F|0.25,0.12,0.38,0.12,M|0.25,0.25,0.25,1.00,M|0.25,0.25,0.38,0.12,V|0.38,0.12,0.38,1.00,V|0.38,0.12,0.50,0.00,V|0.50,0.00,0.50,1.00,F|0.50,0.00,0.62,0.12,V|0.62,0.12,0.62,1.00,V|0.62,0.12,0.75,0.12,M|0.62,0.12,0.75,0.25,V|0.75,0.00,0.75,0.12,F|0.75,0.12,0.75,0.25,F|0.75,0.12,1.00,0.12,M|0.75,0.25,0.75,1.00,F|0.75,0.25,1.00,0.50,V",
+   "0.00,0.12,0.25,0.12,M|0.00,0.25,0.25,0.25,V|0.00,0.50,0.25,0.25,V|0.25,0.00,0.25,0.12,F|0.25,0.12,0.25,0.25,F|0.25,0.12,0.38,0.12,M|0.25,0.25,0.25,1.00,M|0.25,0.25,0.38,0.12,V|0.38,0.12,0.38,1.00,V|0.38,0.12,0.50,0.00,V|0.50,0.00,0.50,1.00,F|0.50,0.00,0.62,0.12,V|0.62,0.12,0.62,1.00,V|0.62,0.12,0.75,0.12,M|0.62,0.12,0.75,0.25,V|0.75,0.00,0.75,0.12,F|0.75,0.12,0.75,0.25,F|0.75,0.12,1.00,0.12,M|0.75,0.25,0.75,1.00,M|0.75,0.25,1.00,0.25,V|0.75,0.25,1.00,0.50,V",
+   "0.00,0.12,0.25,0.12,M|0.00,0.25,0.25,0.25,V|0.00,0.50,0.25,0.25,V|0.25,0.00,0.25,0.12,F|0.25,0.12,0.25,0.25,F|0.25,0.12,0.38,0.12,M|0.25,0.25,0.25,1.00,M|0.25,0.25,0.38,0.12,V|0.38,0.12,0.38,1.00,V|0.38,0.12,0.50,0.00,V|0.50,0.00,0.50,1.00,F|0.50,0.00,0.62,0.12,V|0.62,0.12,0.62,1.00,V|0.62,0.12,0.75,0.12,M|0.62,0.12,0.75,0.25,V|0.75,0.00,0.75,0.12,F|0.75,0.12,0.75,0.25,F|0.75,0.12,1.00,0.12,M|0.75,0.25,0.75,1.00,M|0.75,0.25,1.00,0.25,V|0.75,0.25,1.00,0.50,V"
+  ],
+  "heart": [
+   "<square>",
+   "<square>",
+   "0.00,0.00,1.00,1.00,M",
+   "0.00,0.00,1.00,1.00,F",
+   "0.00,0.00,0.50,0.50,F|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.50,0.50,F|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.50,0.50,F|0.00,1.00,0.50,0.50,F|0.50,0.50,1.00,0.00,F|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.25,0.25,F|0.00,0.50,0.25,0.25,M|0.00,1.00,0.50,0.50,F|0.25,0.25,0.50,0.00,M|0.25,0.25,0.50,0.50,F|0.50,0.50,1.00,0.00,F|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.25,0.25,F|0.00,0.50,0.25,0.25,M|0.00,1.00,0.50,0.50,F|0.25,0.25,0.50,0.00,M|0.25,0.25,0.50,0.50,F|0.25,1.00,0.62,0.62,M|0.50,0.50,0.62,0.62,F|0.50,0.50,1.00,0.00,F|0.62,0.62,1.00,0.25,M|0.62,0.62,1.00,1.00,F",
+   "0.00,0.00,0.25,0.25,F|0.00,0.50,0.25,0.25,M|0.00,0.62,0.38,0.62,M|0.00,1.00,0.38,0.62,F|0.25,0.25,0.50,0.00,M|0.25,0.25,0.50,0.50,F|0.25,1.00,0.62,0.62,M|0.38,0.62,0.50,0.50,F|0.38,0.62,0.62,0.62,M|0.50,0.50,0.62,0.62,F|0.50,0.50,1.00,0.00,F|0.62,0.62,0.62,1.00,V|0.62,0.62,1.00,0.25,M|0.62,0.62,1.00,1.00,F",
+   "0.00,0.00,0.25,0.25,F|0.00,0.50,0.25,0.25,M|0.00,0.62,0.38,0.62,M|0.00,1.00,0.38,0.62,F|0.25,0.25,0.50,0.00,M|0.25,0.25,0.50,0.50,F|0.25,1.00,0.62,0.62,M|0.38,0.62,0.50,0.50,F|0.38,0.62,0.62,0.62,M|0.50,0.50,0.62,0.38,F|0.50,0.50,0.62,0.62,F|0.62,0.00,0.62,0.38,M|0.62,0.38,0.62,0.62,M|0.62,0.38,1.00,0.00,F|0.62,0.62,0.62,1.00,V|0.62,0.62,1.00,0.25,M|0.62,0.62,1.00,0.62,V|0.62,0.62,1.00,1.00,F",
+   "0.00,0.00,0.25,0.25,F|0.00,0.50,0.25,0.25,M|0.00,0.62,0.38,0.62,M|0.00,1.00,0.38,0.62,F|0.25,0.25,0.50,0.00,M|0.25,0.25,0.50,0.50,F|0.25,1.00,0.62,0.62,M|0.38,0.62,0.50,0.50,F|0.38,0.62,0.62,0.62,M|0.50,0.50,0.62,0.38,F|0.50,0.50,0.62,0.62,F|0.62,0.00,0.62,0.38,M|0.62,0.38,0.62,0.62,M|0.62,0.38,1.00,0.00,F|0.62,0.62,0.62,1.00,V|0.62,0.62,1.00,0.25,M|0.62,0.62,1.00,0.62,V|0.62,0.62,1.00,1.00,F",
+   "0.00,0.00,0.06,0.06,F|0.00,0.12,0.06,0.06,M|0.00,0.25,0.38,0.62,V|0.00,0.62,0.38,0.62,M|0.00,1.00,0.38,0.62,F|0.06,0.06,0.12,0.00,M|0.06,0.06,0.38,0.38,F|0.38,0.00,0.38,0.38,V|0.38,0.38,0.38,0.62,V|0.38,0.38,0.50,0.50,F|0.38,0.62,0.38,1.00,M|0.38,0.62,0.50,0.50,F|0.38,0.62,0.62,0.62,V|0.38,0.62,0.75,1.00,V|0.50,0.00,0.75,0.25,V|0.50,0.50,0.62,0.62,F|0.50,0.50,0.75,0.25,F|0.62,0.62,1.00,0.62,V|0.62,0.62,1.00,1.00,F|0.75,0.25,1.00,0.00,F|0.75,0.25,1.00,0.50,V",
+   "0.00,0.00,0.06,0.06,F|0.00,0.12,0.06,0.06,M|0.00,0.25,0.38,0.62,V|0.00,0.62,0.38,0.62,M|0.00,1.00,0.38,0.62,F|0.06,0.06,0.12,0.00,M|0.06,0.06,0.38,0.38,F|0.38,0.00,0.38,0.38,V|0.38,0.38,0.38,0.62,V|0.38,0.38,0.50,0.50,F|0.38,0.62,0.38,1.00,M|0.38,0.62,0.50,0.50,F|0.38,0.62,0.62,0.62,V|0.38,0.62,0.75,1.00,V|0.50,0.00,0.75,0.25,V|0.50,0.50,0.62,0.62,F|0.50,0.50,0.75,0.25,F|0.62,0.62,0.94,0.94,F|0.62,0.62,1.00,0.62,V|0.75,0.25,1.00,0.00,F|0.75,0.25,1.00,0.50,V|0.88,1.00,0.94,0.94,M|0.94,0.94,1.00,0.88,M|0.94,0.94,1.00,1.00,F",
+   "0.00,0.00,0.06,0.06,F|0.00,0.12,0.06,0.06,M|0.00,0.25,0.12,0.38,M|0.00,0.38,0.12,0.38,V|0.00,0.50,0.12,0.38,V|0.00,0.50,0.25,0.75,V|0.00,1.00,0.25,0.75,F|0.06,0.06,0.12,0.00,M|0.06,0.06,0.38,0.38,F|0.12,0.38,0.38,0.38,V|0.25,0.00,0.62,0.38,V|0.25,0.75,0.50,0.50,F|0.25,0.75,0.50,1.00,V|0.38,0.38,0.50,0.50,F|0.38,0.38,0.62,0.38,V|0.50,0.50,0.62,0.38,F|0.50,0.50,0.62,0.62,F|0.62,0.00,0.62,0.38,M|0.62,0.38,0.62,0.62,V|0.62,0.38,1.00,0.00,F|0.62,0.38,1.00,0.38,M|0.62,0.38,1.00,0.75,V|0.62,0.62,0.62,1.00,V|0.62,0.62,0.94,0.94,F|0.88,1.00,0.94,0.94,M|0.94,0.94,1.00,0.88,M|0.94,0.94,1.00,1.00,F",
+   "0.00,0.00,0.06,0.06,F|0.00,0.12,0.06,0.06,M|0.00,0.25,0.12,0.38,M|0.00,0.38,0.12,0.38,V|0.00,0.50,0.12,0.38,V|0.00,0.50,0.25,0.75,V|0.00,1.00,0.25,0.75,F|0.06,0.06,0.12,0.00,M|0.06,0.06,0.38,0.38,F|0.12,0.38,0.38,0.38,V|0.25,0.00,0.62,0.38,V|0.25,0.75,0.50,0.50,F|0.25,0.75,0.50,1.00,V|0.38,0.38,0.50,0.50,F|0.38,0.38,0.62,0.38,V|0.50,0.50,0.62,0.38,F|0.50,0.50,0.62,0.62,F|0.50,1.00,0.62,0.88,V|0.62,0.00,0.62,0.38,M|0.62,0.38,0.62,0.62,V|0.62,0.38,1.00,0.00,F|0.62,0.38,1.00,0.38,M|0.62,0.38,1.00,0.75,V|0.62,0.62,0.62,0.88,V|0.62,0.62,0.94,0.94,F|0.62,0.88,0.62,1.00,V|0.62,0.88,0.75,1.00,M|0.88,1.00,0.94,0.94,M|0.94,0.94,1.00,0.88,M|0.94,0.94,1.00,1.00,F",
+   "0.00,0.00,0.06,0.06,F|0.00,0.12,0.06,0.06,M|0.00,0.25,0.12,0.38,M|0.00,0.38,0.12,0.38,V|0.00,0.50,0.12,0.38,V|0.00,0.50,0.25,0.75,V|0.00,1.00,0.25,0.75,F|0.06,0.06,0.12,0.00,M|0.06,0.06,0.38,0.38,F|0.12,0.38,0.38,0.38,V|0.25,0.00,0.62,0.38,V|0.25,0.75,0.50,0.50,F|0.25,0.75,0.50,1.00,V|0.38,0.38,0.50,0.50,F|0.38,0.38,0.62,0.38,V|0.50,0.50,0.62,0.38,F|0.50,0.50,0.62,0.62,F|0.50,1.00,0.62,0.88,V|0.62,0.00,0.62,0.38,M|0.62,0.38,0.62,0.62,V|0.62,0.38,1.00,0.00,F|0.62,0.38,1.00,0.38,M|0.62,0.38,1.00,0.75,V|0.62,0.62,0.62,0.88,V|0.62,0.62,0.94,0.94,F|0.62,0.88,0.62,1.00,V|0.62,0.88,0.75,1.00,M|0.88,1.00,0.94,0.94,M|0.94,0.94,1.00,0.88,M|0.94,0.94,1.00,1.00,F"
+  ],
+  "snake": [
+   "<square>",
+   "<square>",
+   "0.00,0.00,1.00,1.00,M",
+   "0.00,0.00,1.00,1.00,F",
+   "0.00,0.00,1.00,1.00,F",
+   "0.00,0.00,0.50,0.50,F|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.50,0.50,F|0.00,1.00,0.50,0.50,F|0.50,0.50,1.00,0.00,F|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.25,0.25,F|0.00,0.50,0.25,0.25,M|0.00,1.00,0.50,0.50,F|0.25,0.25,0.50,0.00,M|0.25,0.25,0.50,0.50,F|0.50,0.50,1.00,0.00,F|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.25,0.25,F|0.00,0.50,0.25,0.25,M|0.00,1.00,0.50,0.50,F|0.25,0.25,0.50,0.00,M|0.25,0.25,0.50,0.50,F|0.50,0.50,0.75,0.75,F|0.50,0.50,1.00,0.00,F|0.50,1.00,0.75,0.75,M|0.75,0.75,1.00,0.50,M|0.75,0.75,1.00,1.00,F",
+   "0.00,0.00,0.25,0.25,F|0.00,0.50,0.25,0.25,M|0.00,1.00,0.50,0.50,F|0.25,0.25,0.50,0.00,M|0.25,0.25,0.50,0.50,F|0.50,0.50,0.75,0.75,F|0.50,0.50,1.00,0.00,F|0.50,1.00,0.75,0.75,M|0.75,0.75,1.00,0.50,M|0.75,0.75,1.00,1.00,F",
+   "0.00,0.00,0.12,0.12,F|0.00,0.25,0.12,0.12,M|0.00,0.50,0.25,0.25,V|0.00,0.75,0.38,0.38,V|0.00,1.00,0.50,0.50,F|0.12,0.12,0.25,0.00,M|0.12,0.12,0.25,0.25,F|0.25,0.25,0.38,0.38,F|0.25,0.25,0.50,0.00,V|0.38,0.38,0.50,0.50,F|0.38,0.38,0.75,0.00,V|0.50,0.50,0.75,0.75,F|0.50,0.50,1.00,0.00,F|0.50,1.00,0.75,0.75,V|0.75,0.75,1.00,0.50,V|0.75,0.75,1.00,1.00,F",
+   "0.00,0.00,0.12,0.12,F|0.00,0.25,0.12,0.12,M|0.00,0.50,0.25,0.25,V|0.00,0.75,0.38,0.38,V|0.00,1.00,0.50,0.50,F|0.12,0.12,0.25,0.00,M|0.12,0.12,0.25,0.25,F|0.25,0.25,0.38,0.38,F|0.25,0.25,0.50,0.00,V|0.25,1.00,0.62,0.62,V|0.38,0.38,0.50,0.50,F|0.38,0.38,0.75,0.00,V|0.50,0.50,0.62,0.62,F|0.50,0.50,1.00,0.00,F|0.50,1.00,0.75,0.75,V|0.62,0.62,0.75,0.75,F|0.62,0.62,1.00,0.25,V|0.75,0.75,0.88,0.88,F|0.75,0.75,1.00,0.50,V|0.75,1.00,0.88,0.88,M|0.88,0.88,1.00,0.75,M|0.88,0.88,1.00,1.00,F",
+   "0.00,0.00,0.12,0.12,F|0.00,0.25,0.12,0.12,M|0.00,0.50,0.25,0.25,V|0.00,0.75,0.38,0.38,V|0.00,1.00,0.50,0.50,F|0.12,0.12,0.25,0.00,M|0.12,0.12,0.25,0.25,F|0.25,0.25,0.38,0.38,F|0.25,0.25,0.50,0.00,V|0.25,1.00,0.62,0.62,V|0.38,0.38,0.50,0.50,F|0.38,0.38,0.75,0.00,V|0.50,0.50,0.62,0.62,F|0.50,0.50,1.00,0.00,F|0.50,1.00,0.75,0.75,V|0.62,0.62,0.75,0.75,F|0.62,0.62,1.00,0.25,V|0.75,0.75,0.88,0.88,F|0.75,0.75,1.00,0.50,V|0.75,1.00,0.88,0.88,M|0.88,0.88,1.00,0.75,M|0.88,0.88,1.00,1.00,F",
+   "0.00,0.00,0.10,0.10,F|0.00,0.20,0.10,0.10,M|0.00,0.25,0.38,0.62,M|0.00,0.50,0.25,0.75,M|0.00,0.75,0.12,0.88,V|0.00,1.00,0.12,0.88,F|0.10,0.10,0.20,0.00,M|0.10,0.10,0.50,0.50,F|0.12,0.88,0.25,0.75,F|0.12,0.88,0.25,1.00,V|0.25,0.00,0.62,0.38,M|0.25,0.75,0.38,0.62,F|0.25,0.75,0.50,1.00,M|0.38,0.62,0.50,0.50,F|0.38,0.62,0.75,1.00,M|0.50,0.00,0.75,0.25,M|0.50,0.50,0.62,0.38,F|0.50,0.50,1.00,1.00,F|0.62,0.38,0.75,0.25,F|0.62,0.38,1.00,0.75,M|0.75,0.00,0.88,0.12,V|0.75,0.25,0.88,0.12,F|0.75,0.25,1.00,0.50,M|0.88,0.12,1.00,0.00,F|0.88,0.12,1.00,0.25,V",
+   "0.00,0.00,0.10,0.10,F|0.00,0.20,0.10,0.10,M|0.00,0.25,0.38,0.62,M|0.00,0.50,0.25,0.75,M|0.00,0.75,0.12,0.88,V|0.00,1.00,0.12,0.88,F|0.10,0.10,0.20,0.00,M|0.10,0.10,0.50,0.50,F|0.12,0.88,0.25,0.75,F|0.12,0.88,0.25,1.00,V|0.25,0.00,0.62,0.38,M|0.25,0.75,0.38,0.62,F|0.25,0.75,0.50,1.00,M|0.38,0.62,0.50,0.50,F|0.38,0.62,0.75,1.00,M|0.50,0.00,0.75,0.25,M|0.50,0.50,0.62,0.38,F|0.50,0.50,1.00,1.00,F|0.62,0.38,0.75,0.25,F|0.62,0.38,1.00,0.75,M|0.75,0.00,0.88,0.12,V|0.75,0.25,0.88,0.12,F|0.75,0.25,1.00,0.50,M|0.88,0.12,1.00,0.00,F|0.88,0.12,1.00,0.25,V",
+   "0.00,0.00,0.10,0.10,F|0.00,0.20,0.10,0.10,M|0.00,0.25,0.38,0.62,M|0.00,0.50,0.25,0.75,M|0.00,0.75,0.12,0.88,V|0.00,1.00,0.12,0.88,F|0.10,0.10,0.20,0.00,M|0.10,0.10,0.50,0.50,F|0.12,0.88,0.25,0.75,F|0.12,0.88,0.25,1.00,V|0.25,0.00,0.62,0.38,M|0.25,0.75,0.38,0.62,F|0.25,0.75,0.50,1.00,M|0.38,0.62,0.50,0.50,F|0.38,0.62,0.58,0.83,M|0.50,0.00,0.75,0.25,M|0.50,0.50,0.62,0.38,F|0.50,0.50,1.00,1.00,F|0.58,0.83,0.65,1.00,V|0.58,0.83,0.75,1.00,M|0.58,0.83,1.00,1.00,M|0.62,0.38,0.75,0.25,F|0.62,0.38,1.00,0.75,M|0.75,0.00,0.88,0.12,V|0.75,0.25,0.88,0.12,F|0.75,0.25,1.00,0.50,M|0.88,0.12,1.00,0.00,F|0.88,0.12,1.00,0.25,V",
+   "0.00,0.00,0.10,0.10,F|0.00,0.20,0.10,0.10,M|0.00,0.25,0.38,0.62,M|0.00,0.50,0.25,0.75,M|0.00,0.75,0.12,0.88,V|0.00,1.00,0.12,0.88,F|0.10,0.10,0.20,0.00,M|0.10,0.10,0.50,0.50,F|0.12,0.88,0.25,0.75,F|0.12,0.88,0.25,1.00,V|0.25,0.00,0.62,0.38,M|0.25,0.75,0.38,0.62,F|0.25,0.75,0.50,1.00,M|0.38,0.62,0.50,0.50,F|0.38,0.62,0.58,0.83,M|0.50,0.00,0.75,0.25,M|0.50,0.50,0.62,0.38,F|0.50,0.50,1.00,1.00,F|0.58,0.83,0.65,1.00,V|0.58,0.83,0.75,1.00,M|0.58,0.83,1.00,1.00,M|0.62,0.38,0.75,0.25,F|0.62,0.38,0.83,0.58,M|0.75,0.00,0.88,0.12,V|0.75,0.25,0.88,0.12,F|0.75,0.25,1.00,0.50,M|0.83,0.58,1.00,0.65,V|0.83,0.58,1.00,0.75,M|0.83,0.58,1.00,1.00,M|0.88,0.12,1.00,0.00,F|0.88,0.12,1.00,0.25,V",
+   "0.00,0.00,0.10,0.10,M|0.00,0.20,0.10,0.10,V|0.00,0.25,0.38,0.62,V|0.00,0.50,0.25,0.75,V|0.00,0.75,0.12,0.88,M|0.00,1.00,0.12,0.88,F|0.10,0.10,0.20,0.00,V|0.10,0.10,0.50,0.50,V|0.12,0.88,0.25,0.75,F|0.12,0.88,0.25,1.00,M|0.25,0.00,0.62,0.38,V|0.25,0.75,0.38,0.62,F|0.25,0.75,0.50,1.00,V|0.38,0.62,0.50,0.50,F|0.38,0.62,0.58,0.83,V|0.50,0.00,0.75,0.25,V|0.50,0.50,0.62,0.38,F|0.50,0.50,1.00,1.00,V|0.58,0.83,0.65,1.00,M|0.58,0.83,0.75,1.00,V|0.58,0.83,1.00,1.00,V|0.62,0.38,0.75,0.25,F|0.62,0.38,0.83,0.58,V|0.75,0.00,0.88,0.12,M|0.75,0.25,0.88,0.12,F|0.75,0.25,1.00,0.50,V|0.83,0.58,1.00,0.65,M|0.83,0.58,1.00,0.75,V|0.83,0.58,1.00,1.00,V|0.88,0.12,1.00,0.00,F|0.88,0.12,1.00,0.25,M",
+   "0.00,0.00,0.10,0.10,M|0.00,0.20,0.10,0.10,V|0.00,0.25,0.38,0.62,V|0.00,0.50,0.25,0.75,V|0.00,0.75,0.12,0.88,M|0.00,1.00,0.12,0.88,F|0.10,0.10,0.20,0.00,V|0.10,0.10,0.50,0.50,V|0.12,0.88,0.25,0.75,F|0.12,0.88,0.25,1.00,M|0.25,0.00,0.62,0.38,V|0.25,0.75,0.25,1.00,M|0.25,0.75,0.38,0.62,F|0.25,0.75,0.50,0.75,V|0.25,0.75,0.50,1.00,V|0.38,0.62,0.50,0.50,F|0.38,0.62,0.50,0.75,V|0.50,0.00,0.75,0.25,V|0.50,0.50,0.50,0.75,M|0.50,0.50,0.62,0.38,F|0.50,0.50,0.75,0.50,V|0.50,0.50,1.00,1.00,V|0.50,0.75,0.58,0.83,V|0.58,0.83,0.65,1.00,M|0.58,0.83,0.75,1.00,V|0.58,0.83,1.00,1.00,V|0.62,0.38,0.75,0.25,F|0.62,0.38,0.75,0.50,V|0.75,0.00,0.88,0.12,M|0.75,0.25,0.75,0.50,M|0.75,0.25,0.88,0.12,F|0.75,0.25,1.00,0.25,V|0.75,0.25,1.00,0.50,V|0.75,0.50,0.83,0.58,V|0.83,0.58,1.00,0.65,M|0.83,0.58,1.00,0.75,V|0.83,0.58,1.00,1.00,V|0.88,0.12,1.00,0.00,F|0.88,0.12,1.00,0.25,M",
+   "0.00,0.00,0.10,0.10,M|0.00,0.20,0.10,0.10,V|0.00,0.25,0.38,0.62,V|0.00,0.50,0.25,0.75,V|0.00,0.75,0.12,0.88,M|0.00,1.00,0.12,0.88,F|0.10,0.10,0.20,0.00,V|0.10,0.10,0.50,0.50,V|0.12,0.88,0.25,0.75,F|0.12,0.88,0.25,1.00,M|0.25,0.00,0.62,0.38,V|0.25,0.75,0.25,1.00,M|0.25,0.75,0.38,0.62,F|0.25,0.75,0.50,0.75,V|0.25,0.75,0.50,1.00,V|0.38,0.62,0.50,0.50,F|0.38,0.62,0.50,0.75,V|0.50,0.00,0.75,0.25,V|0.50,0.50,0.50,0.75,M|0.50,0.50,0.62,0.38,F|0.50,0.50,0.75,0.50,V|0.50,0.50,1.00,1.00,V|0.50,0.75,0.58,0.83,V|0.58,0.83,0.65,1.00,M|0.58,0.83,0.75,1.00,V|0.58,0.83,1.00,1.00,V|0.62,0.38,0.75,0.25,F|0.62,0.38,0.75,0.50,V|0.75,0.00,0.88,0.12,M|0.75,0.25,0.75,0.50,M|0.75,0.25,0.88,0.12,F|0.75,0.25,1.00,0.25,V|0.75,0.25,1.00,0.50,V|0.75,0.50,0.83,0.58,V|0.83,0.58,1.00,0.65,M|0.83,0.58,1.00,0.75,V|0.83,0.58,1.00,1.00,V|0.88,0.12,1.00,0.00,F|0.88,0.12,1.00,0.25,M",
+   "0.00,0.00,0.10,0.10,M|0.00,0.20,0.10,0.10,V|0.00,0.25,0.19,0.44,V|0.00,0.50,0.19,0.44,M|0.00,0.50,0.25,0.75,V|0.00,0.75,0.12,0.88,M|0.00,1.00,0.12,0.88,F|0.10,0.10,0.20,0.00,V|0.10,0.10,0.25,0.25,V|0.12,0.88,0.25,0.75,F|0.12,0.88,0.25,1.00,M|0.19,0.44,0.25,0.25,V|0.19,0.44,0.38,0.62,V|0.25,0.00,0.44,0.19,V|0.25,0.25,0.44,0.19,M|0.25,0.25,0.50,0.50,V|0.25,0.75,0.25,1.00,V|0.25,0.75,0.38,0.62,F|0.25,0.75,0.50,0.75,M|0.25,0.75,0.50,1.00,V|0.38,0.62,0.50,0.50,F|0.38,0.62,0.50,0.75,V|0.44,0.19,0.50,0.00,V|0.44,0.19,0.62,0.38,V|0.50,0.00,0.75,0.25,V|0.50,0.50,0.50,0.75,V|0.50,0.50,0.62,0.38,F|0.50,0.50,0.75,0.50,M|0.50,0.50,1.00,1.00,V|0.50,0.75,0.58,0.83,V|0.58,0.83,0.65,1.00,M|0.58,0.83,0.75,1.00,V|0.58,0.83,1.00,1.00,V|0.62,0.38,0.75,0.25,F|0.62,0.38,0.75,0.50,V|0.75,0.00,0.88,0.12,M|0.75,0.25,0.75,0.50,V|0.75,0.25,0.88,0.12,F|0.75,0.25,1.00,0.25,M|0.75,0.25,1.00,0.50,V|0.75,0.50,0.83,0.58,V|0.83,0.58,1.00,0.65,M|0.83,0.58,1.00,0.75,V|0.83,0.58,1.00,1.00,V|0.88,0.12,1.00,0.00,F|0.88,0.12,1.00,0.25,M"
+  ],
+  "shield": [
+   "<square>",
+   "0.00,0.50,1.00,0.50,M",
+   "0.00,0.50,1.00,0.50,F",
+   "0.00,0.50,0.50,0.50,F|0.50,0.00,0.50,0.50,M|0.50,0.50,0.50,1.00,M|0.50,0.50,1.00,0.50,F",
+   "0.00,0.50,0.50,0.50,F|0.50,0.00,0.50,0.50,F|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F",
+   "0.00,0.48,0.48,0.00,M|0.00,0.50,0.50,0.50,F|0.50,0.00,0.50,0.50,F|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F",
+   "0.00,0.48,0.48,0.00,M|0.00,0.50,0.50,0.50,F|0.00,0.52,0.48,1.00,M|0.50,0.00,0.50,0.50,F|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F",
+   "0.00,0.48,0.48,0.00,M|0.00,0.50,0.50,0.50,F|0.00,0.52,0.48,1.00,M|0.50,0.00,0.50,0.50,F|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F|0.52,0.00,1.00,0.48,M",
+   "0.00,0.48,0.48,0.00,M|0.00,0.50,0.50,0.50,F|0.00,0.52,0.48,1.00,M|0.50,0.00,0.50,0.50,F|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F|0.52,0.00,1.00,0.48,M|0.52,1.00,1.00,0.52,M",
+   "0.00,0.48,0.48,0.00,M|0.00,0.50,0.50,0.50,F|0.00,0.52,0.48,1.00,M|0.50,0.00,0.50,0.50,F|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F|0.52,0.00,1.00,0.48,M|0.52,1.00,1.00,0.52,M",
+   "0.00,0.24,0.24,0.24,M|0.00,0.48,0.24,0.24,V|0.00,0.50,0.24,0.50,F|0.00,0.52,0.24,0.76,V|0.00,0.76,0.24,0.76,M|0.24,0.24,0.24,0.50,V|0.24,0.24,0.48,0.00,V|0.24,0.50,0.24,0.76,V|0.24,0.50,0.50,0.50,F|0.24,0.76,0.48,1.00,V|0.50,0.00,0.50,0.50,F|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F|0.52,0.00,1.00,0.48,V|0.52,1.00,1.00,0.52,V",
+   "0.00,0.24,0.24,0.24,M|0.00,0.48,0.24,0.24,V|0.00,0.50,0.24,0.50,F|0.00,0.52,0.24,0.76,V|0.00,0.76,0.24,0.76,M|0.24,0.00,0.24,0.24,M|0.24,0.24,0.24,0.50,V|0.24,0.24,0.48,0.00,V|0.24,0.24,0.50,0.24,V|0.24,0.50,0.24,0.76,V|0.24,0.50,0.50,0.50,F|0.24,0.76,0.48,1.00,V|0.50,0.00,0.50,0.24,F|0.50,0.24,0.50,0.50,F|0.50,0.24,0.76,0.24,V|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F|0.52,0.00,0.76,0.24,V|0.52,1.00,1.00,0.52,V|0.76,0.00,0.76,0.24,M|0.76,0.24,1.00,0.48,V",
+   "0.00,0.24,0.24,0.24,M|0.00,0.48,0.24,0.24,M|0.00,0.50,0.24,0.50,F|0.00,0.52,0.24,0.76,M|0.00,0.76,0.24,0.76,M|0.24,0.00,0.24,0.24,V|0.24,0.24,0.24,0.50,V|0.24,0.24,0.48,0.00,M|0.24,0.24,0.50,0.24,M|0.24,0.50,0.24,0.76,V|0.24,0.50,0.50,0.50,F|0.24,0.76,0.48,1.00,M|0.50,0.00,0.50,0.24,F|0.50,0.24,0.50,0.50,F|0.50,0.24,0.76,0.24,M|0.50,0.50,0.50,1.00,F|0.50,0.50,0.76,0.50,F|0.52,0.00,0.76,0.24,M|0.52,1.00,0.76,0.76,M|0.76,0.00,0.76,0.24,V|0.76,0.24,0.76,0.50,M|0.76,0.24,1.00,0.24,V|0.76,0.24,1.00,0.48,M|0.76,0.50,0.76,0.76,M|0.76,0.50,1.00,0.50,F|0.76,0.76,1.00,0.52,M|0.76,0.76,1.00,0.76,V",
+   "0.00,0.24,0.24,0.24,M|0.00,0.48,0.24,0.24,M|0.00,0.50,0.24,0.50,F|0.00,0.52,0.24,0.76,M|0.00,0.76,0.24,0.76,M|0.24,0.00,0.24,0.24,V|0.24,0.24,0.24,0.50,V|0.24,0.24,0.48,0.00,M|0.24,0.24,0.50,0.24,M|0.24,0.50,0.24,0.76,V|0.24,0.50,0.50,0.50,F|0.24,0.76,0.36,0.88,M|0.36,0.88,0.36,1.00,M|0.36,0.88,0.48,1.00,M|0.36,0.88,0.50,0.88,V|0.50,0.00,0.50,0.24,F|0.50,0.24,0.50,0.50,F|0.50,0.24,0.76,0.24,M|0.50,0.50,0.50,0.88,F|0.50,0.50,0.76,0.50,F|0.50,0.88,0.50,1.00,F|0.50,0.88,0.64,0.88,V|0.52,0.00,0.76,0.24,M|0.52,1.00,0.64,0.88,M|0.64,0.88,0.64,1.00,M|0.64,0.88,0.76,0.76,M|0.76,0.00,0.76,0.24,V|0.76,0.24,0.76,0.50,M|0.76,0.24,1.00,0.24,V|0.76,0.24,1.00,0.48,M|0.76,0.50,0.76,0.76,M|0.76,0.50,1.00,0.50,F|0.76,0.76,1.00,0.52,M|0.76,0.76,1.00,0.76,V",
+   "0.00,0.24,0.24,0.24,M|0.00,0.48,0.24,0.24,M|0.00,0.50,0.24,0.50,F|0.00,0.52,0.24,0.76,M|0.00,0.76,0.24,0.76,M|0.24,0.00,0.24,0.24,V|0.24,0.24,0.24,0.50,V|0.24,0.24,0.48,0.00,M|0.24,0.24,0.50,0.24,M|0.24,0.50,0.24,0.76,V|0.24,0.50,0.50,0.50,F|0.24,0.76,0.36,0.88,M|0.36,0.88,0.36,1.00,M|0.36,0.88,0.48,1.00,M|0.36,0.88,0.50,0.88,V|0.50,0.00,0.50,0.24,F|0.50,0.24,0.50,0.50,F|0.50,0.24,0.76,0.24,M|0.50,0.50,0.50,0.88,F|0.50,0.50,0.76,0.50,F|0.50,0.88,0.50,1.00,F|0.50,0.88,0.64,0.88,V|0.52,0.00,0.76,0.24,M|0.52,1.00,0.64,0.88,M|0.64,0.88,0.64,1.00,M|0.64,0.88,0.76,0.76,M|0.76,0.00,0.76,0.24,V|0.76,0.24,0.76,0.50,M|0.76,0.24,1.00,0.24,V|0.76,0.24,1.00,0.48,M|0.76,0.50,0.76,0.76,M|0.76,0.50,1.00,0.50,F|0.76,0.76,1.00,0.52,M|0.76,0.76,1.00,0.76,V"
+  ],
+  "pig": [
+   "<square>",
+   "0.00,0.00,1.00,1.00,M",
+   "0.00,0.00,1.00,1.00,F",
+   "0.00,0.00,0.50,0.50,F|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.50,0.50,F|0.00,1.00,0.50,0.50,F|0.50,0.50,1.00,0.00,F|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.50,0.50,F|0.00,1.00,0.50,0.50,F|0.50,0.50,1.00,0.00,F|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.25,0.25,F|0.00,0.50,0.25,0.25,M|0.00,1.00,0.50,0.50,F|0.25,0.25,0.50,0.00,M|0.25,0.25,0.50,0.50,F|0.50,0.50,1.00,0.00,F|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.25,0.25,F|0.00,0.50,0.25,0.25,M|0.00,1.00,0.50,0.50,F|0.25,0.25,0.50,0.00,M|0.25,0.25,0.50,0.50,F|0.50,0.50,0.75,0.75,F|0.50,0.50,1.00,0.00,F|0.50,1.00,0.75,0.75,M|0.75,0.75,1.00,0.50,M|0.75,0.75,1.00,1.00,F",
+   "0.00,0.00,0.25,0.25,M|0.00,0.50,0.25,0.25,V|0.00,1.00,0.50,0.50,F|0.25,0.25,0.50,0.00,V|0.25,0.25,0.50,0.50,V|0.50,0.50,0.75,0.75,V|0.50,0.50,1.00,0.00,F|0.50,1.00,0.75,0.75,V|0.75,0.75,1.00,0.50,V|0.75,0.75,1.00,1.00,M",
+   "0.00,0.00,0.12,0.12,M|0.00,0.50,0.12,0.38,V|0.00,1.00,0.50,0.50,F|0.12,0.12,0.12,0.38,M|0.12,0.12,0.25,0.25,M|0.12,0.12,0.38,0.12,V|0.12,0.38,0.25,0.25,V|0.12,0.38,0.38,0.38,V|0.25,0.25,0.38,0.12,V|0.25,0.25,0.38,0.38,V|0.38,0.12,0.38,0.38,M|0.38,0.12,0.50,0.00,V|0.38,0.38,0.50,0.50,V|0.50,0.50,0.75,0.75,V|0.50,0.50,1.00,0.00,F|0.50,1.00,0.75,0.75,V|0.75,0.75,1.00,0.50,V|0.75,0.75,1.00,1.00,M",
+   "0.00,0.00,0.12,0.12,M|0.00,0.50,0.12,0.38,V|0.00,1.00,0.50,0.50,F|0.12,0.12,0.12,0.38,M|0.12,0.12,0.25,0.25,M|0.12,0.12,0.38,0.12,V|0.12,0.38,0.25,0.25,V|0.12,0.38,0.38,0.38,V|0.25,0.25,0.38,0.12,V|0.25,0.25,0.38,0.38,V|0.38,0.12,0.38,0.38,M|0.38,0.12,0.50,0.00,V|0.38,0.38,0.50,0.50,V|0.50,0.50,0.62,0.62,V|0.50,0.50,1.00,0.00,F|0.50,1.00,0.62,0.88,V|0.62,0.62,0.62,0.88,V|0.62,0.62,0.75,0.75,V|0.62,0.62,0.88,0.62,M|0.62,0.88,0.75,0.75,V|0.62,0.88,0.88,0.88,M|0.75,0.75,0.88,0.62,V|0.75,0.75,0.88,0.88,M|0.88,0.62,0.88,0.88,V|0.88,0.62,1.00,0.50,V|0.88,0.88,1.00,1.00,M",
+   "0.00,0.00,0.12,0.12,F|0.00,0.25,0.12,0.12,M|0.00,0.50,0.12,0.62,M|0.00,1.00,0.12,0.88,V|0.12,0.12,0.25,0.00,M|0.12,0.12,0.50,0.50,F|0.12,0.62,0.12,0.88,V|0.12,0.62,0.25,0.75,M|0.12,0.62,0.38,0.62,M|0.12,0.88,0.25,0.75,V|0.12,0.88,0.38,0.88,M|0.25,0.75,0.38,0.62,M|0.25,0.75,0.38,0.88,M|0.38,0.62,0.38,0.88,V|0.38,0.62,0.50,0.50,M|0.38,0.88,0.50,1.00,M|0.50,0.00,0.62,0.12,M|0.50,0.50,0.62,0.38,M|0.50,0.50,0.88,0.88,F|0.62,0.12,0.62,0.38,M|0.62,0.12,0.75,0.25,M|0.62,0.12,0.88,0.12,V|0.62,0.38,0.75,0.25,M|0.62,0.38,0.88,0.38,V|0.75,0.25,0.88,0.12,V|0.75,0.25,0.88,0.38,M|0.75,1.00,0.88,0.88,V|0.88,0.12,0.88,0.38,M|0.88,0.12,1.00,0.00,V|0.88,0.38,1.00,0.50,M|0.88,0.88,1.00,0.75,V|0.88,0.88,1.00,1.00,F",
+   "0.00,0.00,0.06,0.06,F|0.00,0.12,0.06,0.06,M|0.00,0.25,0.12,0.12,V|0.00,0.50,0.12,0.62,V|0.00,1.00,0.12,0.88,M|0.06,0.06,0.12,0.00,M|0.06,0.06,0.12,0.12,F|0.12,0.12,0.25,0.00,V|0.12,0.12,0.50,0.50,F|0.12,0.62,0.12,0.88,M|0.12,0.62,0.25,0.75,V|0.12,0.62,0.38,0.62,V|0.12,0.88,0.25,0.75,M|0.12,0.88,0.38,0.88,V|0.25,0.75,0.38,0.62,V|0.25,0.75,0.38,0.88,V|0.38,0.62,0.38,0.88,M|0.38,0.62,0.50,0.50,V|0.38,0.88,0.50,1.00,V|0.50,0.00,0.62,0.12,V|0.50,0.50,0.62,0.38,V|0.50,0.50,0.88,0.88,F|0.62,0.12,0.62,0.38,V|0.62,0.12,0.75,0.25,V|0.62,0.12,0.88,0.12,M|0.62,0.38,0.75,0.25,V|0.62,0.38,0.88,0.38,M|0.75,0.25,0.88,0.12,M|0.75,0.25,0.88,0.38,V|0.75,1.00,0.88,0.88,M|0.88,0.12,0.88,0.38,V|0.88,0.12,1.00,0.00,M|0.88,0.38,1.00,0.50,V|0.88,0.88,1.00,0.75,M|0.88,0.88,1.00,1.00,F"
+  ],
+  "bird": [
+   "<square>",
+   "<square>",
+   "0.00,0.00,1.00,1.00,M",
+   "0.00,0.00,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,V",
+   "0.00,0.00,0.40,0.40,M|0.00,0.60,0.40,0.40,M|0.00,1.00,0.50,0.50,V|0.40,0.40,0.50,0.50,M|0.40,0.40,0.60,0.00,V|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,M",
+   "0.00,0.00,0.40,0.40,M|0.00,0.60,0.40,0.40,M|0.00,1.00,0.50,0.50,V|0.40,0.40,0.50,0.50,M|0.40,0.40,0.60,0.00,V|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,M",
+   "0.00,0.00,0.40,0.40,M|0.00,0.60,0.40,0.40,M|0.00,1.00,0.50,0.50,M|0.40,0.40,0.50,0.50,M|0.40,0.40,0.60,0.00,V|0.40,1.00,0.60,0.60,V|0.50,0.50,0.60,0.60,M|0.50,0.50,1.00,0.00,V|0.60,0.60,1.00,0.40,M|0.60,0.60,1.00,1.00,M"
+  ],
+  "car": [
+   "<square>",
+   "0.00,0.50,1.00,0.50,M",
+   "0.00,0.50,1.00,0.50,F",
+   "0.00,0.50,1.00,0.50,F",
+   "0.00,0.50,0.50,0.50,F|0.50,0.00,0.50,0.50,M|0.50,0.50,0.50,1.00,M|0.50,0.50,1.00,0.50,F",
+   "0.00,0.50,0.50,0.50,F|0.50,0.00,0.50,0.50,F|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F",
+   "0.00,0.25,0.50,0.25,M|0.00,0.50,0.50,0.50,F|0.50,0.00,0.50,0.25,F|0.50,0.25,0.50,0.50,F|0.50,0.25,1.00,0.25,M|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F",
+   "0.00,0.25,0.50,0.00,M|0.00,0.25,0.50,0.25,V|0.00,0.50,0.50,0.50,F|0.50,0.00,0.50,0.25,F|0.50,0.25,0.50,0.50,F|0.50,0.25,1.00,0.25,V|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F",
+   "0.00,0.25,0.50,0.00,M|0.00,0.25,0.50,0.25,V|0.00,0.50,0.50,0.50,F|0.50,0.00,0.50,0.25,F|0.50,0.00,1.00,0.25,M|0.50,0.25,0.50,0.50,F|0.50,0.25,1.00,0.25,V|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F",
+   "0.00,0.25,0.50,0.00,M|0.00,0.25,0.50,0.25,V|0.00,0.50,0.50,0.50,V|0.50,0.00,0.50,0.25,F|0.50,0.00,1.00,0.25,M|0.50,0.25,0.50,0.50,F|0.50,0.25,1.00,0.25,V|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,V",
+   "0.00,0.25,0.50,0.00,M|0.00,0.25,0.50,0.25,V|0.00,0.50,0.50,0.50,V|0.00,0.62,0.50,0.62,M|0.50,0.00,0.50,0.25,F|0.50,0.00,1.00,0.25,M|0.50,0.25,0.50,0.50,F|0.50,0.25,1.00,0.25,V|0.50,0.50,0.50,0.62,F|0.50,0.50,1.00,0.50,V|0.50,0.62,0.50,1.00,F|0.50,0.62,1.00,0.62,M",
+   "0.00,0.25,0.50,0.00,M|0.00,0.25,0.50,0.25,V|0.00,0.50,0.50,0.50,V|0.00,0.62,0.38,1.00,V|0.00,0.62,0.50,0.62,M|0.50,0.00,0.50,0.25,F|0.50,0.00,1.00,0.25,M|0.50,0.25,0.50,0.50,F|0.50,0.25,1.00,0.25,V|0.50,0.50,0.50,0.62,F|0.50,0.50,1.00,0.50,V|0.50,0.62,0.50,1.00,F|0.50,0.62,1.00,0.62,M",
+   "0.00,0.25,0.50,0.00,M|0.00,0.25,0.50,0.25,V|0.00,0.50,0.50,0.50,V|0.00,0.62,0.38,1.00,V|0.00,0.62,0.50,0.62,M|0.50,0.00,0.50,0.25,F|0.50,0.00,1.00,0.25,M|0.50,0.25,0.50,0.50,F|0.50,0.25,1.00,0.25,V|0.50,0.50,0.50,0.62,F|0.50,0.50,1.00,0.50,V|0.50,0.62,0.50,1.00,F|0.50,0.62,1.00,0.62,M"
+  ],
+  "girl": [
+   "<square>",
+   "0.00,0.50,1.00,0.50,M",
+   "0.00,0.50,1.00,0.50,F",
+   "0.00,0.50,0.50,0.50,F|0.50,0.00,0.50,0.50,M|0.50,0.50,0.50,1.00,M|0.50,0.50,1.00,0.50,F",
+   "0.00,0.50,0.50,0.50,F|0.50,0.00,0.50,0.50,F|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F",
+   "0.00,0.50,0.50,0.00,M|0.00,0.50,0.50,0.50,F|0.50,0.00,0.50,0.50,F|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F",
+   "0.00,0.50,0.50,0.00,M|0.00,0.50,0.50,0.50,F|0.00,0.50,0.50,1.00,M|0.50,0.00,0.50,0.50,F|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F",
+   "0.00,0.50,0.50,0.00,M|0.00,0.50,0.50,0.50,F|0.00,0.50,0.50,1.00,M|0.50,0.00,0.50,0.50,F|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F",
+   "0.00,0.25,0.25,0.25,M|0.00,0.50,0.25,0.25,V|0.00,0.50,0.25,0.50,F|0.00,0.50,0.25,0.75,V|0.00,0.75,0.25,0.75,M|0.25,0.25,0.25,0.50,V|0.25,0.25,0.50,0.00,V|0.25,0.50,0.25,0.75,V|0.25,0.50,0.50,0.50,F|0.25,0.75,0.50,1.00,V|0.50,0.00,0.50,0.50,F|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F",
+   "0.00,0.25,0.25,0.25,M|0.00,0.50,0.25,0.25,V|0.00,0.50,0.25,0.50,F|0.00,0.50,0.25,0.75,V|0.00,0.75,0.25,0.75,M|0.25,0.25,0.25,0.50,V|0.25,0.25,0.50,0.00,V|0.25,0.50,0.25,0.75,V|0.25,0.50,0.50,0.50,F|0.25,0.75,0.50,1.00,V|0.50,0.00,0.50,0.50,F|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F",
+   "0.00,0.25,0.25,0.25,M|0.00,0.50,0.25,0.25,V|0.00,0.50,0.25,0.50,F|0.00,0.50,0.25,0.75,V|0.00,0.75,0.25,0.75,M|0.25,0.00,0.25,0.25,M|0.25,0.25,0.25,0.50,V|0.25,0.25,0.50,0.00,V|0.25,0.25,0.50,0.25,V|0.25,0.50,0.25,0.75,V|0.25,0.50,0.50,0.50,F|0.25,0.75,0.50,1.00,V|0.50,0.00,0.50,0.25,F|0.50,0.25,0.50,0.50,F|0.50,0.25,1.00,0.25,V|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F",
+   "0.00,0.25,0.25,0.25,M|0.00,0.50,0.25,0.25,V|0.00,0.50,0.25,0.50,F|0.00,0.50,0.25,0.75,V|0.00,0.75,0.25,0.75,M|0.25,0.00,0.25,0.25,M|0.25,0.25,0.25,0.50,V|0.25,0.25,0.50,0.00,V|0.25,0.25,0.50,0.25,V|0.25,0.50,0.25,0.75,V|0.25,0.50,0.50,0.50,F|0.25,0.75,0.25,1.00,M|0.25,0.75,0.50,0.75,V|0.25,0.75,0.50,1.00,V|0.50,0.00,0.50,0.25,F|0.50,0.25,0.50,0.50,F|0.50,0.25,1.00,0.25,V|0.50,0.50,0.50,0.75,F|0.50,0.50,1.00,0.50,F|0.50,0.75,0.50,1.00,F|0.50,0.75,1.00,0.75,V",
+   "0.00,0.25,0.25,0.25,F|0.00,0.50,0.25,0.25,M|0.00,0.50,0.25,0.50,F|0.25,0.00,0.25,0.25,V|0.25,0.25,0.25,0.50,F|0.25,0.25,0.50,0.00,M|0.25,0.25,0.50,0.25,M|0.25,0.50,0.25,1.00,F|0.25,0.50,0.50,0.50,F|0.50,0.00,0.50,0.25,F|0.50,0.00,0.75,0.25,M|0.50,0.25,0.50,0.50,F|0.50,0.25,0.75,0.25,M|0.50,0.50,0.50,1.00,F|0.50,0.50,0.75,0.50,F|0.75,0.00,0.75,0.25,V|0.75,0.25,0.75,0.50,M|0.75,0.25,1.00,0.25,V|0.75,0.25,1.00,0.50,M|0.75,0.50,0.75,1.00,M|0.75,0.50,1.00,0.50,F",
+   "0.00,0.25,0.25,0.25,F|0.00,0.50,0.25,0.25,M|0.00,0.50,0.25,0.50,F|0.25,0.00,0.25,0.25,V|0.25,0.25,0.25,0.50,F|0.25,0.25,0.50,0.00,M|0.25,0.25,0.50,0.25,M|0.25,0.50,0.25,1.00,F|0.25,0.50,0.50,0.50,F|0.50,0.00,0.50,0.25,F|0.50,0.00,0.75,0.25,M|0.50,0.25,0.50,0.50,F|0.50,0.25,0.75,0.25,M|0.50,0.50,0.50,1.00,F|0.50,0.50,0.75,0.50,F|0.75,0.00,0.75,0.25,V|0.75,0.25,0.75,0.50,F|0.75,0.25,1.00,0.25,F|0.75,0.25,1.00,0.50,M|0.75,0.50,0.75,1.00,F|0.75,0.50,1.00,0.50,F",
+   "0.00,0.12,0.50,0.12,M|0.00,0.25,0.50,0.25,F|0.00,0.50,0.50,0.50,F|0.00,0.75,0.50,0.75,F|0.50,0.00,0.50,0.12,F|0.50,0.00,0.62,0.12,M|0.50,0.12,0.50,0.25,F|0.50,0.12,0.62,0.12,M|0.50,0.25,0.50,0.50,F|0.50,0.25,0.75,0.25,F|0.50,0.50,0.50,0.75,F|0.50,0.50,0.75,0.50,F|0.50,0.75,0.50,1.00,F|0.50,0.75,0.75,0.75,F|0.50,1.00,0.75,0.75,M|0.62,0.00,0.62,0.12,V|0.62,0.12,0.75,0.25,M|0.75,0.00,0.75,0.25,F|0.75,0.25,0.75,0.50,M|0.75,0.25,1.00,0.25,V|0.75,0.25,1.00,0.50,M|0.75,0.50,0.75,0.75,M|0.75,0.50,1.00,0.50,F|0.75,0.75,0.75,1.00,F|0.75,0.75,1.00,0.50,M|0.75,0.75,1.00,0.75,V",
+   "0.00,0.12,0.50,0.12,M|0.00,0.25,0.50,0.25,F|0.00,0.50,0.50,0.50,F|0.00,0.75,0.50,0.75,F|0.00,0.88,0.50,0.88,M|0.50,0.00,0.50,0.12,F|0.50,0.00,0.62,0.12,M|0.50,0.12,0.50,0.25,F|0.50,0.12,0.62,0.12,M|0.50,0.25,0.50,0.50,F|0.50,0.25,0.75,0.25,F|0.50,0.50,0.50,0.75,F|0.50,0.50,0.75,0.50,F|0.50,0.75,0.50,0.88,F|0.50,0.75,0.75,0.75,F|0.50,0.88,0.50,1.00,F|0.50,0.88,0.62,0.88,M|0.50,1.00,0.62,0.88,M|0.62,0.00,0.62,0.12,V|0.62,0.12,0.75,0.25,M|0.62,0.88,0.62,1.00,V|0.62,0.88,0.75,0.75,M|0.75,0.00,0.75,0.25,F|0.75,0.25,0.75,0.50,M|0.75,0.25,1.00,0.25,V|0.75,0.25,1.00,0.50,M|0.75,0.50,0.75,0.75,M|0.75,0.50,1.00,0.50,F|0.75,0.75,0.75,1.00,F|0.75,0.75,1.00,0.50,M|0.75,0.75,1.00,0.75,V",
+   "0.00,0.12,0.50,0.12,M|0.00,0.25,0.50,0.25,F|0.00,0.50,0.50,0.50,F|0.00,0.75,0.50,0.75,F|0.00,0.88,0.50,0.88,M|0.50,0.00,0.50,0.12,F|0.50,0.00,0.62,0.12,M|0.50,0.12,0.50,0.25,F|0.50,0.12,0.62,0.12,M|0.50,0.25,0.50,0.50,F|0.50,0.25,0.75,0.25,F|0.50,0.50,0.50,0.75,F|0.50,0.50,0.75,0.50,F|0.50,0.75,0.50,0.88,F|0.50,0.75,0.75,0.75,F|0.50,0.88,0.50,1.00,F|0.50,0.88,0.62,0.88,M|0.50,1.00,0.62,0.88,M|0.62,0.00,0.62,0.12,V|0.62,0.12,0.75,0.25,M|0.62,0.88,0.62,1.00,V|0.62,0.88,0.75,0.75,M|0.75,0.00,0.75,0.25,F|0.75,0.25,0.75,0.50,M|0.75,0.25,1.00,0.25,V|0.75,0.25,1.00,0.50,M|0.75,0.50,0.75,0.75,M|0.75,0.50,1.00,0.50,F|0.75,0.75,0.75,1.00,F|0.75,0.75,1.00,0.50,M|0.75,0.75,1.00,0.75,V",
+   "0.00,0.12,0.25,0.12,M|0.00,0.25,0.25,0.25,F|0.00,0.50,0.25,0.50,F|0.00,0.75,0.25,0.75,F|0.00,0.88,0.25,0.88,M|0.25,0.00,0.25,0.12,V|0.25,0.12,0.25,0.25,M|0.25,0.12,0.50,0.12,M|0.25,0.25,0.25,0.50,M|0.25,0.25,0.50,0.25,F|0.25,0.50,0.25,0.75,M|0.25,0.50,0.50,0.50,F|0.25,0.75,0.25,0.88,M|0.25,0.75,0.50,0.75,F|0.25,0.88,0.25,1.00,V|0.25,0.88,0.50,0.88,M|0.50,0.00,0.50,0.12,F|0.50,0.00,0.62,0.12,M|0.50,0.12,0.50,0.25,F|0.50,0.12,0.62,0.12,M|0.50,0.25,0.50,0.50,F|0.50,0.25,0.75,0.25,F|0.50,0.50,0.50,0.75,F|0.50,0.50,0.75,0.50,F|0.50,0.75,0.50,0.88,F|0.50,0.75,0.75,0.75,F|0.50,0.88,0.50,1.00,F|0.50,0.88,0.62,0.88,M|0.50,1.00,0.62,0.88,M|0.62,0.00,0.62,0.12,V|0.62,0.12,0.75,0.25,M|0.62,0.88,0.62,1.00,V|0.62,0.88,0.75,0.75,M|0.75,0.00,0.75,0.25,F|0.75,0.25,0.75,0.50,M|0.75,0.25,1.00,0.25,V|0.75,0.25,1.00,0.50,M|0.75,0.50,0.75,0.75,M|0.75,0.50,1.00,0.50,F|0.75,0.75,0.75,1.00,F|0.75,0.75,1.00,0.50,M|0.75,0.75,1.00,0.75,V",
+   "0.00,0.12,0.12,0.12,M|0.00,0.25,0.25,0.25,F|0.00,0.50,0.25,0.50,F|0.00,0.75,0.25,0.75,F|0.00,0.88,0.25,0.88,M|0.12,0.12,0.25,0.00,M|0.12,0.12,0.25,0.12,M|0.12,0.12,0.25,0.25,V|0.25,0.00,0.25,0.12,V|0.25,0.00,0.38,0.12,V|0.25,0.12,0.25,0.25,M|0.25,0.12,0.38,0.12,M|0.25,0.25,0.25,0.50,M|0.25,0.25,0.38,0.12,M|0.25,0.25,0.50,0.25,F|0.25,0.50,0.25,0.75,M|0.25,0.50,0.50,0.50,F|0.25,0.75,0.25,0.88,M|0.25,0.75,0.50,0.75,F|0.25,0.88,0.25,1.00,V|0.25,0.88,0.50,0.88,M|0.38,0.12,0.50,0.12,M|0.50,0.00,0.50,0.12,F|0.50,0.00,0.62,0.12,M|0.50,0.12,0.50,0.25,F|0.50,0.12,0.62,0.12,M|0.50,0.25,0.50,0.50,F|0.50,0.25,0.75,0.25,F|0.50,0.50,0.50,0.75,F|0.50,0.50,0.75,0.50,F|0.50,0.75,0.50,0.88,F|0.50,0.75,0.75,0.75,F|0.50,0.88,0.50,1.00,F|0.50,0.88,0.62,0.88,M|0.50,1.00,0.62,0.88,M|0.62,0.00,0.62,0.12,V|0.62,0.12,0.75,0.25,M|0.62,0.88,0.62,1.00,V|0.62,0.88,0.75,0.75,M|0.75,0.00,0.75,0.25,F|0.75,0.25,0.75,0.50,M|0.75,0.25,1.00,0.25,V|0.75,0.25,1.00,0.50,M|0.75,0.50,0.75,0.75,M|0.75,0.50,1.00,0.50,F|0.75,0.75,0.75,1.00,F|0.75,0.75,1.00,0.50,M|0.75,0.75,1.00,0.75,V",
+   "0.00,0.12,0.12,0.12,M|0.00,0.25,0.25,0.25,F|0.00,0.50,0.25,0.50,F|0.00,0.75,0.25,0.75,F|0.00,0.88,0.12,0.88,M|0.12,0.12,0.25,0.00,M|0.12,0.12,0.25,0.12,M|0.12,0.12,0.25,0.25,V|0.12,0.88,0.25,0.75,V|0.12,0.88,0.25,0.88,M|0.12,0.88,0.25,1.00,M|0.25,0.00,0.25,0.12,V|0.25,0.00,0.38,0.12,V|0.25,0.12,0.25,0.25,M|0.25,0.12,0.38,0.12,M|0.25,0.25,0.25,0.50,M|0.25,0.25,0.38,0.12,M|0.25,0.25,0.50,0.25,F|0.25,0.50,0.25,0.75,M|0.25,0.50,0.50,0.50,F|0.25,0.75,0.25,0.88,M|0.25,0.75,0.38,0.88,M|0.25,0.75,0.50,0.75,F|0.25,0.88,0.25,1.00,V|0.25,0.88,0.38,0.88,M|0.25,1.00,0.38,0.88,V|0.38,0.12,0.50,0.12,M|0.38,0.88,0.50,0.88,M|0.50,0.00,0.50,0.12,F|0.50,0.00,0.62,0.12,M|0.50,0.12,0.50,0.25,F|0.50,0.12,0.62,0.12,M|0.50,0.25,0.50,0.50,F|0.50,0.25,0.75,0.25,F|0.50,0.50,0.50,0.75,F|0.50,0.50,0.75,0.50,F|0.50,0.75,0.50,0.88,F|0.50,0.75,0.75,0.75,F|0.50,0.88,0.50,1.00,F|0.50,0.88,0.62,0.88,M|0.50,1.00,0.62,0.88,M|0.62,0.00,0.62,0.12,V|0.62,0.12,0.75,0.25,M|0.62,0.88,0.62,1.00,V|0.62,0.88,0.75,0.75,M|0.75,0.00,0.75,0.25,F|0.75,0.25,0.75,0.50,M|0.75,0.25,1.00,0.25,V|0.75,0.25,1.00,0.50,M|0.75,0.50,0.75,0.75,M|0.75,0.50,1.00,0.50,F|0.75,0.75,0.75,1.00,F|0.75,0.75,1.00,0.50,M|0.75,0.75,1.00,0.75,V",
+   "0.00,0.12,0.12,0.12,M|0.00,0.25,0.25,0.25,F|0.00,0.50,0.25,0.50,F|0.00,0.75,0.25,0.75,F|0.00,0.88,0.12,0.88,M|0.12,0.12,0.25,0.00,M|0.12,0.12,0.25,0.12,M|0.12,0.12,0.25,0.25,V|0.12,0.88,0.25,0.75,V|0.12,0.88,0.25,0.88,M|0.12,0.88,0.25,1.00,M|0.25,0.00,0.25,0.12,V|0.25,0.00,0.38,0.12,V|0.25,0.12,0.25,0.25,M|0.25,0.12,0.38,0.12,M|0.25,0.25,0.25,0.50,M|0.25,0.25,0.38,0.12,M|0.25,0.25,0.50,0.25,F|0.25,0.50,0.25,0.75,M|0.25,0.50,0.50,0.50,F|0.25,0.75,0.25,0.88,M|0.25,0.75,0.38,0.88,M|0.25,0.75,0.50,0.75,F|0.25,0.88,0.25,1.00,V|0.25,0.88,0.38,0.88,M|0.25,1.00,0.38,0.88,V|0.38,0.12,0.50,0.12,M|0.38,0.88,0.50,0.88,M|0.50,0.00,0.50,0.12,F|0.50,0.00,0.62,0.12,M|0.50,0.12,0.50,0.25,F|0.50,0.12,0.62,0.12,M|0.50,0.25,0.50,0.50,F|0.50,0.25,0.75,0.25,F|0.50,0.50,0.50,0.75,F|0.50,0.50,0.75,0.50,F|0.50,0.75,0.50,0.88,F|0.50,0.75,0.75,0.75,F|0.50,0.88,0.50,1.00,F|0.50,0.88,0.62,0.88,M|0.50,1.00,0.62,0.88,M|0.62,0.00,0.62,0.12,V|0.62,0.12,0.75,0.25,M|0.62,0.88,0.62,1.00,V|0.62,0.88,0.75,0.75,M|0.75,0.00,0.75,0.25,F|0.75,0.25,0.75,0.50,M|0.75,0.25,1.00,0.25,V|0.75,0.25,1.00,0.50,M|0.75,0.50,0.75,0.75,M|0.75,0.50,1.00,0.50,F|0.75,0.75,0.75,1.00,F|0.75,0.75,1.00,0.50,M|0.75,0.75,1.00,0.75,V"
+  ],
+  "penguin": [
+   "<square>",
+   "<square>",
+   "0.00,0.00,1.00,1.00,M",
+   "0.00,0.00,1.00,1.00,F",
+   "0.00,0.00,0.50,0.50,F|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.50,0.50,F|0.00,1.00,0.50,0.50,F|0.50,0.50,1.00,0.00,F|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.20,0.20,F|0.00,0.40,0.20,0.20,M|0.00,1.00,0.50,0.50,F|0.20,0.20,0.40,0.00,M|0.20,0.20,0.50,0.50,F|0.50,0.50,1.00,0.00,F|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.20,0.20,F|0.00,0.40,0.20,0.20,M|0.00,1.00,0.50,0.50,F|0.20,0.20,0.40,0.00,M|0.20,0.20,0.50,0.50,F|0.50,0.50,1.00,0.00,F|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.20,0.20,F|0.00,0.40,0.20,0.20,M|0.00,0.70,0.23,0.77,M|0.00,1.00,0.23,0.77,F|0.20,0.20,0.40,0.00,M|0.20,0.20,0.50,0.50,F|0.23,0.77,0.50,0.50,F|0.23,0.77,1.00,1.00,M|0.50,0.50,1.00,0.00,F|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.20,0.20,F|0.00,0.40,0.20,0.20,M|0.00,0.70,0.23,0.77,M|0.00,1.00,0.23,0.77,F|0.20,0.20,0.40,0.00,M|0.20,0.20,0.50,0.50,F|0.23,0.77,0.50,0.50,F|0.23,0.77,1.00,1.00,M|0.50,0.50,0.77,0.23,F|0.50,0.50,1.00,1.00,F|0.70,0.00,0.77,0.23,M|0.77,0.23,1.00,0.00,F|0.77,0.23,1.00,1.00,M",
+   "0.00,0.00,0.12,0.38,M|0.00,0.00,0.25,0.25,F|0.00,0.00,0.38,0.12,M|0.00,0.36,0.12,0.38,V|0.00,1.00,0.23,0.77,F|0.12,0.38,0.23,0.77,M|0.12,0.38,0.25,0.25,M|0.23,0.77,0.30,1.00,M|0.23,0.77,0.50,0.50,F|0.25,0.25,0.38,0.12,M|0.25,0.25,0.50,0.50,F|0.36,0.00,0.38,0.12,V|0.38,0.12,0.77,0.23,M|0.50,0.50,0.77,0.23,F|0.50,0.50,0.80,0.80,F|0.60,1.00,0.80,0.80,M|0.77,0.23,1.00,0.00,F|0.77,0.23,1.00,0.30,M|0.80,0.80,1.00,0.60,M|0.80,0.80,1.00,1.00,F",
+   "0.00,0.00,0.12,0.38,M|0.00,0.00,0.25,0.25,F|0.00,0.00,0.38,0.12,M|0.00,0.36,0.12,0.38,V|0.00,1.00,0.23,0.77,F|0.12,0.38,0.23,0.77,M|0.12,0.38,0.25,0.25,M|0.23,0.77,0.30,1.00,M|0.23,0.77,0.50,0.50,F|0.25,0.25,0.38,0.12,M|0.25,0.25,0.50,0.50,F|0.36,0.00,0.38,0.12,V|0.38,0.12,0.77,0.23,M|0.50,0.50,0.77,0.23,F|0.50,0.50,0.80,0.80,F|0.60,1.00,0.80,0.80,M|0.77,0.23,1.00,0.00,F|0.77,0.23,1.00,0.30,M|0.80,0.80,1.00,0.60,M|0.80,0.80,1.00,1.00,F",
+   "0.00,0.00,0.12,0.38,M|0.00,0.00,0.25,0.25,V|0.00,0.00,0.38,0.12,M|0.00,0.36,0.12,0.38,V|0.00,1.00,0.23,0.77,F|0.12,0.38,0.23,0.77,M|0.12,0.38,0.25,0.25,M|0.23,0.77,0.30,1.00,M|0.23,0.77,0.50,0.50,F|0.25,0.25,0.38,0.12,M|0.25,0.25,0.50,0.50,M|0.36,0.00,0.38,0.12,V|0.38,0.12,0.77,0.23,M|0.50,0.50,0.77,0.23,F|0.50,0.50,0.80,0.80,M|0.60,1.00,0.80,0.80,M|0.77,0.23,1.00,0.00,F|0.77,0.23,1.00,0.30,M|0.80,0.80,1.00,0.60,M|0.80,0.80,1.00,1.00,V"
+  ],
+  "sunflower": [
+   "<square>",
+   "0.00,0.50,1.00,0.50,M",
+   "0.00,0.50,1.00,0.50,F",
+   "0.00,0.50,0.50,0.50,F|0.50,0.00,0.50,0.50,M|0.50,0.50,0.50,1.00,M|0.50,0.50,1.00,0.50,F",
+   "0.00,0.50,0.50,0.50,F|0.50,0.00,0.50,0.50,F|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F",
+   "0.00,0.50,0.50,0.00,M|0.00,0.50,0.50,0.50,F|0.50,0.00,0.50,0.50,F|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F",
+   "0.00,0.50,0.50,0.00,M|0.00,0.50,0.50,0.50,F|0.00,0.50,0.50,1.00,M|0.50,0.00,0.50,0.50,F|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F",
+   "0.00,0.50,0.50,0.00,M|0.00,0.50,0.50,0.50,F|0.00,0.50,0.50,1.00,M|0.50,0.00,0.50,0.50,F|0.50,0.00,1.00,0.50,M|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F",
+   "0.00,0.50,0.50,0.00,M|0.00,0.50,0.50,0.50,F|0.00,0.50,0.50,1.00,M|0.50,0.00,0.50,0.50,F|0.50,0.00,1.00,0.50,M|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F|0.50,1.00,1.00,0.50,M",
+   "0.00,0.40,0.40,0.00,M|0.00,0.50,0.50,0.00,V|0.00,0.50,0.50,0.50,F|0.00,0.50,0.50,1.00,V|0.50,0.00,0.50,0.50,F|0.50,0.00,1.00,0.50,V|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F|0.50,1.00,1.00,0.50,V",
+   "0.00,0.40,0.40,0.00,M|0.00,0.50,0.50,0.00,V|0.00,0.50,0.50,0.50,F|0.00,0.50,0.50,1.00,V|0.00,0.60,0.40,1.00,M|0.50,0.00,0.50,0.50,F|0.50,0.00,1.00,0.50,V|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F|0.50,1.00,1.00,0.50,V",
+   "0.00,0.40,0.40,0.00,M|0.00,0.50,0.50,0.00,V|0.00,0.50,0.50,0.50,F|0.00,0.50,0.50,1.00,V|0.00,0.60,0.40,1.00,M|0.50,0.00,0.50,0.50,F|0.50,0.00,1.00,0.50,V|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F|0.50,1.00,1.00,0.50,V|0.60,0.00,1.00,0.40,M",
+   "0.00,0.40,0.40,0.00,M|0.00,0.50,0.50,0.00,V|0.00,0.50,0.50,0.50,F|0.00,0.50,0.50,1.00,V|0.00,0.60,0.40,1.00,M|0.50,0.00,0.50,0.50,F|0.50,0.00,1.00,0.50,V|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F|0.50,1.00,1.00,0.50,V|0.60,0.00,1.00,0.40,M|0.60,1.00,1.00,0.60,M",
+   "0.00,0.40,0.40,0.00,M|0.00,0.50,0.50,0.00,V|0.00,0.50,0.50,0.50,F|0.00,0.50,0.50,1.00,V|0.00,0.60,0.40,1.00,M|0.50,0.00,0.50,0.50,F|0.50,0.00,1.00,0.50,V|0.50,0.50,0.50,1.00,F|0.50,0.50,1.00,0.50,F|0.50,1.00,1.00,0.50,V|0.60,0.00,1.00,0.40,M|0.60,1.00,1.00,0.60,M"
+  ],
+  "tulip": [
+   "<square>",
+   "<square>",
+   "0.00,0.00,1.00,1.00,M",
+   "0.00,0.00,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,V",
+   "0.00,0.00,0.50,0.50,F|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.50,0.50,F|0.00,0.37,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.50,0.50,0.63,1.00,V|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.50,0.50,F|0.00,0.37,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.37,0.00,0.50,0.50,M|0.50,0.50,0.63,1.00,V|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,0.63,V|0.50,0.50,1.00,1.00,F"
+  ],
+  "tulip_stem": [
+   "<square>",
+   "<square>",
+   "0.00,0.00,1.00,1.00,M",
+   "0.00,0.00,1.00,1.00,F",
+   "0.00,0.00,0.41,1.00,M|0.00,0.00,1.00,1.00,F",
+   "0.00,0.00,0.41,1.00,M|0.00,0.00,1.00,0.41,M|0.00,0.00,1.00,1.00,F",
+   "0.00,0.00,0.41,1.00,M|0.00,0.00,1.00,0.41,M|0.00,0.00,1.00,1.00,M",
+   "0.00,0.00,0.41,1.00,M|0.00,0.00,1.00,0.41,M|0.00,0.00,1.00,1.00,M",
+   "0.00,0.00,0.14,0.35,M|0.00,0.41,0.14,0.35,M|0.00,1.00,0.29,0.71,M|0.14,0.35,0.29,0.71,V|0.14,0.35,1.00,0.00,M|0.29,0.71,0.65,0.86,M|0.29,0.71,1.00,0.00,M|0.59,1.00,0.65,0.86,M|0.65,0.86,1.00,0.00,M|0.65,0.86,1.00,1.00,V"
+  ],
+  "cup": [
+   "<square>",
+   "<square>",
+   "0.00,0.00,1.00,1.00,M",
+   "0.00,0.00,0.41,1.00,M|0.00,0.00,1.00,1.00,V",
+   "0.00,0.00,0.41,1.00,F|0.00,0.00,1.00,1.00,M",
+   "0.00,0.00,0.21,0.50,F|0.00,0.00,0.41,0.41,M|0.00,0.59,0.21,0.50,V|0.21,0.50,0.41,0.41,V|0.21,0.50,0.41,1.00,F|0.41,0.41,0.59,0.00,M|0.41,0.41,1.00,1.00,M",
+   "0.00,0.00,0.21,0.50,F|0.00,0.00,0.41,0.41,M|0.00,0.59,0.21,0.50,V|0.21,0.50,0.41,0.41,V|0.21,0.50,0.41,1.00,F|0.41,0.41,0.59,0.00,M|0.41,0.41,0.59,0.59,M|0.41,1.00,0.59,0.59,V|0.59,0.59,1.00,0.41,M|0.59,0.59,1.00,1.00,M",
+   "0.00,0.00,0.21,0.50,F|0.00,0.00,0.41,0.41,M|0.00,0.59,0.21,0.50,V|0.00,0.59,0.41,1.00,V|0.21,0.50,0.41,0.41,V|0.21,0.50,0.41,1.00,F|0.41,0.41,0.59,0.00,M|0.41,0.41,0.59,0.59,M|0.41,1.00,0.59,0.59,V|0.59,0.59,1.00,0.41,M|0.59,0.59,1.00,1.00,M",
+   "0.00,0.00,0.21,0.50,F|0.00,0.00,0.41,0.41,M|0.00,0.59,0.21,0.50,V|0.00,0.59,0.41,1.00,V|0.21,0.50,0.41,0.41,V|0.21,0.50,0.41,1.00,F|0.41,0.41,0.59,0.00,M|0.41,0.41,0.59,0.59,M|0.41,1.00,0.59,0.59,V|0.59,0.59,1.00,0.41,M|0.59,0.59,1.00,1.00,M",
+   "0.00,0.00,0.21,0.50,F|0.00,0.00,0.41,0.41,M|0.00,0.59,0.21,0.50,V|0.00,0.59,0.41,1.00,V|0.21,0.50,0.41,0.41,V|0.21,0.50,0.41,1.00,F|0.41,0.41,0.59,0.00,M|0.41,0.41,0.59,0.59,M|0.41,1.00,0.59,0.59,V|0.59,0.00,1.00,0.41,M|0.59,0.59,1.00,0.41,M|0.59,0.59,1.00,1.00,M"
+  ],
+  "horse_head": [
+   "<square>",
+   "<square>",
+   "0.00,0.00,1.00,1.00,M",
+   "0.00,0.00,1.00,1.00,F",
+   "0.00,0.00,0.50,0.50,F|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.50,0.50,F|0.00,1.00,0.50,0.50,F|0.50,0.50,1.00,0.00,F|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.25,0.25,F|0.00,0.50,0.25,0.25,M|0.00,1.00,0.50,0.50,F|0.25,0.25,0.50,0.00,M|0.25,0.25,0.50,0.50,F|0.50,0.50,1.00,0.00,F|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.25,0.25,F|0.00,0.50,0.25,0.25,F|0.00,1.00,0.50,0.50,F|0.25,0.25,0.50,0.00,F|0.25,0.25,0.50,0.50,F|0.50,0.50,1.00,0.00,F|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.25,0.25,F|0.00,0.50,0.25,0.25,F|0.00,1.00,0.50,0.50,F|0.25,0.25,0.50,0.00,F|0.25,0.25,0.50,0.50,F|0.50,0.50,1.00,0.00,F|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.12,0.12,F|0.00,0.25,0.12,0.12,M|0.00,0.50,0.25,0.25,F|0.00,1.00,0.50,0.50,F|0.12,0.12,0.25,0.00,M|0.12,0.12,0.25,0.25,F|0.25,0.25,0.50,0.00,F|0.25,0.25,0.50,0.50,F|0.50,0.50,1.00,0.00,F|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.12,0.12,F|0.00,0.25,0.12,0.12,M|0.00,0.50,0.25,0.25,F|0.00,1.00,0.50,0.50,F|0.12,0.12,0.25,0.00,M|0.12,0.12,0.25,0.25,F|0.25,0.25,0.50,0.00,F|0.25,0.25,0.50,0.50,F|0.50,0.50,1.00,0.00,F|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.12,0.12,F|0.00,0.25,0.07,0.43,M|0.00,0.25,0.12,0.12,M|0.00,0.50,0.07,0.43,F|0.00,1.00,0.22,0.78,F|0.07,0.43,0.22,0.78,M|0.07,0.43,0.25,0.25,F|0.12,0.12,0.25,0.00,M|0.12,0.12,0.25,0.25,F|0.22,0.78,0.31,1.00,M|0.22,0.78,0.50,0.50,F|0.25,0.25,0.50,0.00,F|0.25,0.25,0.50,0.50,F|0.50,0.50,1.00,0.00,F|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.12,0.12,F|0.00,0.25,0.07,0.43,M|0.00,0.25,0.12,0.12,M|0.00,0.50,0.07,0.43,F|0.00,1.00,0.22,0.78,F|0.07,0.43,0.22,0.78,M|0.07,0.43,0.25,0.25,F|0.12,0.12,0.25,0.00,M|0.12,0.12,0.25,0.25,F|0.22,0.78,0.31,1.00,M|0.22,0.78,0.50,0.50,F|0.25,0.00,0.43,0.07,M|0.25,0.25,0.43,0.07,F|0.25,0.25,0.50,0.50,F|0.43,0.07,0.50,0.00,F|0.43,0.07,0.78,0.22,M|0.50,0.50,0.78,0.22,F|0.50,0.50,1.00,1.00,F|0.78,0.22,1.00,0.00,F|0.78,0.22,1.00,0.31,M",
+   "0.00,0.00,0.12,0.12,F|0.00,0.25,0.07,0.43,M|0.00,0.25,0.12,0.12,M|0.00,0.50,0.07,0.43,F|0.00,1.00,0.22,0.78,F|0.07,0.43,0.22,0.78,M|0.07,0.43,0.25,0.25,F|0.12,0.12,0.25,0.00,M|0.12,0.12,0.25,0.25,F|0.22,0.78,0.31,1.00,M|0.22,0.78,0.50,0.50,F|0.25,0.00,0.43,0.07,M|0.25,0.25,0.43,0.07,F|0.25,0.25,0.50,0.50,F|0.31,1.00,0.66,0.66,M|0.43,0.07,0.50,0.00,F|0.43,0.07,0.78,0.22,M|0.50,0.50,0.66,0.66,F|0.50,0.50,0.78,0.22,F|0.66,0.66,1.00,0.31,M|0.66,0.66,1.00,1.00,F|0.78,0.22,1.00,0.00,F|0.78,0.22,1.00,0.31,M",
+   "0.00,0.00,0.12,0.12,F|0.00,0.25,0.07,0.43,M|0.00,0.25,0.12,0.12,M|0.00,0.50,0.07,0.43,F|0.00,1.00,0.22,0.78,F|0.07,0.43,0.22,0.78,M|0.07,0.43,0.25,0.25,F|0.12,0.12,0.25,0.00,M|0.12,0.12,0.25,0.25,F|0.22,0.78,0.31,1.00,M|0.22,0.78,0.50,0.50,F|0.25,0.00,0.43,0.07,M|0.25,0.25,0.43,0.07,F|0.25,0.25,0.50,0.50,F|0.31,1.00,0.66,0.66,M|0.43,0.07,0.50,0.00,F|0.43,0.07,0.78,0.22,M|0.50,0.50,0.66,0.66,F|0.50,0.50,0.78,0.22,F|0.59,1.00,0.79,0.79,V|0.66,0.66,0.79,0.79,F|0.66,0.66,1.00,0.31,M|0.78,0.22,1.00,0.00,F|0.78,0.22,1.00,0.31,M|0.79,0.79,1.00,0.59,V|0.79,0.79,1.00,1.00,F",
+   "0.00,0.00,0.12,0.12,F|0.00,0.25,0.07,0.43,M|0.00,0.25,0.12,0.12,M|0.00,0.50,0.07,0.43,F|0.00,1.00,0.22,0.78,F|0.07,0.43,0.22,0.78,M|0.07,0.43,0.25,0.25,F|0.12,0.12,0.25,0.00,M|0.12,0.12,0.25,0.25,F|0.16,1.00,0.26,0.87,V|0.22,0.78,0.26,0.87,M|0.22,0.78,0.50,0.50,F|0.25,0.00,0.43,0.07,M|0.25,0.25,0.43,0.07,F|0.25,0.25,0.50,0.50,F|0.26,0.87,0.31,1.00,M|0.26,0.87,0.41,0.90,M|0.31,1.00,0.41,0.90,M|0.41,0.90,0.43,1.00,V|0.41,0.90,0.66,0.66,M|0.43,0.07,0.50,0.00,F|0.43,0.07,0.78,0.22,M|0.50,0.50,0.66,0.66,F|0.50,0.50,0.78,0.22,F|0.59,1.00,0.79,0.79,V|0.66,0.66,0.79,0.79,F|0.66,0.66,1.00,0.31,M|0.78,0.22,1.00,0.00,F|0.78,0.22,1.00,0.31,M|0.79,0.79,1.00,0.59,V|0.79,0.79,1.00,1.00,F",
+   "0.00,0.00,0.12,0.12,F|0.00,0.25,0.07,0.43,M|0.00,0.25,0.12,0.12,M|0.00,0.50,0.07,0.43,F|0.00,1.00,0.22,0.78,F|0.07,0.43,0.22,0.78,M|0.07,0.43,0.25,0.25,F|0.12,0.12,0.25,0.00,M|0.12,0.12,0.25,0.25,F|0.16,1.00,0.26,0.87,V|0.22,0.78,0.26,0.87,M|0.22,0.78,0.50,0.50,F|0.25,0.00,0.43,0.07,M|0.25,0.25,0.43,0.07,F|0.25,0.25,0.50,0.50,F|0.26,0.87,0.31,1.00,M|0.26,0.87,0.41,0.90,M|0.31,1.00,0.41,0.90,M|0.41,0.90,0.43,1.00,V|0.41,0.90,0.66,0.66,M|0.43,0.07,0.50,0.00,F|0.43,0.07,0.78,0.22,M|0.50,0.50,0.66,0.66,F|0.50,0.50,0.78,0.22,F|0.59,1.00,0.79,0.79,V|0.66,0.66,0.79,0.79,F|0.66,0.66,0.90,0.41,M|0.78,0.22,0.87,0.26,M|0.78,0.22,1.00,0.00,F|0.79,0.79,1.00,0.59,V|0.79,0.79,1.00,1.00,F|0.87,0.26,0.90,0.41,M|0.87,0.26,1.00,0.16,V|0.87,0.26,1.00,0.31,M|0.90,0.41,1.00,0.31,M|0.90,0.41,1.00,0.43,V",
+   "0.00,0.00,0.12,0.12,M|0.00,0.25,0.07,0.43,V|0.00,0.25,0.12,0.12,V|0.00,0.50,0.07,0.43,F|0.00,1.00,0.22,0.78,F|0.07,0.43,0.22,0.78,V|0.07,0.43,0.25,0.25,F|0.12,0.12,0.25,0.00,V|0.12,0.12,0.25,0.25,V|0.16,1.00,0.26,0.87,M|0.22,0.78,0.26,0.87,V|0.22,0.78,0.50,0.50,F|0.25,0.00,0.43,0.07,V|0.25,0.25,0.43,0.07,F|0.25,0.25,0.50,0.50,V|0.26,0.87,0.31,1.00,V|0.26,0.87,0.41,0.90,V|0.31,1.00,0.41,0.90,V|0.41,0.90,0.43,1.00,M|0.41,0.90,0.66,0.66,V|0.43,0.07,0.50,0.00,F|0.43,0.07,0.78,0.22,V|0.50,0.50,0.66,0.66,V|0.50,0.50,0.78,0.22,F|0.59,1.00,0.79,0.79,M|0.66,0.66,0.79,0.79,M|0.66,0.66,0.90,0.41,V|0.78,0.22,0.87,0.26,V|0.78,0.22,1.00,0.00,F|0.79,0.79,1.00,0.59,M|0.79,0.79,1.00,1.00,V|0.87,0.26,0.90,0.41,V|0.87,0.26,1.00,0.16,M|0.87,0.26,1.00,0.31,V|0.90,0.41,1.00,0.31,V|0.90,0.41,1.00,0.43,M",
+   "0.00,0.00,0.12,0.12,M|0.00,0.25,0.07,0.43,V|0.00,0.25,0.12,0.12,V|0.00,0.50,0.07,0.43,F|0.00,1.00,0.22,0.78,F|0.07,0.43,0.22,0.78,V|0.07,0.43,0.25,0.25,F|0.12,0.12,0.25,0.00,V|0.12,0.12,0.25,0.25,V|0.16,1.00,0.26,0.87,M|0.22,0.78,0.26,0.87,V|0.22,0.78,0.50,0.50,F|0.25,0.00,0.43,0.07,V|0.25,0.25,0.43,0.07,F|0.25,0.25,0.50,0.50,V|0.26,0.87,0.31,1.00,V|0.26,0.87,0.41,0.90,V|0.31,1.00,0.41,0.90,V|0.41,0.90,0.43,1.00,M|0.41,0.90,0.66,0.66,V|0.43,0.07,0.50,0.00,F|0.43,0.07,0.78,0.22,V|0.50,0.50,0.66,0.66,V|0.50,0.50,0.78,0.22,F|0.59,1.00,0.79,0.79,M|0.66,0.66,0.79,0.79,M|0.66,0.66,0.90,0.41,V|0.78,0.22,0.87,0.26,V|0.78,0.22,1.00,0.00,F|0.79,0.79,1.00,0.59,M|0.79,0.79,1.00,1.00,V|0.87,0.26,0.90,0.41,V|0.87,0.26,1.00,0.16,M|0.87,0.26,1.00,0.31,V|0.90,0.41,1.00,0.31,V|0.90,0.41,1.00,0.43,M"
+  ],
+  "paper_bird": [
+   "<square>",
+   "<square>",
+   "0.00,0.00,1.00,1.00,M",
+   "0.00,0.00,1.00,1.00,M|0.00,0.33,0.67,1.00,M|0.33,0.00,1.00,0.67,V",
+   "0.00,0.00,1.00,1.00,M|0.00,0.33,0.67,1.00,M|0.33,0.00,1.00,0.67,V",
+   "0.00,0.00,1.00,1.00,M|0.00,0.33,0.67,1.00,F|0.33,0.00,1.00,0.67,V",
+   "0.00,0.00,0.33,0.33,M|0.00,0.67,0.33,0.33,F|0.00,1.00,0.50,0.50,V|0.33,0.33,0.50,0.50,M|0.33,0.33,0.67,0.00,F|0.33,1.00,0.67,0.67,M|0.50,0.50,0.67,0.67,V|0.50,0.50,1.00,0.00,V|0.67,0.67,1.00,0.33,M|0.67,0.67,1.00,1.00,M",
+   "0.00,0.00,0.33,0.33,M|0.00,0.67,0.33,0.33,F|0.00,1.00,0.50,0.50,V|0.33,0.33,0.50,0.50,M|0.33,0.33,0.67,0.00,F|0.33,1.00,0.67,0.67,M|0.50,0.50,0.67,0.67,V|0.50,0.50,1.00,0.00,V|0.67,0.67,1.00,0.33,M|0.67,0.67,1.00,1.00,M",
+   "0.00,0.00,0.33,0.33,M|0.00,0.33,0.17,0.50,F|0.00,0.67,0.17,0.50,M|0.00,1.00,0.33,0.67,V|0.17,0.50,0.33,0.33,M|0.17,0.50,0.33,0.67,F|0.33,0.00,0.50,0.17,V|0.33,0.33,0.50,0.17,V|0.33,0.33,0.50,0.50,M|0.33,0.67,0.50,0.50,V|0.33,0.67,0.67,1.00,F|0.50,0.17,0.67,0.00,M|0.50,0.17,0.67,0.33,V|0.50,0.50,0.67,0.33,M|0.50,0.50,1.00,1.00,M|0.67,0.33,1.00,0.00,V|0.67,0.33,1.00,0.67,V",
+   "0.00,0.00,0.33,0.33,M|0.00,0.33,0.17,0.50,F|0.00,0.67,0.17,0.50,M|0.00,1.00,0.33,0.67,V|0.17,0.50,0.33,0.33,M|0.17,0.50,0.33,0.67,F|0.33,0.00,0.50,0.17,V|0.33,0.33,0.50,0.17,V|0.33,0.33,0.50,0.50,M|0.33,0.67,0.50,0.50,V|0.33,0.67,0.67,1.00,F|0.50,0.17,0.67,0.00,M|0.50,0.17,0.67,0.33,V|0.50,0.50,0.67,0.33,M|0.50,0.50,1.00,1.00,M|0.67,0.33,1.00,0.00,V|0.67,0.33,1.00,0.67,V",
+   "0.00,0.00,0.33,0.33,M|0.00,0.33,0.17,0.50,F|0.00,0.67,0.17,0.50,M|0.00,1.00,0.33,0.67,V|0.17,0.50,0.33,0.33,M|0.17,0.50,0.33,0.67,F|0.33,0.00,0.50,0.17,V|0.33,0.33,0.50,0.17,V|0.33,0.33,0.50,0.50,M|0.33,0.67,0.50,0.50,V|0.33,0.67,0.50,0.83,F|0.33,1.00,0.50,0.83,V|0.50,0.17,0.67,0.00,M|0.50,0.17,0.67,0.33,V|0.50,0.50,0.67,0.33,M|0.50,0.50,0.67,0.67,M|0.50,0.83,0.67,0.67,V|0.50,0.83,0.67,1.00,F|0.67,0.33,0.83,0.50,V|0.67,0.33,1.00,0.00,V|0.67,0.67,0.83,0.50,M|0.67,0.67,1.00,1.00,M|0.83,0.50,1.00,0.33,V|0.83,0.50,1.00,0.67,V"
+  ],
+  "fox_head": [
+   "<square>",
+   "<square>",
+   "0.00,0.00,1.00,1.00,M",
+   "0.00,0.00,0.50,0.50,M|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,V",
+   "0.00,0.00,0.50,0.50,F|0.00,1.00,0.50,0.50,M|0.50,0.50,1.00,0.00,M|0.50,0.50,1.00,1.00,F",
+   "0.00,0.00,0.28,0.28,M|0.00,1.00,0.28,0.28,M|0.00,1.00,0.50,0.50,F|0.28,0.28,0.50,0.50,M|0.28,0.28,1.00,0.00,V|0.50,0.50,1.00,0.00,F|0.50,0.50,1.00,1.00,M",
+   "0.00,0.00,0.28,0.28,M|0.00,1.00,0.28,0.28,M|0.00,1.00,0.50,0.50,F|0.00,1.00,0.72,0.72,M|0.28,0.28,0.50,0.50,M|0.28,0.28,1.00,0.00,V|0.50,0.50,0.72,0.72,M|0.50,0.50,1.00,0.00,F|0.72,0.72,1.00,0.00,V|0.72,0.72,1.00,1.00,M",
+   "0.00,0.00,0.28,0.28,M|0.00,1.00,0.28,0.28,M|0.00,1.00,0.50,0.50,F|0.00,1.00,0.72,0.72,M|0.28,0.28,0.50,0.50,M|0.28,0.28,1.00,0.00,V|0.50,0.50,0.72,0.72,M|0.50,0.50,1.00,0.00,F|0.72,0.72,1.00,0.00,V|0.72,0.72,1.00,1.00,M"
+  ],
+  "santa_hat": [
+   "<square>",
+   "0.00,0.10,1.00,0.10,M",
+   "0.00,0.10,1.00,0.10,M",
+   "0.00,0.10,0.50,0.10,M|0.50,0.00,0.50,0.10,V|0.50,0.10,0.50,1.00,M|0.50,0.10,1.00,0.10,M",
+   "0.00,0.10,0.50,0.10,M|0.50,0.00,0.50,0.10,F|0.50,0.10,0.50,1.00,F|0.50,0.10,1.00,0.10,M",
+   "0.00,0.10,0.50,0.10,M|0.00,0.50,0.50,1.00,M|0.50,0.00,0.50,0.10,F|0.50,0.10,0.50,1.00,F|0.50,0.10,1.00,0.10,M",
+   "0.00,0.10,0.50,0.10,M|0.00,0.50,0.50,1.00,M|0.50,0.00,0.50,0.10,F|0.50,0.10,0.50,1.00,F|0.50,0.10,1.00,0.10,M|0.50,1.00,1.00,0.50,M",
+   "0.00,0.10,0.25,0.10,M|0.00,0.50,0.50,1.00,M|0.00,0.86,0.50,1.00,V|0.25,0.10,0.28,0.00,V|0.25,0.10,0.50,0.10,M|0.25,0.10,0.50,1.00,M|0.50,0.00,0.50,0.10,F|0.50,0.10,0.50,1.00,F|0.50,0.10,1.00,0.10,M|0.50,1.00,1.00,0.50,M",
+   "0.00,0.10,0.25,0.10,M|0.00,0.50,0.50,1.00,M|0.00,0.86,0.50,1.00,V|0.25,0.10,0.28,0.00,V|0.25,0.10,0.50,0.10,M|0.25,0.10,0.50,1.00,M|0.50,0.00,0.50,0.10,F|0.50,0.10,0.50,1.00,F|0.50,0.10,0.75,0.10,M|0.50,1.00,0.75,0.10,M|0.50,1.00,1.00,0.50,M|0.50,1.00,1.00,0.86,V|0.72,0.00,0.75,0.10,V|0.75,0.10,1.00,0.10,M",
+   "0.00,0.08,0.10,0.25,M|0.00,0.28,0.10,0.25,V|0.00,0.50,0.10,0.50,F|0.00,0.72,0.10,0.75,V|0.10,0.00,0.10,0.25,M|0.10,0.25,0.10,0.50,M|0.10,0.25,0.25,0.00,V|0.10,0.25,1.00,0.50,M|0.10,0.50,0.10,0.75,M|0.10,0.50,1.00,0.50,F|0.10,0.75,0.10,1.00,M|0.10,0.75,1.00,0.50,M|0.50,0.00,1.00,0.50,M|0.50,1.00,1.00,0.50,M|0.86,0.00,1.00,0.50,V|0.86,1.00,1.00,0.50,V",
+   "0.00,0.08,0.10,0.25,M|0.00,0.28,0.10,0.25,V|0.00,0.50,0.10,0.50,F|0.00,0.72,0.10,0.75,V|0.00,0.92,0.10,0.75,M|0.10,0.00,0.10,0.25,M|0.10,0.25,0.10,0.50,M|0.10,0.25,0.25,0.00,V|0.10,0.25,1.00,0.50,M|0.10,0.50,0.10,0.75,M|0.10,0.50,1.00,0.50,F|0.10,0.75,0.10,1.00,M|0.10,0.75,0.25,1.00,V|0.10,0.75,1.00,0.50,M|0.50,0.00,1.00,0.50,M|0.50,1.00,1.00,0.50,M|0.86,0.00,1.00,0.50,V|0.86,1.00,1.00,0.50,V",
+   "0.00,0.07,0.09,0.00,M|0.00,0.50,0.10,0.86,M|0.00,0.50,0.14,0.00,M|0.00,0.50,0.27,0.23,V|0.00,0.50,0.36,0.60,V|0.00,0.50,0.38,0.88,V|0.00,0.50,0.43,0.50,F|0.00,0.50,0.54,0.35,V|0.00,0.93,0.10,0.86,M|0.10,0.86,0.14,1.00,M|0.10,0.86,0.38,0.88,V|0.17,0.00,0.27,0.23,V|0.27,0.23,0.50,0.00,V|0.27,0.23,0.54,0.35,M|0.36,0.60,0.38,0.88,M|0.36,0.60,0.43,0.50,V|0.36,0.60,0.90,0.75,V|0.38,0.88,0.50,1.00,V|0.43,0.50,0.54,0.35,V|0.43,0.50,0.90,0.50,F|0.54,0.35,0.90,0.25,V|0.75,0.00,0.90,0.25,M|0.75,1.00,0.90,0.75,M|0.90,0.00,0.90,0.25,V|0.90,0.25,0.90,0.50,V|0.90,0.25,1.00,0.08,V|0.90,0.25,1.00,0.28,M|0.90,0.50,0.90,0.75,V|0.90,0.50,1.00,0.50,F|0.90,0.75,0.90,1.00,V|0.90,0.75,1.00,0.72,M|0.90,0.75,1.00,0.92,V",
+   "0.00,0.07,0.09,0.00,M|0.00,0.50,0.10,0.86,M|0.00,0.50,0.14,0.00,M|0.00,0.50,0.27,0.23,V|0.00,0.50,0.36,0.60,V|0.00,0.50,0.38,0.88,V|0.00,0.50,0.43,0.50,F|0.00,0.50,0.54,0.35,V|0.00,0.93,0.10,0.86,M|0.10,0.86,0.14,1.00,M|0.10,0.86,0.38,0.88,V|0.17,0.00,0.27,0.23,V|0.27,0.23,0.50,0.00,V|0.27,0.23,0.54,0.35,M|0.36,0.60,0.38,0.88,M|0.36,0.60,0.43,0.50,V|0.36,0.60,0.90,0.75,V|0.38,0.88,0.50,1.00,V|0.43,0.50,0.54,0.35,V|0.43,0.50,0.90,0.50,F|0.54,0.35,0.90,0.25,V|0.75,0.00,0.90,0.25,M|0.75,1.00,0.90,0.75,M|0.90,0.00,0.90,0.25,V|0.90,0.25,0.90,0.50,V|0.90,0.25,1.00,0.08,V|0.90,0.25,1.00,0.28,M|0.90,0.50,0.90,0.75,V|0.90,0.50,1.00,0.50,F|0.90,0.75,0.90,1.00,V|0.90,0.75,1.00,0.72,M|0.90,0.75,1.00,0.92,V"
+  ],
+  "sloth": [
+   "<square>",
+   "0.00,0.00,1.00,1.00,M",
+   "0.00,0.00,0.50,0.50,M|0.00,0.70,0.50,0.50,M|0.50,0.50,0.70,0.00,V|0.50,0.50,1.00,1.00,M",
+   "0.00,0.00,0.50,0.50,M|0.00,0.70,0.50,0.50,M|0.50,0.50,0.70,0.00,V|0.50,0.50,1.00,1.00,M",
+   "0.00,0.00,0.05,0.05,M|0.00,0.07,0.05,0.05,M|0.00,0.70,0.50,0.50,V|0.05,0.05,0.07,0.00,V|0.05,0.05,0.50,0.50,M|0.50,0.50,0.70,0.00,M|0.50,0.50,1.00,1.00,M",
+   "0.00,0.00,0.03,0.03,M|0.00,0.10,0.03,0.03,M|0.03,0.03,0.05,0.05,M|0.03,0.03,0.10,0.00,V|0.05,0.05,0.50,0.50,M|0.30,1.00,0.50,0.50,M|0.50,0.50,0.95,0.95,M|0.50,0.50,1.00,0.30,V|0.93,1.00,0.95,0.95,V|0.95,0.95,1.00,0.93,M|0.95,0.95,1.00,1.00,M"
+  ]
+ }
+}

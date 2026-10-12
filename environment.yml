@@ -1,0 +1,18 @@
+# Conda environment for origami-ad.
+#   conda env create -f environment.yml
+#   conda activate origami-ad
+# Run from the repo root after `git clone --recurse-submodules` (the pip section installs
+# the FoldingAgent submodule in editable mode). Re-run `conda env update -f environment.yml --prune`
+# after pulling changes.
+name: origami-ad
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - ffmpeg          # frame extraction (ffmpeg/ffprobe)
+  - nodejs>=18      # headless Flat-Folder compile for the CV metric
+  - pip:
+      - -e ./external/FoldingAgent
+      - git+https://github.com/maya-moriya/FoldingAgentSimulator.git@f6d4fc6aaf4dfa2c82a8b5f7274c198498f4f122
+      - -e .[review,dev]

@@ -1,0 +1,3 @@
+sequence,condition,completed,completion_rate,cv,tss_final,gs_final,cs_final,ffs_final,cpd_final,wall_time_s,cost_usd_estimate,tool_calls_total
+yacht,purelandfold,1.0,1.0,1.0,1.0,0.6932358513741348,0.9647490707753785,0.46811484034318107,66.14116133302196,250.1,0.7168,26.0
+__average__,purelandfold,1.0,1.0,1.0,1.0,0.6932358513741348,0.9647490707753785,0.46811484034318107,66.14116133302196,250.1,0.7168,26.0

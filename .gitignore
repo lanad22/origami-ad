@@ -1,0 +1,69 @@
+# ---- secrets ----
+.env
+.env.*
+!.env.example
+
+# ---- data that must never be committed ----
+# cached HF dataset (re-download with python -m origami_ad.dataset)
+data/purelandfold/
+# downloaded videos, extracted frames, YouTube API cache
+data/youtube/
+# Flat-Folder compile cache (content-addressed, rebuildable)
+data/cache/
+# keyframe dirs built for FoldingAgent (derived from dataset / videos)
+data/keyframes/
+# downloaded model weights (MediaPipe, HaMeR)
+data/models/
+# belt and braces: no media anywhere in the repo
+*.mp4
+*.mkv
+*.webm
+*.mov
+*.avi
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.arrow
+*.task
+*.pth
+*.ckpt
+*.safetensors
+
+# ---- agent run output ----
+# logs + metrics are committed; raw run dirs are not, except curated examples
+# whitelisted below (add one line per example run you want teammates to see).
+out/
+results/*/runs/*
+!results/purelandfold/runs/run_20261011_130937_gemini-3.1-pro-preview_yacht/
+# the media rule above would drop the example run's figures; keep them
+!results/*/runs/*/figs/*.png
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.hypothesis/
+.coverage
+htmlcov/
+
+# ---- node (flatfolder_compile.mjs) ----
+node_modules/
+
+# ---- streamlit ----
+.streamlit/secrets.toml
+
+# ---- editors / OS ----
+.DS_Store
+.idea/
+.vscode/
+*.swp
+.claude/settings.local.json

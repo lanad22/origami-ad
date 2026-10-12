@@ -1,0 +1,115 @@
+{
+  "_note": "Front = side facing up in keyframe 1, back = other side; read off the dataset keyframes (contact sheet). Names must resolve via origami.colors.resolve_paper_color.",
+  "_default": {
+    "front_color": "white",
+    "back_color": "lightblue"
+  },
+  "ladybug": {
+    "front_color": "white",
+    "back_color": "red"
+  },
+  "cat_face": {
+    "front_color": "white",
+    "back_color": "pink"
+  },
+  "cat": {
+    "front_color": "white",
+    "back_color": "pink"
+  },
+  "dog": {
+    "front_color": "white",
+    "back_color": "orange"
+  },
+  "gift_card_holder": {
+    "front_color": "white",
+    "back_color": "red"
+  },
+  "rabbit_head_v1": {
+    "front_color": "white",
+    "back_color": "pink"
+  },
+  "rabbit_head_v2": {
+    "front_color": "white",
+    "back_color": "pink"
+  },
+  "walrus": {
+    "front_color": "white",
+    "back_color": "blue"
+  },
+  "yacht": {
+    "front_color": "red",
+    "back_color": "white"
+  },
+  "rocket": {
+    "front_color": "white",
+    "back_color": "blue"
+  },
+  "heart": {
+    "front_color": "white",
+    "back_color": "red"
+  },
+  "snake": {
+    "front_color": "white",
+    "back_color": "green"
+  },
+  "shield": {
+    "front_color": "white",
+    "back_color": "red"
+  },
+  "pig": {
+    "front_color": "white",
+    "back_color": "pink"
+  },
+  "bird": {
+    "front_color": "white",
+    "back_color": "yellow"
+  },
+  "car": {
+    "front_color": "white",
+    "back_color": "green"
+  },
+  "girl": {
+    "front_color": "white",
+    "back_color": "orange"
+  },
+  "penguin": {
+    "front_color": "blue",
+    "back_color": "white"
+  },
+  "sunflower": {
+    "front_color": "white",
+    "back_color": "yellow"
+  },
+  "tulip": {
+    "front_color": "white",
+    "back_color": "pink"
+  },
+  "tulip_stem": {
+    "front_color": "white",
+    "back_color": "green"
+  },
+  "cup": {
+    "front_color": "white",
+    "back_color": "blue"
+  },
+  "horse_head": {
+    "front_color": "white",
+    "back_color": "orange"
+  },
+  "paper_bird": {
+    "front_color": "white",
+    "back_color": "pink"
+  },
+  "fox_head": {
+    "front_color": "white",
+    "back_color": "orange"
+  },
+  "santa_hat": {
+    "front_color": "red",
+    "back_color": "white"
+  },
+  "sloth": {
+    "front_color": "white",
+    "back_color": "orange"
+  }
+}

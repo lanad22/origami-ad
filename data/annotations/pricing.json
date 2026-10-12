@@ -1,0 +1,43 @@
+{
+  "_note": "USD per million tokens. Used only for cost *estimates* in run logs. Update when providers change prices.",
+  "gemini-3.1-pro-preview": {
+    "input_per_m": 2.0,
+    "output_per_m": 12.0,
+    "source": "inferred: FoldingAgent paper reports ~4M input + 68K output tokens = $8.9/sequence; verify against current Google pricing"
+  },
+  "gemini-3.1-pro": {
+    "input_per_m": 2.0,
+    "output_per_m": 12.0,
+    "source": "same as preview; verify"
+  },
+  "gpt-": {
+    "input_per_m": null,
+    "output_per_m": null,
+    "source": "fill from OpenAI pricing page"
+  },
+  "claude-opus-5-5": {
+    "input_per_m": 4.0,
+    "output_per_m": 20.0,
+    "source": "Anthropic pricing table, 2026-10"
+  },
+  "claude-sonnet-5-5": {
+    "input_per_m": 2.0,
+    "output_per_m": 10.0,
+    "source": "Anthropic pricing table, 2026-10"
+  },
+  "claude-haiku-5-5": {
+    "input_per_m": 0.1,
+    "output_per_m": 0.5,
+    "source": "Anthropic pricing table, 2026-10 (<=100K-token prompts)"
+  },
+  "claude-fable-5-1": {
+    "input_per_m": 10.0,
+    "output_per_m": 50.0,
+    "source": "Anthropic pricing table, 2026-10"
+  },
+  "claude-opus-4-7": {
+    "input_per_m": 5.0,
+    "output_per_m": 25.0,
+    "source": "Anthropic pricing table, 2026-10 (FoldingAgent's default Anthropic model id)"
+  }
+}

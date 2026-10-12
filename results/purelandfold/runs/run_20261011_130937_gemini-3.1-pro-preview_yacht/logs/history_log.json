@@ -1,0 +1,557 @@
+{
+  "current_frame": 6,
+  "checkpoints": [
+    {
+      "frame_index": 1,
+      "status": "Resolved",
+      "geometry": {
+        "vertices": {
+          "1": [
+            0,
+            1
+          ],
+          "2": [
+            1,
+            1
+          ],
+          "3": [
+            1,
+            0
+          ],
+          "4": [
+            0,
+            0
+          ]
+        },
+        "faces": {
+          "1": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "faces_orientations": {
+          "1": 0
+        },
+        "edges": [
+          [
+            1,
+            2,
+            "B"
+          ],
+          [
+            2,
+            3,
+            "B"
+          ],
+          [
+            3,
+            4,
+            "B"
+          ],
+          [
+            4,
+            1,
+            "B"
+          ]
+        ],
+        "layers": [
+          [
+            [
+              1
+            ]
+          ]
+        ]
+      },
+      "notes": "Initial flat square"
+    },
+    {
+      "frame_index": 2,
+      "status": "Resolved",
+      "geometry": {
+        "vertices": {
+          "1": [
+            1,
+            1
+          ],
+          "2": [
+            0,
+            1
+          ],
+          "3": [
+            0,
+            0
+          ],
+          "4": [
+            1,
+            0
+          ]
+        },
+        "faces": {
+          "1": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "faces_orientations": {
+          "1": 1
+        },
+        "edges": [
+          [
+            1,
+            2,
+            "B"
+          ],
+          [
+            2,
+            3,
+            "B"
+          ],
+          [
+            3,
+            4,
+            "B"
+          ],
+          [
+            4,
+            1,
+            "B"
+          ]
+        ],
+        "layers": [
+          [
+            [
+              1
+            ]
+          ]
+        ]
+      },
+      "notes": "Flipped horizontally to show white side."
+    },
+    {
+      "frame_index": 3,
+      "status": "Resolved",
+      "geometry": {
+        "vertices": {
+          "1": [
+            1,
+            1
+          ],
+          "2": [
+            1,
+            0
+          ],
+          "3": [
+            0,
+            0
+          ],
+          "4": [
+            1,
+            0
+          ]
+        },
+        "faces": {
+          "1": [
+            1,
+            3,
+            4
+          ],
+          "2": [
+            3,
+            1,
+            2
+          ]
+        },
+        "faces_orientations": {
+          "1": 1,
+          "2": 0
+        },
+        "edges": [
+          [
+            1,
+            3,
+            "M"
+          ],
+          [
+            3,
+            4,
+            "B"
+          ],
+          [
+            4,
+            1,
+            "B"
+          ],
+          [
+            1,
+            2,
+            "B"
+          ],
+          [
+            2,
+            3,
+            "B"
+          ]
+        ],
+        "layers": [
+          [
+            [
+              1
+            ]
+          ],
+          [
+            [
+              2
+            ]
+          ]
+        ]
+      },
+      "notes": "Diagonal fold from bottom-left to top-right."
+    },
+    {
+      "frame_index": 4,
+      "status": "Resolved",
+      "geometry": {
+        "vertices": {
+          "1": [
+            1,
+            1
+          ],
+          "2": [
+            0.292893,
+            0.292894
+          ],
+          "3": [
+            0,
+            0
+          ],
+          "4": [
+            1,
+            0
+          ],
+          "5": [
+            0.585786,
+            0
+          ]
+        },
+        "faces": {
+          "1": [
+            1,
+            3,
+            4
+          ],
+          "2": [
+            1,
+            5,
+            3
+          ],
+          "3": [
+            5,
+            1,
+            2
+          ]
+        },
+        "faces_orientations": {
+          "1": 1,
+          "2": 0,
+          "3": 1
+        },
+        "edges": [
+          [
+            1,
+            3,
+            "M"
+          ],
+          [
+            3,
+            4,
+            "B"
+          ],
+          [
+            4,
+            1,
+            "B"
+          ],
+          [
+            1,
+            5,
+            "V"
+          ],
+          [
+            5,
+            3,
+            "B"
+          ],
+          [
+            1,
+            2,
+            "B"
+          ],
+          [
+            2,
+            5,
+            "B"
+          ]
+        ],
+        "layers": [
+          [
+            [
+              1
+            ]
+          ],
+          [
+            [
+              2
+            ]
+          ],
+          [
+            [
+              3
+            ]
+          ]
+        ]
+      },
+      "notes": "Fold right vertical edge to hypotenuse"
+    },
+    {
+      "frame_index": 5,
+      "status": "Resolved",
+      "geometry": {
+        "vertices": {
+          "1": [
+            1,
+            1
+          ],
+          "2": [
+            0.292893,
+            0.292894
+          ],
+          "3": [
+            0,
+            0.292894
+          ],
+          "4": [
+            1,
+            0.292894
+          ],
+          "5": [
+            0.585786,
+            0.292894
+          ],
+          "6": [
+            0.146447,
+            0.146447
+          ],
+          "7": [
+            1,
+            0.146447
+          ],
+          "8": [
+            0.646446,
+            0.146447
+          ],
+          "9": [
+            0.439339,
+            0.146447
+          ]
+        },
+        "faces": {
+          "1": [
+            6,
+            7,
+            1
+          ],
+          "2": [
+            6,
+            8,
+            5,
+            3
+          ],
+          "3": [
+            8,
+            9,
+            5
+          ],
+          "4": [
+            7,
+            6,
+            3,
+            4
+          ],
+          "5": [
+            8,
+            6,
+            1
+          ],
+          "6": [
+            9,
+            8,
+            1,
+            2
+          ]
+        },
+        "faces_orientations": {
+          "1": 1,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 1
+        },
+        "edges": [
+          [
+            6,
+            7,
+            "M"
+          ],
+          [
+            7,
+            1,
+            "B"
+          ],
+          [
+            1,
+            6,
+            "M"
+          ],
+          [
+            6,
+            8,
+            "V"
+          ],
+          [
+            8,
+            5,
+            "V"
+          ],
+          [
+            5,
+            3,
+            "B"
+          ],
+          [
+            3,
+            6,
+            "M"
+          ],
+          [
+            8,
+            9,
+            "M"
+          ],
+          [
+            9,
+            5,
+            "B"
+          ],
+          [
+            3,
+            4,
+            "B"
+          ],
+          [
+            4,
+            7,
+            "B"
+          ],
+          [
+            1,
+            8,
+            "V"
+          ],
+          [
+            1,
+            2,
+            "B"
+          ],
+          [
+            2,
+            9,
+            "B"
+          ]
+        ],
+        "layers": [
+          [
+            [
+              1
+            ]
+          ],
+          [
+            [
+              5
+            ]
+          ],
+          [
+            [
+              6
+            ]
+          ],
+          [
+            [
+              3
+            ]
+          ],
+          [
+            [
+              2
+            ]
+          ],
+          [
+            [
+              4
+            ]
+          ]
+        ]
+      },
+      "notes": "Folded bottom up horizontally, completing the sailboat."
+    }
+  ],
+  "history": [
+    {
+      "event": "attempt",
+      "frame": 2,
+      "attempt": 0,
+      "operations": [
+        "flip(axis=x)"
+      ],
+      "verdict": "MATCH",
+      "reasoning": "The result diagram accurately reflects the target photo, showing the paper flipped to reveal its white side. The square silhouette and outline shape are perfectly maintained as expected for a basic flip operation."
+    },
+    {
+      "event": "attempt",
+      "frame": 3,
+      "attempt": 0,
+      "operations": [
+        "fold(direction=1,edge=[1, 3])"
+      ],
+      "verdict": "MATCH",
+      "reasoning": "The result diagram correctly shows a diagonal fold connecting the bottom-left and top-right corners. The silhouette and proportions of the resulting right triangle perfectly match the target photo, and the color correctly indicates that the front (red) side of the paper is exposed on the newly folde\u2026"
+    },
+    {
+      "event": "attempt",
+      "frame": 4,
+      "attempt": 0,
+      "operations": [
+        "add_vertex(edge=[2, 3],position=0.41421356)",
+        "fold(direction=-1,edge=[1, 5])"
+      ],
+      "verdict": "MATCH",
+      "reasoning": "The result diagram accurately depicts the fold shown in the target photo. The top-right corner acts as the pivot for the fold, bringing the right vertical edge to lie along the hypotenuse. The proportions of the resulting white flap and the remaining red area match the reference image."
+    },
+    {
+      "event": "attempt",
+      "frame": 5,
+      "attempt": 0,
+      "operations": [
+        "add_vertex(edge=[1, 3],position=0.85355339)",
+        "add_vertex(edge=[4, 1],position=0.1464466)",
+        "fold(direction=-1,edge=[6, 7])"
+      ],
+      "verdict": "MATCH",
+      "reasoning": "The result diagram correctly shows the bottom horizontal edge folded upwards to create the red boat hull. The fold correctly covers the lower portion of the model, bringing the top edge of the flap exactly to the bottom-left corner of the white sail. The left tip of the folded flap forms a sharp poi\u2026"
+    }
+  ]
+}

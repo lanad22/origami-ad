@@ -1,0 +1,38 @@
+{
+  "run": "run_20261011_130937_gemini-3.1-pro-preview_yacht",
+  "sequence": "yacht",
+  "keyframes": "/Users/lanado/Desktop/3D hand resconstruction origami/origami-ad/data/keyframes/purelandfold/yacht/keyframes.json",
+  "frame_count": 5,
+  "model": "gemini-3.1-pro-preview",
+  "backend": "GeminiBackend",
+  "attempt": 1,
+  "started": "2026-10-11T13:09:37",
+  "finished": "2026-10-11T13:13:47",
+  "elapsed_seconds": 250.1,
+  "stop_reason": "all_frames_solved",
+  "iterations": 19,
+  "frames_solved": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "tokens": {
+    "input": 315526,
+    "output": 7144,
+    "total": 324358
+  },
+  "thinking_time_seconds": 139.4,
+  "config": {
+    "max_iterations": 40,
+    "max_attempts_per_frame": 5,
+    "max_consecutive_no_tool_responses": 3,
+    "repeated_mismatch_attempts": 3,
+    "thinking_budget": 8192,
+    "backend_max_tokens": 8192,
+    "max_output_tokens": 4096,
+    "front_color": "red",
+    "back_color": "white"
+  }
+}

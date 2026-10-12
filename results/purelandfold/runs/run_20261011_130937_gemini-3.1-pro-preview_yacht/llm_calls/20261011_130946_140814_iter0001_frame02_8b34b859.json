@@ -1,0 +1,517 @@
+{
+  "request": {
+    "model": "gemini-3.1-pro-preview",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "You are solving an origami folding sequence with 5 frames.\nFrame 1 is the initial flat square (already loaded in the simulator).\nWork through each transition (1\u21922, 2\u21923, \u2026, 4\u21925) to reconstruct the full sequence.\n\nStart by calling save_checkpoint(1) to record the initial state, then view frames 1 and 2 to begin."
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "function_call": {
+              "id": "call_1045884",
+              "args": {
+                "frame_n": 1,
+                "notes": "Initial flat square"
+              },
+              "name": "save_checkpoint"
+            },
+            "thought_signature": "<bytes len=585>"
+          },
+          {
+            "function_call": {
+              "id": "call_1045885",
+              "args": {
+                "n": 1
+              },
+              "name": "view_frame"
+            }
+          },
+          {
+            "function_call": {
+              "id": "call_1045886",
+              "args": {
+                "n": 2
+              },
+              "name": "view_frame"
+            }
+          },
+          {
+            "function_call": {
+              "id": "call_1045887",
+              "args": {},
+              "name": "get_current_state"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      {
+        "role": "user",
+        "parts": [
+          {
+            "function_response": {
+              "name": "save_checkpoint",
+              "response": {
+                "success": true,
+                "message": "Checkpoint saved for frame 1.",
+                "saved_frames": [
+                  1
+                ],
+                "notes": "Initial flat square"
+              }
+            }
+          },
+          {
+            "function_response": {
+              "name": "view_frame",
+              "response": {
+                "success": true,
+                "frame_index": 1,
+                "total_frames": 5
+              }
+            }
+          },
+          {
+            "inline_data": {
+              "data": "<bytes len=173460>",
+              "mime_type": "image/png"
+            }
+          },
+          {
+            "function_response": {
+              "name": "view_frame",
+              "response": {
+                "success": true,
+                "frame_index": 2,
+                "total_frames": 5
+              }
+            }
+          },
+          {
+            "inline_data": {
+              "data": "<bytes len=111916>",
+              "mime_type": "image/png"
+            }
+          },
+          {
+            "function_response": {
+              "name": "get_current_state",
+              "response": {
+                "success": true,
+                "geometry": {
+                  "vertices": {
+                    "1": [
+                      0,
+                      1
+                    ],
+                    "2": [
+                      1,
+                      1
+                    ],
+                    "3": [
+                      1,
+                      0
+                    ],
+                    "4": [
+                      0,
+                      0
+                    ]
+                  },
+                  "faces": {
+                    "1": [
+                      1,
+                      2,
+                      3,
+                      4
+                    ]
+                  },
+                  "faces_orientations": {
+                    "1": 0
+                  },
+                  "edges": [
+                    [
+                      1,
+                      2,
+                      "B"
+                    ],
+                    [
+                      2,
+                      3,
+                      "B"
+                    ],
+                    [
+                      3,
+                      4,
+                      "B"
+                    ],
+                    [
+                      4,
+                      1,
+                      "B"
+                    ]
+                  ],
+                  "layers": [
+                    [
+                      [
+                        1
+                      ]
+                    ]
+                  ]
+                },
+                "operation_count": 0,
+                "applied_operations": []
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "config": {
+      "system_instruction": "\u2550\u2550\u2550 YOUR GOAL \u2550\u2550\u2550\n\nYou are an origami reconstruction agent. You have access to a sequence of real-world photos\nshowing an origami model being folded step-by-step. Your goal is to reproduce this exact\nfolding sequence in a physics-based simulator.\n\nSuccess means: for every photo in the sequence, you create a matching simulator state and\nsave it as a checkpoint.\n\n\u2550\u2550\u2550 WHAT YOU HAVE \u2550\u2550\u2550\n\n\u2022 A collection of real-world photos (frames) numbered 1 to N\n\u2022 A simulator that starts with a flat square sheet of paper\n\u2022 Tools to view photos, manipulate the simulator, render diagrams, and verify results\n\n\u2550\u2550\u2550 SIMULATOR STATE \u2550\u2550\u2550\n\nThe simulator represents origami as a mesh with these fields:\n\n**vertices** : `{ \"<id>\": [x, y], ... }`\n  2D coordinates (x rightward, y upward, origin at bottom-left)\n\n**faces** : `{ \"<id>\": [v1, v2, v3, ...], ... }`\n  Each face is a counter-clockwise ordered list of vertex IDs\n\n**faces_orientations** : `{ \"<id>\": 0 | 1 }`\n  0 = front side up, 1 = back side up\n\n**edges** : `[ [u, v, kind], ... ]`\n  kind \u2208 {\"B\" boundary, \"F\" flat, \"M\" mountain, \"V\" valley}\n\n**layers** : `[ [ [face_id, ...], [face_id, ...] ], ... ]`\n  Stack from bottom to top. Each layer contains one or more planes (sets of faces\n  joined by flat edges, representing continuous sheets at the same altitude).\n\nCoordinate system: Cartesian plane, not image pixels. X increases left\u2192right, Y increases bottom\u2192top.\n\n\u2550\u2550\u2550 AVAILABLE TOOLS \u2550\u2550\u2550\n\n\u250c\u2500 VIEWING \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502 view_frame(n)                                                              \u2502\n\u2502   Returns the real-world photo for frame n.                                \u2502\n\u2502                                                                            \u2502\n\u2502 observe_movement(t)                                                        \u2502\n\u2502   For step t>=2, returns a PNG filmstrip showing the motion between        \u2502\n\u2502   selected frames t-1 and t. Use this when the action between those        \u2502\n\u2502   frames is ambiguous.                                                     \u2502\n\u2502                                                                            \u2502\n\u2502 get_current_state()                                                        \u2502\n\u2502   Returns the current simulator state JSON (vertices, faces, edges, etc.)  \u2502\n\u2502                                                                            \u2502\n\u2502 get_checkpoint_state(n)                                                    \u2502\n\u2502   Returns the saved state for frame n without changing current state.      \u2502\n\u2502                                                                            \u2502\n\u2502 render_current()                                                           \u2502\n\u2502   Returns a diagram of the current simulator state.                        \u2502\n\u2502   Visual language:                                                         \u2502\n\u2502     - Gray background                                                      \u2502\n\u2502     - red = front side facing up                                 \u2502\n\u2502     - white = back side facing up                                   \u2502\n\u2502     - Solid lines = active folds and boundaries                            \u2502\n\u2502     - Dashed lines = crease marks (unfolded creases)                       \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n\n\u250c\u2500 SIMULATION ACTIONS \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502 add_vertex(edge, position)                                                 \u2502\n\u2502   Subdivides edge [u,v] at fractional position (0.0 to 1.0).               \u2502\n\u2502   Returns new_vertex_id for use in subsequent folds.                       \u2502\n\u2502                                                                            \u2502\n\u2502 fold(edge, direction)                                                      \u2502\n\u2502   Folds along edge [v1, v2].                                               \u2502\n\u2502   direction = +1 or -1 (which side of the crease moves toward viewer)      \u2502\n\u2502     Non-vertical: +1 = upper side moves, -1 = lower side moves             \u2502\n\u2502     Vertical: +1 = right side moves, -1 = left side moves                  \u2502\n\u2502                                                                            \u2502\n\u2502 unfold(edge) / unfold(target='last')                                       \u2502\n\u2502   Reverses a fold, leaving a crease mark.                                  \u2502\n\u2502                                                                            \u2502\n\u2502 rotate(angle)                                                              \u2502\n\u2502   Rotates entire model (degrees, positive = clockwise).                    \u2502\n\u2502                                                                            \u2502\n\u2502 flip(axis)                                                                 \u2502\n\u2502   Flips model about axis \u2208 {'x', 'y', 'y=x', 'y=-x'}.                      \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n\n\u250c\u2500 CHECKPOINTS \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502 save_checkpoint(n)                                                         \u2502\n\u2502   Saves current simulator state as frame n.                                \u2502\n\u2502                                                                            \u2502\n\u2502 restore_checkpoint(n)                                                      \u2502\n\u2502   Restores simulator to the saved state for frame n.                       \u2502\n\u2502   Returns next_attempt_index for tracking retries.                         \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n\n\u250c\u2500 VERIFICATION \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502 ask_critic(frame_n, action_classes, fold_anchor=None)                      \u2502\n\u2502   Sends a 4-image grid to a visual critic:                                 \u2502\n\u2502     A = real photo of frame (n-1)     B = real photo of frame n            \u2502\n\u2502     C = diagram of frame (n-1)        D = diagram of current state         \u2502\n\u2502                                                                            \u2502\n\u2502   action_classes: list of transition types, e.g. [\"fold\"], [\"rotate\"],     \u2502\n\u2502                   [\"rotate\", \"flip\"]                                       \u2502\n\u2502                                                                            \u2502\n\u2502   fold_anchor (optional, required if \"fold\" in action_classes):            \u2502\n\u2502     {                                                                      \u2502\n\u2502       \"moving_element\": \"<what moves>\",                                    \u2502\n\u2502       \"static_reference\": \"<what stays fixed>\",                            \u2502\n\u2502       \"relationship\": \"<measurable relationship in target photo>\"          \u2502\n\u2502     }                                                                      \u2502\n\u2502                                                                            \u2502\n\u2502   Returns:                                                                 \u2502\n\u2502     {                                                                      \u2502\n\u2502       \"critic_verdict\": \"MATCH\" | \"MISMATCH\" | \"EXTREME DIVERGANCE\",       \u2502\n\u2502       \"critic_analysis\": \"<prose comparison of D vs B>\",                   \u2502\n\u2502       \"critic_anchor_check\": \"<whether anchor is satisfied>\",              \u2502\n\u2502       \"critic_discrepancies\": [<list of geometric issues>],                \u2502\n\u2502       \"transition_attempt\": <retry count for this transition>              \u2502\n\u2502     }                                                                      \u2502\n\u2502                                                                            \u2502\n\u2502   Verdicts:                                                                \u2502\n\u2502     MATCH \u2014 D matches B well enough to save checkpoint                     \u2502\n\u2502     MISMATCH \u2014 retry with different parameters                             \u2502\n\u2502     EXTREME DIVERGANCE \u2014 false assumption, consider rollback               \u2502\n\u2502                                                                            \u2502\n\u2502 generate_checkpoint_overview()                                             \u2502\n\u2502   Creates a 3-row overview of ALL saved checkpoints:                       \u2502\n\u2502     Row 1: frame index label bar                                           \u2502\n\u2502     Row 2: real photos (frames 1, 2, ... N)                                \u2502\n\u2502     Row 3: rendered diagrams of saved states                               \u2502\n\u2502                                                                            \u2502\n\u2502   Returns:                                                                 \u2502\n\u2502     {                                                                      \u2502\n\u2502       \"overview_analysis\": {                                               \u2502\n\u2502         \"last_correct_frame\": <int or null>,                               \u2502\n\u2502         \"first_suspicious_frame\": <int or null>,                           \u2502\n\u2502         \"per_frame_notes\": [<note for each frame>]                         \u2502\n\u2502       },                                                                   \u2502\n\u2502       \"overview_recommendation\": \"<suggested rollback target>\"             \u2502\n\u2502     }                                                                      \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n\n\u2550\u2550\u2550 CRITIC CONTEXT \u2550\u2550\u2550\n\nThe critic is a separate vision model that compares your rendered diagram against the target photo.\nIt has been instructed to:\n  \u2022 Compare geometric structure (silhouette, proportions, fold positions, layer order)\n  \u2022 Tolerate photo-vs-diagram style differences (lighting, shadows, perspective)\n  \u2022 Verify fold anchors when provided\n  \u2022 Flag contact topology errors (edges touching vs separated)\n  \u2022 Return MATCH only when D matches B closely enough to continue\n\nThe critic's verdict is authoritative for deciding whether to save or retry.\n\n\u2550\u2550\u2550 NOTES \u2550\u2550\u2550\n\n\u2022 The simulator state always reflects your most recent action. There is no hidden state.\n\u2022 After any action, call get_current_state() to read the updated geometry.\n\u2022 save_checkpoint() records the current state as the solution for that frame.\n\u2022 restore_checkpoint() reverts ALL geometry to that saved state.\n\u2022 You can view any frame photo at any time with view_frame(n).\n\u2022 Use observe_movement(t) when a single target photo is not enough to tell what happened between two selected steps.\n\u2022 If you've tried the same step over and over, you're probably misunderstanding something fundamental about that\n  transition. Go back to the last checkpoint you're confident about, and approach the problem with fresh assumptions.\n\u2022 **Each transition is usually SIMPLE:**\n  - ONE fold (possibly preceded by 1-2 add_vertex calls to define the crease)\n  - ONE unfold\n  - ONE rotate\n  - ONE flip\n\u2022 You decide your own approach, workflow, and debugging strategy.\n\n\u2550\u2550\u2550 PRECISION OVER CONVENIENCE \u2550\u2550\u2550\n\nReal origami is MESSY. The simulator's strength is geometric precision\u2014not idealized symmetry.\n\n**The lazy defaults will fail:**\n- \"I'll add vertex at 0.5\" \u2192 Wrong. Photos dont always show perfect midpoints.\n- \"I'll use this existing vertex\" \u2192 Wrong. If the photo shows a flap ending mid-edge, CREATE the vertex there.\n- \"I'll align this flap perfectly\" \u2192 Wrong. Small gaps, offsets, and asymmetries are INTENTIONAL features,\n  not errors to clean up.\n\n**What distinguishes origami models:**\n- A flap that stops at 0.68 vs 0.5 changes the model's identity\n- A 7\u00b0 offset between layers creates an ear; perfect alignment erases it\n- A 2mm gap signals a wing joint; closing it produces a blob\n\n**Common failure mode:**\n- Photo shows flap ending 60% down an edge\n- You think: \"vertex v8 is close enough\"\n- Result: flap proportions wrong, silhouette wrong, MISMATCH\n\nTry, render, adjust. \nTry shifting the vertex position by 5-10% along the edge, \nor adjusting the angle by 5-10\u00b0. Small tweaks often reveal the right geometry.\nThe visual feedback from render_current() is more reliable than mental estimation.\n\n\u2550\u2550\u2550 THE 2-ATTEMPT RULE \u2550\u2550\u2550\n\nIf you've called ask_critic() twice for the same transition and both returned MISMATCH:\n\n**STOP TRYING NEW PARAMETERS.**\n\nThe issue is not fine-tuning. The issue is:\n1. **Wrong action class** \u2014 You think it's a fold, but it's actually a flip\n2. **Wrong source state** \u2014 The checkpoint you're building from is already incorrect\n3. **Wrong assumption** \u2014 You're trying to align edges that shouldn't align, or using existing vertices instead of creating new one/s\n\n**What to do:**\n1. Call generate_checkpoint_overview() to see all checkpoints at once\n2. Find the first frame where your diagram diverges from the photo\n3. restore_checkpoint() to the last known-good frame\n4. Re-examine the transition with FRESH assumptions\n\n\u2550\u2550\u2550 SESSION PARAMETERS \u2550\u2550\u2550\nTotal frames in this sequence: 5\nFrame 1 = initial flat square (already in simulator).\nYour goal: call save_checkpoint(N) for N = 1, 2, \u2026, 5.",
+      "tools": [
+        {
+          "function_declarations": [
+            {
+              "description": "View the real-world origami photo at frame n (1-based). Returns the image so you can see the physical state of the paper.",
+              "name": "view_frame",
+              "parameters": {
+                "properties": {
+                  "n": {
+                    "description": "Frame index (1-based). Frame 1 is the initial flat square.",
+                    "type": "INTEGER"
+                  }
+                },
+                "required": [
+                  "n"
+                ],
+                "type": "OBJECT"
+              }
+            },
+            {
+              "description": "For step t>=2, returns a PNG filmstrip showing the motion between selected frames t-1 and t. Use this when the action between those frames is ambiguous.",
+              "name": "observe_movement",
+              "parameters": {
+                "properties": {
+                  "t": {
+                    "description": "Selected-frame step index to inspect (1-based). Use t>=2 because the strip spans steps t-1 to t.",
+                    "type": "INTEGER"
+                  }
+                },
+                "required": [
+                  "t"
+                ],
+                "type": "OBJECT"
+              }
+            },
+            {
+              "description": "Get the current origami geometry as structured JSON with vertices, edges, faces, and layers. Use this to inspect vertex IDs before folding.",
+              "name": "get_current_state"
+            },
+            {
+              "description": "Render the current simulator state as a diagram image. Use this for a quick visual preview of your progress.",
+              "name": "render_current"
+            },
+            {
+              "description": "Add a new vertex at a fractional position (0.0-1.0) along an existing edge. Use this when a fold crease endpoint does not coincide with an existing vertex. Returns new_vertex_id (starting from 5 for the first added vertex) which you can use immediately in a subsequent fold call.",
+              "name": "add_vertex",
+              "parameters": {
+                "properties": {
+                  "edge": {
+                    "description": "Edge to subdivide, as [vertex_id_1, vertex_id_2].",
+                    "items": {
+                      "type": "INTEGER"
+                    },
+                    "max_items": 2,
+                    "min_items": 2,
+                    "type": "ARRAY"
+                  },
+                  "position": {
+                    "description": "Fractional position along the edge: 0.0 = start vertex, 0.5 = midpoint, 1.0 = end vertex.",
+                    "maximum": 1.0,
+                    "minimum": 0.0,
+                    "type": "NUMBER"
+                  }
+                },
+                "required": [
+                  "edge",
+                  "position"
+                ],
+                "type": "OBJECT"
+              }
+            },
+            {
+              "description": "Fold the paper along an edge (crease line). direction = +1 or -1 (which side of the crease moves toward viewer)Non-vertical crease: +1 = upper side moves, -1 = lower side movesVertical crease: +1 = right side moves, -1 = left side moves",
+              "name": "fold",
+              "parameters": {
+                "properties": {
+                  "edge": {
+                    "description": "Crease line as [vertex_id_1, vertex_id_2].",
+                    "items": {
+                      "type": "INTEGER"
+                    },
+                    "max_items": 2,
+                    "min_items": 2,
+                    "type": "ARRAY"
+                  },
+                  "direction": {
+                    "description": "1=upper side moves, -1=lower side moves.",
+                    "enum": [
+                      "1",
+                      "-1"
+                    ],
+                    "type": "STRING"
+                  }
+                },
+                "required": [
+                  "edge",
+                  "direction"
+                ],
+                "type": "OBJECT"
+              }
+            },
+            {
+              "description": "Unfold a previous fold, leaving a crease mark (dashed line in diagrams). Provide either 'edge' (specific crease) or target='last' (most recent fold).",
+              "name": "unfold",
+              "parameters": {
+                "properties": {
+                  "edge": {
+                    "description": "Specific edge to unfold (optional).",
+                    "items": {
+                      "type": "INTEGER"
+                    },
+                    "max_items": 2,
+                    "min_items": 2,
+                    "type": "ARRAY"
+                  },
+                  "target": {
+                    "description": "Use 'last' to unfold the most recent fold.",
+                    "enum": [
+                      "last"
+                    ],
+                    "type": "STRING"
+                  }
+                },
+                "type": "OBJECT"
+              }
+            },
+            {
+              "description": "Rotate the entire origami model by angle degrees (positive = clockwise).",
+              "name": "rotate",
+              "parameters": {
+                "properties": {
+                  "angle": {
+                    "description": "Rotation angle in degrees. Positive = clockwise.",
+                    "type": "NUMBER"
+                  }
+                },
+                "required": [
+                  "angle"
+                ],
+                "type": "OBJECT"
+              }
+            },
+            {
+              "description": "Turn the model overacross a specific axis, revealing the back side of the paper. Note: The axis refers to the coordinate being inverted. axis: 'x' (Reflect horizontally: left and right swap, x -> -x), axis: 'y' (Reflect vertically: top and bottom swap, y -> -y), axis: 'y=x' (Reflect across main diagonal), axis: 'y=-x' (Reflect across anti-diagonal).",
+              "name": "flip",
+              "parameters": {
+                "properties": {
+                  "axis": {
+                    "description": "Flip axis.",
+                    "enum": [
+                      "x",
+                      "y",
+                      "y=x",
+                      "y=-x"
+                    ],
+                    "type": "STRING"
+                  }
+                },
+                "required": [
+                  "axis"
+                ],
+                "type": "OBJECT"
+              }
+            },
+            {
+              "description": "Save the current geometry as the verified solution for frame_n. Call this after ask_critic returns MATCH. Use the optional 'notes' field to record anything important about this checkpoint (it will appear in the history log)",
+              "name": "save_checkpoint",
+              "parameters": {
+                "properties": {
+                  "frame_n": {
+                    "description": "Frame index to associate with the current state.",
+                    "type": "INTEGER"
+                  },
+                  "notes": {
+                    "description": "Optional memory note for this checkpoint. Record anything you want to remember about this frame for future reference.",
+                    "type": "STRING"
+                  }
+                },
+                "required": [
+                  "frame_n"
+                ],
+                "type": "OBJECT"
+              }
+            },
+            {
+              "description": "Restore the simulator to a previously saved checkpoint. Use this to backtrack when an attempt fails. The tool result includes restore_count: the total number of times this checkpoint has been restored across the entire session (never resets). If restore_count is high (e.g. >3), your current approach is not working \u2014 call generate_checkpoint_overview(), restore the last known-good checkpoin.",
+              "name": "restore_checkpoint",
+              "parameters": {
+                "properties": {
+                  "frame_n": {
+                    "description": "Frame checkpoint to restore.",
+                    "type": "INTEGER"
+                  }
+                },
+                "required": [
+                  "frame_n"
+                ],
+                "type": "OBJECT"
+              }
+            },
+            {
+              "description": "Get the saved geometry JSON for a specific checkpointed frame without changing the current simulator state. Use this to inspect what a checkpoint looks like (vertices, edges, faces, layers) before deciding to restore it. Unlike restore_checkpoint, this does NOT change the current state \u2014 it is read-only.",
+              "name": "get_checkpoint_state",
+              "parameters": {
+                "properties": {
+                  "frame_n": {
+                    "description": "Frame index of the checkpoint to inspect.",
+                    "type": "INTEGER"
+                  }
+                },
+                "required": [
+                  "frame_n"
+                ],
+                "type": "OBJECT"
+              }
+            },
+            {
+              "description": "Generate a two-row overview PNG of ALL saved checkpoints, then ask a dedicated overview specialist to identify the last frame where the diagram still matches the real photo. Row 1 shows the real-world photos; row 2 shows the rendered diagrams. Columns are ordered left (earliest) \u2192 right (latest) with frame indices labeled. The tool returns overview_analysis with last_correct_frame and first_suspicious_frame, and overview_recommendation with a suggested rollback target. Use this whenever you need to decide which checkpoint to roll back to.",
+              "name": "generate_checkpoint_overview"
+            },
+            {
+              "description": "Ask the dedicated visual critic to evaluate your current simulator state against target frame_n. The critic builds a 2x2 grid (A=source photo, B=target photo, C=source diagram, D=your result) and returns a structured verdict: MATCH, MISMATCH, or EXTREME DIVERGANCE \u2014 together with a prose analysis, an anchor_check sentence, and a list of specific discrepancies. Always pass action_classes, such as ['fold'] or ['rotate', 'flip'], so the critic understands the intended transition. For folds, pass fold_anchor (moving_element, static_reference, relationship) so the critic can explicitly verify the anchor relationship in D. Trust the critic's verdict: MATCH \u2192 save_checkpoint; MISMATCH \u2192 restore_checkpoint and retry; EXTREME DIVERGANCE \u2192 treat it as a false assumption and reconsider earlier steps.",
+              "name": "ask_critic",
+              "parameters": {
+                "properties": {
+                  "frame_n": {
+                    "description": "The target frame index you are trying to reach.",
+                    "type": "INTEGER"
+                  },
+                  "action_classes": {
+                    "description": "High-level action classes for this transition. Always include all of them, for example ['fold'], ['rotate'], or ['rotate', 'flip'].",
+                    "items": {
+                      "enum": [
+                        "fold",
+                        "unfold",
+                        "rotate",
+                        "flip"
+                      ],
+                      "type": "STRING"
+                    },
+                    "min_items": 1,
+                    "type": "ARRAY"
+                  },
+                  "fold_anchor": {
+                    "description": "Required when action_classes includes 'fold'. Describe the anchor you established while inspecting the transition. The critic will explicitly check this relationship in D.",
+                    "properties": {
+                      "moving_element": {
+                        "description": "The part of the paper that moved (e.g. 'upper-left triangular flap').",
+                        "type": "STRING"
+                      },
+                      "static_reference": {
+                        "description": "The part that stayed fixed (e.g. 'bottom-right region').",
+                        "type": "STRING"
+                      },
+                      "relationship": {
+                        "description": "The geometric relationship that should hold between them in B and D (e.g. 'top edge of moving element aligns with the right boundary edge').",
+                        "type": "STRING"
+                      }
+                    },
+                    "required": [
+                      "moving_element",
+                      "static_reference",
+                      "relationship"
+                    ],
+                    "type": "OBJECT"
+                  }
+                },
+                "required": [
+                  "frame_n",
+                  "action_classes"
+                ],
+                "type": "OBJECT"
+              }
+            }
+          ]
+        }
+      ],
+      "max_output_tokens": 4096,
+      "thinking_config": {
+        "thinking_budget": 8192
+      }
+    }
+  },
+  "response": {
+    "sdk_http_response": {
+      "headers": {
+        "x-gemini-service-tier": "standard",
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Sun, 11 Oct 2026 20:09:46 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=4545",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      }
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "function_call": {
+                "id": "call_667936",
+                "args": {
+                  "axis": "x"
+                },
+                "name": "flip"
+              },
+              "thought_signature": "<bytes len=363>"
+            }
+          ],
+          "role": "model"
+        },
+        "finish_reason": "STOP",
+        "index": 0
+      }
+    ],
+    "model_version": "gemini-3.1-pro-preview",
+    "response_id": "Be3LauzDM8jg-sAPjsKTiAE",
+    "usage_metadata": {
+      "candidates_token_count": 14,
+      "prompt_token_count": 7292,
+      "prompt_tokens_details": [
+        {
+          "modality": "IMAGE",
+          "token_count": 2200
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 5092
+        }
+      ],
+      "thoughts_token_count": 69,
+      "total_token_count": 7375
+    }
+  }
+}

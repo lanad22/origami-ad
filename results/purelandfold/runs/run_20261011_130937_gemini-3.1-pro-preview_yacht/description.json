@@ -1,0 +1,52 @@
+[
+ {
+  "frame": 1,
+  "description": "Start with the flat square.",
+  "num_operations": 0,
+  "step": 1,
+  "timestamp_s": null,
+  "faces": 1,
+  "layers": 1,
+  "state": "The paper is the flat square, red side up."
+ },
+ {
+  "frame": 2,
+  "description": "Flip the paper over left to right.",
+  "num_operations": 1,
+  "step": 2,
+  "timestamp_s": null,
+  "faces": 1,
+  "layers": 1,
+  "state": "The paper is the flat square, white side up."
+ },
+ {
+  "frame": 3,
+  "description": "Fold along the line from the top-right corner to the bottom-left corner, bringing the upper side over.",
+  "num_operations": 1,
+  "step": 3,
+  "timestamp_s": null,
+  "faces": 2,
+  "layers": 2,
+  "state": "The paper is now a right triangle, half the square, two layers thick, red side up, with its longest edge running diagonally."
+ },
+ {
+  "frame": 4,
+  "description": "Mark point A 41% of the way along the bottom edge, starting from the bottom-right corner. Fold along the line from the top-right corner to point A, bringing the lower side over.",
+  "num_operations": 2,
+  "step": 4,
+  "timestamp_s": null,
+  "faces": 3,
+  "layers": 3,
+  "state": "The paper is now a four-sided shape, half the square, three layers thick, mostly white with some red showing, with its longest edge on the right."
+ },
+ {
+  "frame": 5,
+  "description": "Mark point B 85% of the way along the line from the top-right corner to the bottom-left corner. Mark point C 15% of the way along the right edge, starting from the bottom-right corner. Fold along the line from point B to point C, bringing the lower side over.",
+  "num_operations": 3,
+  "step": 5,
+  "timestamp_s": null,
+  "faces": 6,
+  "layers": 6,
+  "state": "The paper is now a pentagon, three eighths of the square, six layers thick, mostly white with some red showing, with its longest edge running diagonally."
+ }
+]

@@ -1,0 +1,6 @@
+[submodule "external/FoldingAgent"]
+	path = external/FoldingAgent
+	url = https://github.com/maya-moriya/FoldingAgent
+[submodule "external/flat-folder"]
+	path = external/flat-folder
+	url = https://github.com/origamimagiro/flat-folder.git

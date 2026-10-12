@@ -1,0 +1,58 @@
+{
+  "request": {
+    "model": "gemini-3.1-pro-preview",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "type": "text",
+            "text": "[Image A \u2014 source real photo]"
+          },
+          {
+            "type": "image",
+            "path": "data/keyframes/purelandfold/yacht/frames/000003.jpg",
+            "mime_type": "image/jpeg"
+          },
+          {
+            "type": "text",
+            "text": "[Image B \u2014 target real photo]"
+          },
+          {
+            "type": "image",
+            "path": "data/keyframes/purelandfold/yacht/frames/000004.jpg",
+            "mime_type": "image/jpeg"
+          },
+          {
+            "type": "text",
+            "text": "[Image C \u2014 source diagram]"
+          },
+          {
+            "type": "image",
+            "path": "/Users/lanado/Desktop/3D hand resconstruction origami/origami-ad/results/purelandfold/runs/run_20261011_130937_gemini-3.1-pro-preview_yacht/figs/iter_0011_ask_critic_source.png",
+            "mime_type": "image/png"
+          },
+          {
+            "type": "text",
+            "text": "[Image D \u2014 result diagram]"
+          },
+          {
+            "type": "image",
+            "path": "/Users/lanado/Desktop/3D hand resconstruction origami/origami-ad/results/purelandfold/runs/run_20261011_130937_gemini-3.1-pro-preview_yacht/figs/iter_0011_ask_critic_result.png",
+            "mime_type": "image/png"
+          },
+          {
+            "type": "text",
+            "text": "Target frame: 4.\nAction classes for this transition: [fold]\n\nSOURCE STATE JSON (the mesh that matches A/C):\n{\n  \"edges\": [\n    [\n      1,\n      3,\n      \"M\"\n    ],\n    [\n      3,\n      4,\n      \"B\"\n    ],\n    [\n      4,\n      1,\n      \"B\"\n    ],\n    [\n      1,\n      2,\n      \"B\"\n    ],\n    [\n      2,\n      3,\n      \"B\"\n    ]\n  ],\n  \"faces\": {\n    \"1\": [\n      1,\n      3,\n      4\n    ],\n    \"2\": [\n      3,\n      1,\n      2\n    ]\n  },\n  \"faces_orientations\": {\n    \"1\": 1,\n    \"2\": 0\n  },\n  \"layers\": [\n    [\n      [\n        1\n      ]\n    ],\n    [\n      [\n        2\n      ]\n    ]\n  ],\n  \"vertices\": {\n    \"1\": [\n      1,\n      1\n    ],\n    \"2\": [\n      1,\n      0\n    ],\n    \"3\": [\n      0,\n      0\n    ],\n    \"4\": [\n      1,\n      0\n    ]\n  }\n}\n\nRESULT STATE JSON (the mesh rendered as D):\n{\n  \"edges\": [\n    [\n      1,\n      3,\n      \"M\"\n    ],\n    [\n      3,\n      4,\n      \"B\"\n    ],\n    [\n      4,\n      1,\n      \"B\"\n    ],\n    [\n      1,\n      5,\n      \"V\"\n    ],\n    [\n      5,\n      3,\n      \"B\"\n    ],\n    [\n      1,\n      2,\n      \"B\"\n    ],\n    [\n      2,\n      5,\n      \"B\"\n    ]\n  ],\n  \"faces\": {\n    \"1\": [\n      1,\n      3,\n      4\n    ],\n    \"2\": [\n      1,\n      5,\n      3\n    ],\n    \"3\": [\n      5,\n      1,\n      2\n    ]\n  },\n  \"faces_orientations\": {\n    \"1\": 1,\n    \"2\": 0,\n    \"3\": 1\n  },\n  \"layers\": [\n    [\n      [\n        1\n      ]\n    ],\n    [\n      [\n        2\n      ]\n    ],\n    [\n      [\n        3\n      ]\n    ]\n  ],\n  \"vertices\": {\n    \"1\": [\n      1,\n      1\n    ],\n    \"2\": [\n      0.292893,\n      0.292894\n    ],\n    \"3\": [\n      0,\n      0\n    ],\n    \"4\": [\n      1,\n      0\n    ],\n    \"5\": [\n      0.585786,\n      0\n    ]\n  }\n}\n\nFOLD ANCHOR to verify:\n  Moving element  : right vertical edge\n  Static reference: hypotenuse of the triangle\n  Expected relationship in B (and D): aligns exactly onto the hypotenuse\n\nCheck this anchor explicitly in your anchor_check field.\n\nCompare image D against image B and return a JSON verdict."
+          }
+        ]
+      }
+    ],
+    "config": {
+      "system_instruction": "You are an expert origami visual critic.\nYou are assisting an origami reconstruction agent.\nThe agent has produced a simulator state and wants to know if it matches a target photo.\n\nYou will receive four images in this order:\n  1. A \u2014 Real photo of SOURCE state (before transformation)\n  2. B \u2014 Real photo of TARGET state (after transformation) \u2190 the goal\n  3. C \u2014 Rendered diagram of source geometry (matches photo A)\n  4. D \u2014 Rendered diagram of current result (should match photo B)\n\nYou will also receive:\n  \u2022 action_classes: what the agent believes changed (e.g., [\"fold\"], [\"rotate\"])\n  \u2022 source state JSON: the geometry rendered as C\n  \u2022 result state JSON: the geometry rendered as D\n  \u2022 fold_anchor (optional): if provided, a specific geometric relationship to verify\n\nDiagram visual language:\n  - Gray background\n  - red = front side facing up, white = back side facing up\n  - Solid lines = active folds and boundaries\n  - Dashed lines = crease marks (unfolded creases)\n\nYOUR TASK\nCompare D against B. Focus on geometric structure:\n  \u2022 Silhouette and outline shape\n  \u2022 Proportions of regions and flaps\n  \u2022 Position and angle of fold lines\n  \u2022 Whether edges that should touch actually touch (or maintain expected gaps/angles)\n  \u2022 Layer order and overlap\n\nTolerate the normal photo-vs-diagram style gap when judging D against B.\n\nIMPORTANT\n  \u2022 Contact topology is geometry, not style: touching vs separated, gaps vs closed seams\n    must agree between B and D.\n  \u2022 If B shows a gap, slit, or offset, D must preserve it.\n  \u2022 If B shows an open crease, D should show a dashed line (but don't penalize D for\n    showing a crease if B's photo merely hides it with lighting/blur).\n  \u2022 Do not idealize away visible gaps in B by calling D \"cleaner.\"\n  \u2022 Pay extra attention to the angle or distance between the folded flaps.\n    If B shows an angle between two folded flap, or there is a visible gap between them, D should show the same.\n    This is a common failure mode to look for. use the color-coded layers and background to help identify which\n    faces should be touching or separated.\n\nFOLD ANCHOR (when provided)\nIf fold_anchor is given, verify that D satisfies the stated relationship between moving_element\nand static_reference. If the anchor is clearly violated, verdict must be MISMATCH.\n\nVERDICTS\n  MATCH \u2014 D and B match closely enough to continue. Critical geometry and anchors agree.\n  MISMATCH \u2014 D and B don't match well enough. Agent should retry with different parameters.\n  EXTREME DIVERGANCE \u2014 False assumption. Agent likely misunderstood the transition or needs rollback.\n\nOUTPUT FORMAT (JSON only, no other text):\n{\n  \"verdict\": \"MATCH\" | \"MISMATCH\" | \"EXTREME DIVERGANCE\",\n  \"analysis\": \"<2-4 sentences comparing D to B>\",\n  \"anchor_check\": \"<one sentence on anchor satisfaction, or 'no anchor provided'>\",\n  \"discrepancies\": [<list of specific geometric issues, empty for MATCH>]\n}"
+    }
+  },
+  "response": {
+    "raw_text": "```json\n{\n  \"verdict\": \"MATCH\",\n  \"analysis\": \"The result diagram accurately depicts the fold shown in the target photo. The top-right corner acts as the pivot for the fold, bringing the right vertical edge to lie along the hypotenuse. The proportions of the resulting white flap and the remaining red area match the reference image.\",\n  \"anchor_check\": \"The right vertical edge correctly aligns exactly onto the hypotenuse.\",\n  \"discrepancies\": []\n}\n```"
+  }
+}

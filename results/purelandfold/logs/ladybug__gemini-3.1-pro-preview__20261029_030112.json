@@ -1,0 +1,146 @@
+{
+  "run_dir": "/Users/wanjing/Desktop/NEU-CSA/Research/YDX/Origami AD/origami-ad/results/purelandfold/runs/run_20261029_023505_gemini-3.1-pro-preview_ladybug",
+  "condition": "purelandfold",
+  "sequence": "ladybug",
+  "video_id": null,
+  "model": "gemini-3.1-pro-preview",
+  "manifest": "/Users/wanjing/Desktop/NEU-CSA/Research/YDX/Origami AD/origami-ad/data/keyframes/purelandfold/ladybug/keyframes.json",
+  "num_keyframes": 13,
+  "keyframes": [
+    {
+      "frame_index": 1,
+      "step": 1,
+      "timestamp_s": null,
+      "notes": ""
+    },
+    {
+      "frame_index": 2,
+      "step": 2,
+      "timestamp_s": null,
+      "notes": ""
+    },
+    {
+      "frame_index": 3,
+      "step": 3,
+      "timestamp_s": null,
+      "notes": ""
+    },
+    {
+      "frame_index": 4,
+      "step": 4,
+      "timestamp_s": null,
+      "notes": ""
+    },
+    {
+      "frame_index": 5,
+      "step": 5,
+      "timestamp_s": null,
+      "notes": ""
+    },
+    {
+      "frame_index": 6,
+      "step": 6,
+      "timestamp_s": null,
+      "notes": ""
+    },
+    {
+      "frame_index": 7,
+      "step": 7,
+      "timestamp_s": null,
+      "notes": ""
+    },
+    {
+      "frame_index": 8,
+      "step": 8,
+      "timestamp_s": null,
+      "notes": ""
+    },
+    {
+      "frame_index": 9,
+      "step": 9,
+      "timestamp_s": null,
+      "notes": ""
+    },
+    {
+      "frame_index": 10,
+      "step": 10,
+      "timestamp_s": null,
+      "notes": ""
+    },
+    {
+      "frame_index": 11,
+      "step": 11,
+      "timestamp_s": null,
+      "notes": ""
+    },
+    {
+      "frame_index": 12,
+      "step": 12,
+      "timestamp_s": null,
+      "notes": ""
+    },
+    {
+      "frame_index": 13,
+      "step": 13,
+      "timestamp_s": null,
+      "notes": ""
+    }
+  ],
+  "started": "2026-10-29T02:35:05",
+  "finished": "2026-11-01T10:27:40",
+  "wall_time_s": 1564.0,
+  "thinking_time_s": 1209.5,
+  "iterations": 81,
+  "stop_reason": "interrupted",
+  "frames_solved": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "completed": false,
+  "completion_rate": 0.7692307692307693,
+  "tool_calls_total": 97,
+  "tool_calls": {
+    "save_checkpoint": 13,
+    "view_frame": 13,
+    "rotate": 1,
+    "ask_critic": 14,
+    "get_current_state": 14,
+    "fold": 13,
+    "observe_movement": 5,
+    "add_vertex": 14,
+    "unfold": 1,
+    "flip": 1,
+    "restore_checkpoint": 5,
+    "get_checkpoint_state": 1,
+    "generate_checkpoint_overview": 1,
+    "render_current": 1
+  },
+  "tokens": {
+    "input": 3909023,
+    "output": 18959,
+    "total": 3951558
+  },
+  "cost_usd_estimate": 8.0456,
+  "cost_source": "inferred: FoldingAgent paper reports ~4M input + 68K output tokens = $8.9/sequence; verify against current Google pricing",
+  "config": {
+    "max_iterations": 200,
+    "max_attempts_per_frame": 5,
+    "max_consecutive_no_tool_responses": 3,
+    "repeated_mismatch_attempts": 3,
+    "thinking_budget": 8192,
+    "backend_max_tokens": 8192,
+    "max_output_tokens": 4096,
+    "front_color": "white",
+    "back_color": "red"
+  },
+  "extra": {},
+  "wall_time_note": "Active time from the first to the last model call (2026-10-29 02:35:08 to 03:01:12). The process then sat idle until it was marked interrupted on 2026-11-01 10:27:40, so metadata.json's elapsed_seconds (291155.4) is not run time. Log rebuilt on 2026-11-02 with summarize_run because the original run log was missing."
+}

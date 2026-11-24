@@ -22,10 +22,11 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import logging
 import os
 import time
 from collections import Counter
-from dataclasses import asdict, dataclass, field
+from dataclasses import asdict, dataclass, field, replace
 from pathlib import Path
 from typing import Any
 
@@ -34,7 +35,13 @@ from origami_ad.dataset import get_sequence
 from origami_ad.paths import ANNOTATIONS_DIR, DATA_DIR, RESULTS_DIR, load_env
 from origami_ad.video import DEFAULT_FPS, download, extract_frames, timestamp_to_index, video_dir
 
+log = logging.getLogger(__name__)
+
 KEYFRAMES_ROOT = DATA_DIR / "keyframes"
+#: automatic keyframers for Condition B; the first is the default. "pairwise" and "grid"
+#: are keyframe_select with that review pass; "stillness" is keyframing.
+KEYFRAMERS = ("pairwise", "grid", "stillness")
+KEYFRAMERS_NEEDING_API = {"pairwise", "grid"}
 PAPER_COLORS_JSON = ANNOTATIONS_DIR / "paper_colors.json"
 PRICING_JSON = ANNOTATIONS_DIR / "pricing.json"
 DEFAULT_MODEL = "gemini-3.1-pro-preview"  # the paper's backbone
@@ -107,14 +114,26 @@ def _write_manifest(
     return manifest
 
 
-def build_purelandfold_manifest(sequence: str, *, root: Path = KEYFRAMES_ROOT) -> RunSpec:
-    """Dataset keyframes -> ``data/keyframes/purelandfold/<sequence>/`` (gitignored)."""
-    directory = root / "purelandfold" / sequence
+def build_purelandfold_manifest(
+    sequence: str,
+    *,
+    root: Path = KEYFRAMES_ROOT,
+    steps: list[int] | None = None,
+    condition: str = "purelandfold",
+) -> RunSpec:
+    """Dataset keyframes -> ``data/keyframes/<condition>/<sequence>/`` (gitignored).
+
+    *steps* keeps only those PurelandFold steps (a keyframe subset); eval still maps each
+    frame to its real step through ``keyframes_meta.json``.
+    """
+    directory = root / condition / sequence
     frames_dir = directory / "frames"
     frames_dir.mkdir(parents=True, exist_ok=True)
     metas: list[KeyframeMeta] = []
     indices: list[int] = []
     for step in get_sequence(sequence):
+        if steps is not None and step.step not in steps:
+            continue
         path = frames_dir / f"{step.step:06d}.jpg"
         if not path.exists():
             step.image.convert("RGB").save(path, quality=92)
@@ -130,7 +149,7 @@ def build_purelandfold_manifest(sequence: str, *, root: Path = KEYFRAMES_ROOT) -
         back_color=back,
         metas=metas,
     )
-    return RunSpec(sequence=sequence, condition="purelandfold", manifest=manifest, keyframes=metas)
+    return RunSpec(sequence=sequence, condition=condition, manifest=manifest, keyframes=metas)
 
 
 def build_youtube_manifest(
@@ -200,18 +219,35 @@ def build_auto_manifest(
     front_color: str | None = None,
     back_color: str | None = None,
     condition: str = "youtube_B_auto",
+    keyframer: str = "pairwise",
 ) -> RunSpec:
-    """Automatic keyframes (Condition B): stillness + hand mask, no manual timestamps.
+    """Automatic keyframes (Condition B), no manual timestamps.
 
+    ``keyframer="pairwise"`` (default) and ``"grid"`` both run ``keyframe_select``: calm
+    candidates, a Claude pick pass, then the review of that name (``SelectParams.review``):
+    pairwise judges each pick against the last kept keyframe, grid (the previous default)
+    reviews all picks in one grid. Both need ANTHROPIC_API_KEY and fall back to stillness
+    without it.
+    ``keyframer="stillness"``: one frame per rest of the hand-masked paper (``keyframing``).
     Frames are extracted at the analysis rate so every proposal maps to an exact frame.
     Steps are unknown here (``KeyframeMeta.step = None``); ``eval`` aligns the agent's
     checkpoints to PurelandFold steps afterwards by dynamic time warping on CPD.
     """
+    from origami_ad.keyframe_select import SelectParams, select_keyframes
     from origami_ad.keyframing import KeyframeParams, analyse_video, contact_sheet
 
-    p = params or KeyframeParams()
     path = download(video_id)
-    analysis = analyse_video(path, p)
+    load_env()
+    if keyframer in KEYFRAMERS_NEEDING_API and not os.environ.get("ANTHROPIC_API_KEY"):
+        log.warning("ANTHROPIC_API_KEY not set; using the stillness keyframer")
+        keyframer = "stillness"
+    if keyframer in KEYFRAMERS_NEEDING_API:
+        base = params if isinstance(params, SelectParams) else SelectParams()
+        analysis = select_keyframes(path, replace(base, review=keyframer))
+    elif keyframer == "stillness":
+        analysis = analyse_video(path, params if isinstance(params, KeyframeParams) else None)
+    else:
+        raise ValueError(f"unknown keyframer {keyframer!r}")
     fps = analysis.sample_fps
     extract_frames(video_id, fps=fps)
     directory = root / "youtube_auto" / video_id
@@ -247,7 +283,7 @@ def build_auto_manifest(
         manifest=manifest,
         keyframes=metas,
         video_id=video_id,
-        extra={"fps": fps, "keyframing": "auto", "params": analysis.params},
+        extra={"fps": fps, "keyframing": keyframer, "params": analysis.params},
     )
 
 

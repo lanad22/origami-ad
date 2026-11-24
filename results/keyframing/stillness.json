@@ -1,0 +1,248 @@
+{
+ "J2Im3lshuek": {
+  "split": "test",
+  "timestamps": [
+   6.006,
+   12.012,
+   29.83,
+   33.634,
+   58.859
+  ],
+  "n": 5,
+  "required": 5,
+  "hits": 3,
+  "extras": 1,
+  "duplicates": 1,
+  "detail": "XHHDH",
+  "missed": [
+   1,
+   4
+  ]
+ },
+ "OxCkeXG9LXY": {
+  "split": "test",
+  "timestamps": [
+   5.4,
+   8.0,
+   11.6,
+   18.8,
+   20.4,
+   32.4,
+   46.2,
+   58.8,
+   61.6
+  ],
+  "n": 9,
+  "required": 7,
+  "hits": 5,
+  "extras": 1,
+  "duplicates": 2,
+  "detail": "oHXHDHhDH",
+  "missed": [
+   2,
+   4
+  ]
+ },
+ "I0U6NFTSN8k": {
+  "split": "test",
+  "timestamps": [
+   13.4,
+   16.6,
+   23.0,
+   31.8,
+   36.4,
+   67.0,
+   77.0,
+   78.6,
+   89.8,
+   100.2,
+   102.8,
+   118.8,
+   123.2,
+   124.6,
+   128.2,
+   129.4,
+   137.8,
+   143.0,
+   205.799
+  ],
+  "n": 19,
+  "required": 12,
+  "hits": 6,
+  "extras": 11,
+  "duplicates": 1,
+  "detail": "HXHHoXHDXXXHXXXXXXH",
+  "missed": [
+   4,
+   5,
+   6,
+   8,
+   9,
+   11
+  ]
+ },
+ "LLbY489TJu0": {
+  "split": "dev",
+  "timestamps": [
+   2.603,
+   9.81,
+   19.019,
+   28.629,
+   30.23,
+   44.244,
+   51.652,
+   54.855,
+   63.063,
+   71.471,
+   83.283,
+   94.094,
+   100.5,
+   107.107,
+   122.723,
+   136.536,
+   141.742,
+   147.547
+  ],
+  "n": 18,
+  "required": 16,
+  "hits": 7,
+  "extras": 9,
+  "duplicates": 1,
+  "detail": "XHXXXHHDHXHXXXXHoH",
+  "missed": [
+   1,
+   3,
+   4,
+   8,
+   10,
+   11,
+   12,
+   13,
+   14
+  ]
+ },
+ "pOq1ZI0dqg4": {
+  "split": "dev",
+  "timestamps": [
+   0.2,
+   9.4,
+   35.2
+  ],
+  "n": 3,
+  "required": 10,
+  "hits": 2,
+  "extras": 1,
+  "duplicates": 0,
+  "detail": "HXH",
+  "missed": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   8,
+   9,
+   10
+  ]
+ },
+ "Nk4af3ZU_tM": {
+  "split": "dev",
+  "timestamps": [
+   2.0,
+   9.8,
+   19.2,
+   22.4,
+   32.8,
+   36.6,
+   49.4,
+   57.4,
+   61.4,
+   70.0,
+   143.4,
+   157.2,
+   161.8,
+   175.0
+  ],
+  "n": 14,
+  "required": 13,
+  "hits": 10,
+  "extras": 1,
+  "duplicates": 3,
+  "detail": "HHHDHDHHDHHHXH",
+  "missed": [
+   8,
+   9,
+   12
+  ]
+ },
+ "4sZ0Qz8Uzfs": {
+  "split": "dev",
+  "timestamps": [
+   0.0,
+   4.6,
+   8.0,
+   10.6,
+   13.2,
+   23.0,
+   23.8,
+   56.0,
+   66.6,
+   72.2,
+   152.4,
+   172.2
+  ],
+  "n": 12,
+  "required": 9,
+  "hits": 4,
+  "extras": 3,
+  "duplicates": 2,
+  "detail": "HXoHoXHXoDHD",
+  "missed": [
+   2,
+   5,
+   6,
+   7,
+   8
+  ]
+ },
+ "Z9PmOw4eMEA": {
+  "split": "extra",
+  "timestamps": [
+   7.2,
+   8.2,
+   10.2,
+   12.6,
+   16.8,
+   23.0,
+   29.4,
+   31.8,
+   35.6,
+   38.6,
+   46.4,
+   62.6,
+   64.2,
+   69.2,
+   84.2,
+   96.8,
+   117.8,
+   124.6,
+   128.6,
+   146.6
+  ],
+  "n": 20,
+  "required": 14,
+  "hits": 7,
+  "extras": 6,
+  "duplicates": 4,
+  "detail": "HDHXHHHDDoXHDXXXoXoH",
+  "missed": [
+   6,
+   7,
+   9,
+   10,
+   11,
+   12,
+   13
+  ]
+ }
+}

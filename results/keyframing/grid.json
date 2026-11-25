@@ -1,0 +1,223 @@
+{
+ "J2Im3lshuek": {
+  "split": "test",
+  "timestamps": [
+   0.0,
+   13.013,
+   33.233,
+   60.46
+  ],
+  "n": 4,
+  "required": 5,
+  "hits": 4,
+  "extras": 0,
+  "duplicates": 0,
+  "detail": "HHHH",
+  "missed": [
+   4
+  ]
+ },
+ "OxCkeXG9LXY": {
+  "split": "test",
+  "timestamps": [
+   2.0,
+   8.0,
+   14.6,
+   21.8,
+   35.8,
+   43.0
+  ],
+  "n": 6,
+  "required": 7,
+  "hits": 4,
+  "extras": 0,
+  "duplicates": 0,
+  "detail": "oHHHoH",
+  "missed": [
+   4,
+   5,
+   7
+  ]
+ },
+ "I0U6NFTSN8k": {
+  "split": "test",
+  "timestamps": [
+   13.2,
+   20.6,
+   32.0,
+   36.2,
+   62.2,
+   73.6,
+   95.6,
+   118.8,
+   135.8,
+   146.0,
+   164.199,
+   183.199,
+   191.999
+  ],
+  "n": 13,
+  "required": 12,
+  "hits": 9,
+  "extras": 3,
+  "duplicates": 0,
+  "detail": "HHHoHHHHXXHXh",
+  "missed": [
+   4,
+   5,
+   9
+  ]
+ },
+ "LLbY489TJu0": {
+  "split": "dev",
+  "timestamps": [
+   0.0,
+   11.612,
+   15.816,
+   21.622,
+   26.426,
+   35.636,
+   56.657,
+   60.661,
+   63.463,
+   76.476,
+   90.09,
+   98.298,
+   110.711,
+   123.523,
+   136.336
+  ],
+  "n": 15,
+  "required": 16,
+  "hits": 12,
+  "extras": 1,
+  "duplicates": 0,
+  "detail": "HHoHoHHXHHHHHHH",
+  "missed": [
+   5,
+   9,
+   13,
+   16
+  ]
+ },
+ "pOq1ZI0dqg4": {
+  "split": "dev",
+  "timestamps": [
+   0.2,
+   4.6,
+   12.2,
+   13.6,
+   16.8,
+   19.6,
+   29.8,
+   40.8,
+   61.0,
+   79.4,
+   91.2,
+   93.4,
+   98.4,
+   107.4
+  ],
+  "n": 14,
+  "required": 10,
+  "hits": 8,
+  "extras": 2,
+  "duplicates": 1,
+  "detail": "HHHoHoHHoDHXXH",
+  "missed": [
+   5,
+   7
+  ]
+ },
+ "Nk4af3ZU_tM": {
+  "split": "dev",
+  "timestamps": [
+   0.4,
+   4.2,
+   13.0,
+   15.8,
+   22.2,
+   25.4,
+   34.2,
+   49.4,
+   53.0,
+   61.4,
+   67.4,
+   72.0,
+   101.4,
+   108.0,
+   143.2,
+   157.2,
+   164.8,
+   168.2
+  ],
+  "n": 18,
+  "required": 13,
+  "hits": 12,
+  "extras": 3,
+  "duplicates": 2,
+  "detail": "HoHXHXHHXHHDHHHHHD",
+  "missed": [
+   13
+  ]
+ },
+ "4sZ0Qz8Uzfs": {
+  "split": "dev",
+  "timestamps": [
+   0.0,
+   6.0,
+   14.4,
+   23.8,
+   33.2,
+   37.6,
+   51.2,
+   66.6,
+   82.6,
+   94.4,
+   98.2,
+   109.4,
+   118.6
+  ],
+  "n": 13,
+  "required": 9,
+  "hits": 6,
+  "extras": 1,
+  "duplicates": 4,
+  "detail": "HHoHHXHoDDDDH",
+  "missed": [
+   3,
+   7,
+   9
+  ]
+ },
+ "Z9PmOw4eMEA": {
+  "split": "extra",
+  "timestamps": [
+   10.0,
+   16.8,
+   23.4,
+   45.0,
+   53.2,
+   64.2,
+   78.8,
+   85.4,
+   89.6,
+   99.6,
+   116.8,
+   133.8,
+   146.2
+  ],
+  "n": 13,
+  "required": 14,
+  "hits": 10,
+  "extras": 0,
+  "duplicates": 1,
+  "detail": "HHHHHHhDHooHH",
+  "missed": [
+   1,
+   5,
+   9,
+   12
+  ]
+ }
+}

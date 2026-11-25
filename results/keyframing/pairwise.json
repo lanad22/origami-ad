@@ -1,0 +1,1420 @@
+{
+ "LLbY489TJu0": {
+  "split": "dev",
+  "timestamps": [
+   0.0,
+   11.612,
+   15.816,
+   21.622,
+   26.426,
+   35.636,
+   46.847,
+   63.463,
+   76.476,
+   90.09,
+   98.298,
+   110.711,
+   130.53,
+   136.336
+  ],
+  "picked_s": [
+   0.0,
+   11.612,
+   15.816,
+   21.622,
+   26.426,
+   35.636,
+   46.847,
+   51.251,
+   56.657,
+   60.661,
+   63.463,
+   76.476,
+   90.09,
+   98.298,
+   103.303,
+   110.711,
+   123.523,
+   130.53,
+   136.336
+  ],
+  "pairwise": [
+   {
+    "t": 0.0,
+    "ref": null,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "Start of video: B shows the flat, unfolded square sheet in its completed starting state. Hands only rest on it, and the fold begins after B."
+   },
+   {
+    "t": 11.611600000000001,
+    "ref": 0.0,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The square is folded in half along the diagonal into a flat triangle with the white side up. B-1s shows the same flat triangle, so the fold is complete. The hand is only pressing the finished fold, and the unfolding afterwards is the next step."
+   },
+   {
+    "t": 15.815800000000001,
+    "ref": 11.611600000000001,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The paper is unfolded from the white triangle in A to a flat square with the orange side up, so it is a different completed state. It lies flat and stays still from B-1s to B+1s; the next fold starts only at B+2s."
+   },
+   {
+    "t": 21.6216,
+    "ref": 15.815800000000001,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The square is now folded in half along the diagonal into a flat white triangle. The hands are only pressing the finished fold, and the context frames show the triangle staying in place."
+   },
+   {
+    "t": 26.4264,
+    "ref": 21.6216,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The triangle from A has been unfolded and laid flat as an orange-side-up diamond showing the diagonal creases. The corner fold seen at +1s is the next fold starting after B."
+   },
+   {
+    "t": 35.635600000000004,
+    "ref": 26.4264,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The bottom corner is folded up into a flat white triangle, which is a new state compared with the plain creased diamond in A. The shape stays unchanged at +1s and +2s, so the fold is finished; the right hand is only moving toward the next fold."
+   },
+   {
+    "t": 46.8468,
+    "ref": 35.635600000000004,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "B shows a different, settled outline from A: a white strip along the top and orange below with a V notch. The B -1s frame shows the same state, so it is stable. The change at +1s is the next fold starting."
+   },
+   {
+    "t": 51.251200000000004,
+    "ref": 46.8468,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "Hands are actively manipulating the bottom flap. The context frames show white paper appearing and disappearing at the bottom (B-1s, B+2s), so the fold is not settled and the bottom of the paper is hidden."
+   },
+   {
+    "t": 56.656600000000005,
+    "ref": 46.8468,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "Hands are pinching and holding a strip across the middle of the paper and hide much of it. By B+2 the bottom edge has been folded up, so B looks like the middle of a fold, not a finished state."
+   },
+   {
+    "t": 60.6606,
+    "ref": 46.8468,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "Paper lies flat with a different outline from A: a large red triangle on top and a white strip with notched ends below. This shows a completed new state; the paper only starts moving for the next step after B."
+   },
+   {
+    "t": 63.46340000000001,
+    "ref": 60.6606,
+    "verdict": "same",
+    "action": "replace previous",
+    "reason": "Same shape as A (a triangle with a white folded strip along the long edge), only rotated 180\u00b0 and zoomed in. No new crease or flap. The flip starts only after B."
+   },
+   {
+    "t": 76.47640000000001,
+    "ref": 63.46340000000001,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The paper has been reworked into a mostly white shape with a small red square corner, clearly different from A's red heart. The context frames show the same shape only being rotated, not folded further."
+   },
+   {
+    "t": 90.09,
+    "ref": 76.47640000000001,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "Paper now shows two orange flaps folded at the top, unlike A's single orange diamond; the state is stable across the context frames, and the hand is only pressing the finished fold."
+   },
+   {
+    "t": 98.29820000000001,
+    "ref": 90.09,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "A red triangle flap now appears at the bottom between the two red squares. It is a new layer not present in A. The paper lies flat, and the -1s frame shows the same state, so the fold is complete."
+   },
+   {
+    "t": 103.3032,
+    "ref": 98.29820000000001,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "Both hands cover much of the paper and are actively manipulating a flap; the context frames show the shape still changing, so the fold is not finished."
+   },
+   {
+    "t": 110.71060000000001,
+    "ref": 98.29820000000001,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The outline changed from A's pentagon-like shape to a hexagon with white triangles at the corners. The paper lies flat, and the hand is only pressing it. The next fold starts after B."
+   },
+   {
+    "t": 123.52340000000001,
+    "ref": 110.71060000000001,
+    "verdict": "same",
+    "action": "drop",
+    "reason": "B shows the same hexagonal shape with white corner triangles and centre strip as A, only rotated. The hands cover part of it, and the next fold (folding in half) starts after B."
+   },
+   {
+    "t": 130.53040000000001,
+    "ref": 110.71060000000001,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "B shows a new flat state (white top band, orange body, small white bottom triangles) that differs from A; the paper is lying flat, and the turn-over seen at +1s is the next step."
+   },
+   {
+    "t": 136.33620000000002,
+    "ref": 130.53040000000001,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "Model has been turned over and lies flat: a clean orange octagon with a white top band, unlike A's flap-covered side. Hands are off the paper and the context frames show no flap moving."
+   }
+  ],
+  "n": 14,
+  "required": 16,
+  "hits": 11,
+  "extras": 1,
+  "duplicates": 0,
+  "detail": "HHoHoHHHHHHHXH",
+  "missed": [
+   6,
+   9,
+   13,
+   14,
+   16
+  ]
+ },
+ "pOq1ZI0dqg4": {
+  "split": "dev",
+  "timestamps": [
+   0.2,
+   12.2,
+   13.6,
+   16.8,
+   19.6,
+   24.0,
+   29.8,
+   35.4,
+   40.8,
+   74.6,
+   91.2,
+   93.4,
+   98.4,
+   104.6,
+   107.4
+  ],
+  "picked_s": [
+   0.2,
+   4.6,
+   12.2,
+   13.6,
+   16.8,
+   19.6,
+   24.0,
+   29.8,
+   35.4,
+   40.8,
+   44.4,
+   60.0,
+   61.0,
+   74.6,
+   76.6,
+   79.4,
+   83.4,
+   85.6,
+   87.4,
+   91.2,
+   93.4,
+   98.4,
+   104.6,
+   107.4
+  ],
+  "pairwise": [
+   {
+    "t": 0.2,
+    "ref": null,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "First usable state: the square sheet lies flat with a visible diagonal crease, and the hands rest on it without folding. The next fold only starts after B."
+   },
+   {
+    "t": 4.6,
+    "ref": 0.2,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "B shows the paper folded flat into a diagonal triangle, a completed state that differs from the creased square in A. The hands are only starting the next step (unfolding)."
+   },
+   {
+    "t": 12.2,
+    "ref": 4.6,
+    "verdict": "same",
+    "action": "replace previous",
+    "reason": "B shows the same flat, completed diagonal triangle as A. It is only repositioned or rotated, with no visible new crease or layer. The unfolding starts after B."
+   },
+   {
+    "t": 13.6,
+    "ref": 12.2,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The paper has been unfolded flat into a square showing both diagonal creases, which is a different state from A's folded triangle. The next fold only starts after B."
+   },
+   {
+    "t": 16.8,
+    "ref": 13.6,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The square, previously creased only diagonally, is now folded flat in half into a rectangle. Hands are just holding the finished fold; the unfolding seen at +1s is the next step."
+   },
+   {
+    "t": 19.6,
+    "ref": 16.8,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "Paper is now fully unfolded and lying flat, showing the X and center creases, a different outline from A's folded rectangle. The collapse fold only starts after B."
+   },
+   {
+    "t": 24.0,
+    "ref": 19.6,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The square from A is now folded flat into a triangle. B-1s already shows the same triangle, and the hands are only pressing it. The collapse that begins at +1s is the next fold."
+   },
+   {
+    "t": 29.8,
+    "ref": 24.0,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "B shows a flat, completed triangle that is noticeably larger and differently layered than A's smaller triangle. The hand is only resting on the finished fold, and the next fold starts after B."
+   },
+   {
+    "t": 35.4,
+    "ref": 29.8,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The triangle from A has been folded into a smaller square with a diagonal crease. The square looks flat and finished, the hands are only pressing it, and B+1 shows the same square at rest."
+   },
+   {
+    "t": 40.8,
+    "ref": 35.4,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "B shows a flat diamond with a new centre crease and a different outline from A. The paper lies flat and the fold looks finished. The flap lifted at +1s is the next fold starting."
+   },
+   {
+    "t": 44.4,
+    "ref": 40.8,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "In B the hands are still folding the paper in half: the paper is lifted and partly hidden, and in the following frames it is still being pressed into place."
+   },
+   {
+    "t": 60.0,
+    "ref": 40.8,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "In B the paper is lifted in the air and still being shaped. The context frames show it opening into a different outline and being flattened, so the fold is not finished."
+   },
+   {
+    "t": 61.0,
+    "ref": 40.8,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "The paper is held up in both hands and is being manipulated. Just before B it is 3D, and just after B it is still being reshaped, so the state does not look like a finished, settled fold."
+   },
+   {
+    "t": 74.6,
+    "ref": 40.8,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "B shows a completed narrow, multi-layered folded shape that clearly differs from A's flat diamond. It is held steady, and the cutting at B+1s is the next step, not a continuation of the fold."
+   },
+   {
+    "t": 76.6,
+    "ref": 74.6,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "The tip was just cut, but in B the model is pinched and tilted in the fingers while being readied to blow air into the hole, so its new state is not clearly readable."
+   },
+   {
+    "t": 79.4,
+    "ref": 74.6,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "The model is still being opened and shaped into the box. In the frames before and after B, the hands keep pinching and adjusting the top flaps, so this state is not yet complete."
+   },
+   {
+    "t": 83.4,
+    "ref": 74.6,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "In B the hands are actively manipulating and opening the top flaps. In the context frames right after B, a flap is still being pulled up and shaped, so the fold is in progress."
+   },
+   {
+    "t": 85.6,
+    "ref": 74.6,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "Hands are actively pulling and opening flaps in B, with a petal still bent outward; the context frames show the paper still being shaped, so the fold is not finished."
+   },
+   {
+    "t": 87.4,
+    "ref": 74.6,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "Hands are actively curling the lily petals in B, and the context frames show the petals still being shaped, so the fold is not finished."
+   },
+   {
+    "t": 91.2,
+    "ref": 74.6,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The tulip flower is finished with its petals opened outward, which differs from the closed bud in A. The B-1s frame shows the same opened state, so the fold is complete, and after B the video moves on to a new sheet."
+   },
+   {
+    "t": 93.4,
+    "ref": 91.2,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "A shows the finished tulip flower. B shows a fresh flat sheet laid out to start the next part, likely the stem. The paper is flat and its outline is readable, so this is a distinct starting state rather than a mid-fold frame."
+   },
+   {
+    "t": 98.4,
+    "ref": 93.4,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The flat sheet in A has been rolled into a thin, finished tube in B. It is held still and clearly visible; the hand work at the end in the following frames is the next step."
+   },
+   {
+    "t": 104.6,
+    "ref": 98.4,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The paper stick has been cut to a shorter length (the cut is finished in the -1s frame), giving a new outline. B shows the completed shorter stick before the flower is attached."
+   },
+   {
+    "t": 107.4,
+    "ref": 104.6,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The tulip head is now attached to the stem, forming the assembled flower. A showed only the bare stem. The following frames show the same assembled state, so it is complete and not mid-fold."
+   }
+  ],
+  "n": 15,
+  "required": 10,
+  "hits": 9,
+  "extras": 2,
+  "duplicates": 1,
+  "detail": "HHoHoHHHHoHXXHD",
+  "missed": [
+   2
+  ]
+ },
+ "Nk4af3ZU_tM": {
+  "split": "dev",
+  "timestamps": [
+   0.4,
+   13.0,
+   15.8,
+   22.2,
+   34.2,
+   49.4,
+   53.0,
+   61.4,
+   72.0,
+   108.0,
+   143.2,
+   155.2,
+   157.2,
+   164.8,
+   174.2
+  ],
+  "picked_s": [
+   0.4,
+   4.2,
+   13.0,
+   15.8,
+   22.2,
+   25.4,
+   29.8,
+   34.2,
+   44.6,
+   49.4,
+   53.0,
+   61.4,
+   67.4,
+   72.0,
+   80.6,
+   88.2,
+   98.2,
+   101.4,
+   108.0,
+   110.8,
+   119.2,
+   126.2,
+   137.2,
+   143.2,
+   155.2,
+   157.2,
+   164.8,
+   168.2,
+   174.2
+  ],
+  "pairwise": [
+   {
+    "t": 0.4,
+    "ref": null,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "Start of video: B clearly shows the flat, unfolded square sheet with no hands, which is the initial paper state. Hands only begin the next fold after B."
+   },
+   {
+    "t": 4.2,
+    "ref": 0.4,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "B is a transitional frame: the hands are blurred and moving, and the white sheet is partly hidden. In the frames just before and after, the paper is still being folded into a blue strip, so no completed state is shown."
+   },
+   {
+    "t": 13.0,
+    "ref": 0.4,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The square has been folded in half into a flat rectangle. B-1s shows the same finished rectangle, and the lifting in B+1s is the next fold starting."
+   },
+   {
+    "t": 15.8,
+    "ref": 13.0,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "Paper is now unfolded white side up with a new horizontal center crease, lying flat while the hands press it (confirmed flat at +1s). The bottom-edge fold seen at +2s is the next fold starting."
+   },
+   {
+    "t": 22.2,
+    "ref": 15.8,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The bottom edge has been folded up, revealing a flat blue strip. This is a completed new layer compared with A. The frame 1 s later shows the same flat state, and the lifting at +2s is the next fold starting."
+   },
+   {
+    "t": 25.4,
+    "ref": 22.2,
+    "verdict": "same",
+    "action": "drop",
+    "reason": "The paper has only been rotated 180\u00b0. The blue folded strip is now at the top, with the same proportions and no new crease. The next fold starts afterward."
+   },
+   {
+    "t": 29.8,
+    "ref": 22.2,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The paper is now a narrow blue strip with both edges folded, which differs from A's single bottom fold. Hands are only pressing the finished crease, and the state is unchanged in +1s and +2s."
+   },
+   {
+    "t": 34.2,
+    "ref": 29.8,
+    "verdict": "same",
+    "action": "replace previous",
+    "reason": "Both frames show the same strip with its edges folded toward the centre line. B is zoomed in with less of the paper hidden by hands, and no new fold is completed."
+   },
+   {
+    "t": 44.6,
+    "ref": 34.2,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The long rectangle in A has been folded into a smaller, roughly square shape with a new vertical edge. It lies flat and the hands are only pressing it, consistent across the context frames."
+   },
+   {
+    "t": 49.4,
+    "ref": 44.6,
+    "verdict": "same",
+    "action": "replace previous",
+    "reason": "The paper shows the same rectangle with the same central vertical edge as in A. Only the hand positions changed, and B shows the paper with less occlusion."
+   },
+   {
+    "t": 53.0,
+    "ref": 49.4,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "B shows the paper lying flat as a tall rectangle with a center seam and a new horizontal crease near the bottom. This differs from A's squarish outline. The fold that follows only starts after B."
+   },
+   {
+    "t": 61.4,
+    "ref": 53.0,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The bottom section is now folded up into a flat horizontal band, adding a new layer and outline compared to A. The paper lies flat with hands only pressing, and the movement in B+1s is the next step."
+   },
+   {
+    "t": 67.4,
+    "ref": 61.4,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The upper flaps are now folded down, forming a horizontal rectangle with a middle seam. The fold is flat and stays unchanged in the following frames, where the hands are only pressing it."
+   },
+   {
+    "t": 72.0,
+    "ref": 67.4,
+    "verdict": "same",
+    "action": "replace previous",
+    "reason": "Both frames show the same state: the top and bottom edges are folded to meet at the centre line. No new fold has been made, and B shows the paper unobstructed by hands."
+   },
+   {
+    "t": 80.6,
+    "ref": 72.0,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "The top layer is lifted and opened, with the white inside showing, while the hands work it. In the context frames the flap is still moving, so the fold is not finished."
+   },
+   {
+    "t": 88.2,
+    "ref": 72.0,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "In B the top flap is lifted and curled, showing its white inner side, and the hands are still shaping it. In the context frames after B the same flap keeps moving into place, so the fold is not finished."
+   },
+   {
+    "t": 98.2,
+    "ref": 72.0,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "Both hands are holding and bending the top flap, which is still being folded. In the frames 1-2 s after B the paper shape keeps changing, so the fold is not finished."
+   },
+   {
+    "t": 101.4,
+    "ref": 72.0,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "In B the top layer is shifted sideways past the bottom layer while both hands are still adjusting it. In the following frames the paper is still being pressed back into a neat rectangle, so the fold is not finished."
+   },
+   {
+    "t": 108.0,
+    "ref": 72.0,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "Paper lies flat with a new outline: a wide top strip with an angled right corner over a narrower bottom rectangle, unlike A's two stacked rectangles. Hands are only pressing, and the movement after B is the next fold."
+   },
+   {
+    "t": 110.8,
+    "ref": 108.0,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "Hands cover most of the paper while it is being reshaped. The context frames before and after show flaps still moving, so the state cannot be read as a completed fold."
+   },
+   {
+    "t": 119.2,
+    "ref": 108.0,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "The top flap is lifted and bent, with its darker underside showing while the hands manipulate it. It is still raised in the following frames, so the fold is in progress."
+   },
+   {
+    "t": 126.2,
+    "ref": 108.0,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "In B the hands are holding up and opening the top layer, leaving a visible gap. The context frames show the paper still being opened and shaped into 3D, so no completed state is shown."
+   },
+   {
+    "t": 137.2,
+    "ref": 108.0,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "The right hand is still working the right side of the paper and hides it. The outline keeps changing in the next frames and only settles into a flat hexagon at +2s."
+   },
+   {
+    "t": 143.2,
+    "ref": 108.0,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "B shows a new completed hexagon shape with both halves folded flat. A showed a trapezoid on top with a lower rectangular flap. In B the hands are away from the paper, and the next fold only starts at +2s."
+   },
+   {
+    "t": 155.2,
+    "ref": 143.2,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The hexagon from A has become a sailboat with a pointed sail and a hull. B shows this finished shape with the hands just pressing it, and the same boat appears settled again at +2s."
+   },
+   {
+    "t": 157.2,
+    "ref": 155.2,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "B shows a flat, finished state. The bottom section is now a horizontal band with small pointed side tips, which differs from A's large sloping triangular side flaps. Hands are only pressing the paper, and the next fold starts after B."
+   },
+   {
+    "t": 164.8,
+    "ref": 157.2,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The paper lies flat in a clearly new outline with angled flaps, unlike A's boat shape. The hands only rest on it and the shape matches at -1s and +1s. The change at +2s is the next fold starting."
+   },
+   {
+    "t": 168.2,
+    "ref": 164.8,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "In B the hands are holding the paper up off the table and it is already starting to bend; the following frames show it being folded in half, so B is not a settled, completed state."
+   },
+   {
+    "t": 174.2,
+    "ref": 164.8,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "B shows the finished blade-shaped model held up at the end of the video, clearly different from A's flat state. The pose is stable from B to B+1s and the video then ends, so this is a completed final state rather than a fold in progress."
+   }
+  ],
+  "n": 15,
+  "required": 13,
+  "hits": 12,
+  "extras": 2,
+  "duplicates": 1,
+  "detail": "HHXHHHXHHHHHDHH",
+  "missed": [
+   8
+  ]
+ },
+ "4sZ0Qz8Uzfs": {
+  "split": "dev",
+  "timestamps": [
+   0.0,
+   6.0,
+   14.4,
+   33.2,
+   37.6,
+   43.4,
+   66.6,
+   118.6,
+   153.4
+  ],
+  "picked_s": [
+   0.0,
+   6.0,
+   14.4,
+   23.8,
+   33.2,
+   37.6,
+   43.4,
+   51.2,
+   59.8,
+   66.6,
+   70.6,
+   82.6,
+   94.4,
+   98.2,
+   109.4,
+   118.6,
+   153.4
+  ],
+  "pairwise": [
+   {
+    "t": 0.0,
+    "ref": null,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "First frame: the flat square paper is clearly visible with its diagonal creases. The paper is not being folded, and the hands are only holding it."
+   },
+   {
+    "t": 6.0,
+    "ref": 0.0,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "B shows the square folded flat along the diagonal into a triangle, a completed state that differs from A's flat square. Unfolding begins only after B."
+   },
+   {
+    "t": 14.4,
+    "ref": 6.0,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The paper is unfolded flat as a square with diagonal creases visible, which differs from A's folded triangle. The fold that starts afterward is the next step, not a fold still in progress."
+   },
+   {
+    "t": 23.8,
+    "ref": 14.4,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The square from A is now folded in half along the diagonal into a triangle. The fold is already flat at B-1s, and the hand is only pressing it. The next fold begins after B."
+   },
+   {
+    "t": 33.2,
+    "ref": 23.8,
+    "verdict": "same",
+    "action": "replace previous",
+    "reason": "B shows the same diamond with a single center crease as A, only zoomed in and with hands resting on it; the next fold starts only after B (B+2s)."
+   },
+   {
+    "t": 37.6,
+    "ref": 33.2,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "B shows the sheet opened flat with a radiating crease pattern, which differs from A's folded diamond. The collapse in the following frames is the next fold starting."
+   },
+   {
+    "t": 43.4,
+    "ref": 37.6,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The paper is now folded into a diamond with flaps meeting at the centre line, unlike the flat creased square in A. The same shape is already visible 1 s before B, so the fold looks finished and the hands are only pressing it. The movement at +1s appears to be the next fold starting."
+   },
+   {
+    "t": 51.2,
+    "ref": 43.4,
+    "verdict": "same",
+    "action": "drop",
+    "reason": "B shows the same diamond with a centre crease as A. Nothing new is completed, and the hands only press or rest on the paper, covering more of it than in A. The next fold starts after B."
+   },
+   {
+    "t": 59.8,
+    "ref": 43.4,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "The right hand covers much of the paper and the flaps are still being worked in the frames before and after B. In B+2s the bottom flaps are still lifted, so the fold is not finished."
+   },
+   {
+    "t": 66.6,
+    "ref": 43.4,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The paper has changed from A's narrow kite into a wider flat diamond with new creases. In B the hand only presses down a fold that is already flat, and the +1s and +2s frames show the same settled state."
+   },
+   {
+    "t": 70.6,
+    "ref": 66.6,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "Hands are holding and manipulating the paper in B and in the following frames; the flap is still being worked, so no finished state can be read."
+   },
+   {
+    "t": 82.6,
+    "ref": 66.6,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "Both hands are actively manipulating the layered flaps at the top, and the surrounding frames show the paper still being shaped, so the fold is not finished."
+   },
+   {
+    "t": 94.4,
+    "ref": 66.6,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "Paper now has a pentagon outline with the lower flaps folded in, unlike the diamond in A. The context frames show the same stable shape, with hands only holding or pressing it."
+   },
+   {
+    "t": 98.2,
+    "ref": 94.4,
+    "verdict": "same",
+    "action": "drop",
+    "reason": "B shows the same pentagon shape as A, only rotated and with the thumb covering part of it. No new fold is completed; the next fold ('fold the lower tip') starts after B."
+   },
+   {
+    "t": 109.4,
+    "ref": 94.4,
+    "verdict": "same",
+    "action": "drop",
+    "reason": "B shows the same pentagon shape with the lower tips still unfolded, matching A. The lower-tip fold only begins after B, so the state has not changed yet."
+   },
+   {
+    "t": 118.6,
+    "ref": 94.4,
+    "verdict": "same",
+    "action": "replace previous",
+    "reason": "B shows the same pentagon model with the centre slit and pointed bottom as A, only repositioned and pressed by the thumb. No new crease or outline is evident. B's full outline is more visible."
+   },
+   {
+    "t": 153.4,
+    "ref": 118.6,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "B shows the completed ladybug: the black head is folded down, the wings are separated and dotted, and the paper rests flat with no hands. This clearly differs from A's plain red folded shape."
+   }
+  ],
+  "n": 9,
+  "required": 9,
+  "hits": 6,
+  "extras": 1,
+  "duplicates": 0,
+  "detail": "HHoHXHoHH",
+  "missed": [
+   3,
+   4,
+   7
+  ]
+ },
+ "J2Im3lshuek": {
+  "split": "test",
+  "timestamps": [
+   0.0,
+   13.013,
+   33.233,
+   45.245,
+   60.46
+  ],
+  "picked_s": [
+   0.0,
+   13.013,
+   33.233,
+   45.245,
+   60.46
+  ],
+  "pairwise": [
+   {
+    "t": 0.0,
+    "ref": null,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "Start of video: B shows the flat, unfolded green square clearly with no hands, a valid first paper state. Hands appear only afterward to start the next fold."
+   },
+   {
+    "t": 13.013000000000002,
+    "ref": 0.0,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The sheet is now folded diagonally into a flat triangle. Hands are only pressing the finished fold, and B+1s shows the same flat state."
+   },
+   {
+    "t": 33.233200000000004,
+    "ref": 13.013000000000002,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "B shows a flat, completed state that differs from A's plain green triangle: the paper has the white side up, a kite-like outline with a centre crease, and a green tip. The context frames show the same shape only rotated, not still folding."
+   },
+   {
+    "t": 45.245200000000004,
+    "ref": 33.233200000000004,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The paper is now folded in half, leaving a long green strip with the white triangle standing up. This is a new outline compared with A's flat layout, and the shape stays unchanged in the +1s and +2s frames, so the fold is finished."
+   },
+   {
+    "t": 60.46040000000001,
+    "ref": 45.245200000000004,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The sailboat is finished with no hands on it, and the surrounding frames show the same settled state. The green hull now has a blunt vertical right end and a wider shape than in A, where it was still being pressed and looked tapered. This suggests an extra fold to the hull, though that end is partly hidden by fingers in A, so the difference is not certain."
+   }
+  ],
+  "n": 5,
+  "required": 5,
+  "hits": 5,
+  "extras": 0,
+  "duplicates": 0,
+  "detail": "HHHHH",
+  "missed": []
+ },
+ "OxCkeXG9LXY": {
+  "split": "test",
+  "timestamps": [
+   2.0,
+   8.0,
+   14.6,
+   21.8,
+   35.8,
+   37.0,
+   68.4
+  ],
+  "picked_s": [
+   2.0,
+   8.0,
+   11.4,
+   14.6,
+   17.6,
+   21.8,
+   35.8,
+   37.0,
+   43.0,
+   68.4
+  ],
+  "pairwise": [
+   {
+    "t": 1.9999907706506694,
+    "ref": null,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "First real frame: the square paper lies flat and unchanged in the following frames, with the materials shown. This is the starting state; the previous frame was the title card."
+   },
+   {
+    "t": 7.999963082602678,
+    "ref": 1.9999907706506694,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The square has been folded in half along the diagonal into a triangle. The hands are only pressing the finished fold, the shape is stable at -1s and +1s, and the next corner fold starts only at +2s."
+   },
+   {
+    "t": 11.399947392708816,
+    "ref": 7.999963082602678,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "The hand is still creasing the left flap and hides most of it. The context frames show the flap still settling, so the fold is not finished in B."
+   },
+   {
+    "t": 14.599932625749886,
+    "ref": 7.999963082602678,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The left corner of the triangle is now folded down to the bottom tip and lies flat; it was already in place at -1s. The right-side fold only starts after B."
+   },
+   {
+    "t": 17.59991878172589,
+    "ref": 14.599932625749886,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "The right hand is still folding the right flap in B. In the frames after B the hand is still working on that same flap, so the fold is not finished."
+   },
+   {
+    "t": 21.799899400092297,
+    "ref": 14.599932625749886,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "Both side flaps are now folded down into a symmetric pointed shape, while A had only one side folded. The paper lies flat and matches the frame 1 s earlier. The change at +1 s is the next fold."
+   },
+   {
+    "t": 35.79983479464698,
+    "ref": 21.799899400092297,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The outer corners are now folded in, giving a heart outline that differs from A. The paper lies flat with the hands only resting on it, and the frames after B show the next steps (flipping, drawing) rather than this fold still moving."
+   },
+   {
+    "t": 36.99982925703738,
+    "ref": 35.79983479464698,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The paper has been turned over and rotated, so a different side and outline now face up. It lies flat with the hand only pressing it. Drawing starts only after B."
+   },
+   {
+    "t": 42.99980156898939,
+    "ref": 36.99982925703738,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "Between A and B the hands made another fold. B shows the finished result clearly with no hands: the right-side flaps are spread into points and the dark underside shows at the left tip. The outline differs from A, and the drawing that starts afterward does not affect B."
+   },
+   {
+    "t": 68.39968435625289,
+    "ref": 42.99980156898939,
+    "verdict": "same",
+    "action": "replace previous",
+    "reason": "B shows the same folded ladybug as A, only rotated and with black dots drawn on. Drawing adds no new crease, outline or layer. B shows the model more clearly."
+   }
+  ],
+  "n": 7,
+  "required": 7,
+  "hits": 5,
+  "extras": 0,
+  "duplicates": 0,
+  "detail": "oHHHoHH",
+  "missed": [
+   4,
+   5
+  ]
+ },
+ "I0U6NFTSN8k": {
+  "split": "test",
+  "timestamps": [
+   13.2,
+   20.6,
+   32.0,
+   62.2,
+   95.6,
+   108.0,
+   114.0,
+   118.8,
+   164.199,
+   205.799
+  ],
+  "picked_s": [
+   13.2,
+   20.6,
+   32.0,
+   36.2,
+   40.6,
+   53.2,
+   62.2,
+   70.4,
+   73.6,
+   79.6,
+   84.4,
+   95.6,
+   102.2,
+   108.0,
+   114.0,
+   118.8,
+   135.8,
+   146.0,
+   153.6,
+   158.0,
+   164.199,
+   169.199,
+   183.199,
+   191.999,
+   205.799
+  ],
+  "pairwise": [
+   {
+    "t": 13.199958987105793,
+    "ref": null,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "B shows the flat, unfolded red square, the starting paper state. The fold that begins in the +1s and +2s frames starts after B, so B is not mid-fold."
+   },
+   {
+    "t": 20.59993599502874,
+    "ref": 13.199958987105793,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The square from A is now folded in half diagonally into a flat triangle. The context frames show the same flat triangle with the hands only pressing it, so the fold is complete."
+   },
+   {
+    "t": 31.999900574801924,
+    "ref": 20.59993599502874,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The large triangle in A has been folded in half again into a smaller triangle. It lies flat and unchanged from B-1 through B+2, with the hands only pressing the finished fold."
+   },
+   {
+    "t": 36.19988752524468,
+    "ref": 31.999900574801924,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "The right hand is holding a lifted corner and the paper is bent mid-fold. In the context frames the flap is still moving into place."
+   },
+   {
+    "t": 40.59987385427994,
+    "ref": 31.999900574801924,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "Both hands are pinching and working the bottom edge of the paper, and the same manipulation continues in the +1s and +2s frames, so the fold is still in progress and the hands partly hide the paper."
+   },
+   {
+    "t": 53.1998347056082,
+    "ref": 31.999900574801924,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "B shows the paper lying flat as a square/rectangle, a different outline from A's triangle. It matches the frame 1 s earlier, so the fold is complete; the lifting seen at +1 s is the next fold starting."
+   },
+   {
+    "t": 62.19980674227124,
+    "ref": 53.1998347056082,
+    "verdict": "same",
+    "action": "replace previous",
+    "reason": "B shows the same plain red square as A with no new completed fold. The corner fold only begins in the following frames."
+   },
+   {
+    "t": 70.39978126456424,
+    "ref": 62.19980674227124,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "Both hands cover most of the paper while pressing a fold, so the paper state cannot be read; the context frames show the hands still working on it."
+   },
+   {
+    "t": 73.59977132204443,
+    "ref": 62.19980674227124,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "In B a hand is lifting and folding the left corner flap, and in the +1s and +2s frames the fingers are still working the same flap, so the fold is not finished."
+   },
+   {
+    "t": 79.59975267981979,
+    "ref": 62.19980674227124,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "Both hands are working the paper and cover much of it, so its state can't be read. The context frames show the hands still handling it, and B+2 shows a plain square with no clearly finished new fold."
+   },
+   {
+    "t": 84.39973776604008,
+    "ref": 62.19980674227124,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "A flap is still being folded and pressed into place just before B, and the hands cover much of the paper, so the finished state cannot be clearly read."
+   },
+   {
+    "t": 95.59970296722075,
+    "ref": 62.19980674227124,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "B shows the paper lying flat with new diagonal creases and folded triangular flaps, a clearly different state from A's plain square. The frame 1 s before B shows the same settled state, and the lifting seen after B is the next fold starting."
+   },
+   {
+    "t": 102.19968246077364,
+    "ref": 95.59970296722075,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "Both hands cover most of the paper while pressing a fresh fold, so the paper's state can't be read reliably. The context frames show it still being creased and handled."
+   },
+   {
+    "t": 107.99966443995649,
+    "ref": 95.59970296722075,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The paper has changed from A's square with diagonal folds to an inverted triangle with a vertical centre line. The shape stays stable in the frames before and after B, so the fold looks finished, with the hands just holding it."
+   },
+   {
+    "t": 113.99964579773186,
+    "ref": 107.99966443995649,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The model is now folded in half into a narrower shape with the point down, unlike the open triangle in A. B-1 shows the same state, so the fold is complete; the movement in B+1 is the next fold starting."
+   },
+   {
+    "t": 118.79963088395215,
+    "ref": 113.99964579773186,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The flap that was being handled in A is now folded flat into a narrow pointed strip, and the finger is just pressing the finished fold. The paper starts moving only at +1s, which is the next fold beginning."
+   },
+   {
+    "t": 135.79957806431568,
+    "ref": 118.79963088395215,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "In B the fingers are pinching and bending the paper, which looks crumpled and partly lifted. In the frames after B the same area is still being worked, so the fold is not finished."
+   },
+   {
+    "t": 145.99954637253379,
+    "ref": 118.79963088395215,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "The paper is lifted off the table and being shaped into a 3D form by both hands. The context frames show the manipulation still continuing, so the fold is not finished."
+   },
+   {
+    "t": 153.59952275904925,
+    "ref": 118.79963088395215,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "Paper is lifted and held in the air while the fingers are still shaping it. The context frames show it continuing to change shape, so the fold is not finished."
+   },
+   {
+    "t": 157.9995090880845,
+    "ref": 118.79963088395215,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "Both hands are actively shaping the small 3D model and hide much of it. The context frames show the hands still working the paper, so the fold is not finished."
+   },
+   {
+    "t": 164.19948982445237,
+    "ref": 118.79963088395215,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "B shows a flat, finished hexagon-like shape with new fold lines, clearly different from A's kite shape; the frames before and after B show the same state, and the flap movement at +2s is the next fold starting."
+   },
+   {
+    "t": 169.19947428926517,
+    "ref": 164.19948982445237,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "In B the paper is bent and the bottom flaps are spread apart while the fingers work them. The context frames show the hands still manipulating the same area, so the fold is not finished."
+   },
+   {
+    "t": 183.19943079074102,
+    "ref": 164.19948982445237,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "In B the hands are pulling the layers apart. The context frames show the model still opening, with the dark interior appearing, so B is mid-manipulation rather than a finished state."
+   },
+   {
+    "t": 191.99940344881153,
+    "ref": 164.19948982445237,
+    "verdict": "midfold",
+    "action": "drop",
+    "reason": "B is heavily motion-blurred with a hand sweeping through, and the paper's shape and state can't be read reliably. The following frames show the hands drawing on the model with a pen, not folding, so B is not a clean completed fold state."
+   },
+   {
+    "t": 205.79936057169488,
+    "ref": 164.19948982445237,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "B shows the completed ladybug lying flat with no hands. It has a new outline, a head and the wing flaps, which differs from the plain folded shape held in A. The wing motion in the following frames is a display animation, not an unfinished fold."
+   }
+  ],
+  "n": 10,
+  "required": 12,
+  "hits": 9,
+  "extras": 1,
+  "duplicates": 0,
+  "detail": "HHHHHHXHHH",
+  "missed": [
+   4,
+   5,
+   7
+  ]
+ },
+ "Z9PmOw4eMEA": {
+  "split": "extra",
+  "timestamps": [
+   10.0,
+   16.8,
+   23.4,
+   35.6,
+   45.0,
+   53.2,
+   64.2,
+   72.6,
+   78.8,
+   85.4,
+   89.6,
+   111.4,
+   116.8,
+   126.2,
+   136.8,
+   146.2
+  ],
+  "picked_s": [
+   10.0,
+   16.8,
+   23.4,
+   35.6,
+   45.0,
+   53.2,
+   64.2,
+   72.6,
+   78.8,
+   85.4,
+   89.6,
+   99.6,
+   111.4,
+   116.8,
+   126.2,
+   133.8,
+   136.8,
+   146.2
+  ],
+  "pairwise": [
+   {
+    "t": 10.0,
+    "ref": null,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "First keyframe: B shows the flat, unfolded square sheet in a diamond orientation, with the hands resting on it. The fold-in-half only starts after B."
+   },
+   {
+    "t": 16.8,
+    "ref": 10.0,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The diamond square has been folded in half into a flat triangle. The fold is complete and the paper stays the same in the +1s frame. The hand at +2s is starting the next fold."
+   },
+   {
+    "t": 23.4,
+    "ref": 16.8,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "B shows the triangle unfolded back into a flat square with a visible diagonal crease, which differs from A's folded triangle. The paper lies flat, and the next fold only begins after B."
+   },
+   {
+    "t": 35.6,
+    "ref": 23.4,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The square has been folded in half along the diagonal into a triangle. The shape stays stable in the context frames (only rotated by +2s), with hands just pressing the finished fold."
+   },
+   {
+    "t": 45.0,
+    "ref": 35.6,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "A shows the paper folded in half into a triangle. In B it is unfolded flat as a diamond with visible crease lines, a completed new state. The next fold (bottom corner to the center) only starts after B."
+   },
+   {
+    "t": 53.2,
+    "ref": 45.0,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The square diamond has been folded in half into a triangle, and the fold is finished: hands are only pressing the flat edge. The context frames show the paper stable, with the next fold starting at +2s."
+   },
+   {
+    "t": 64.2,
+    "ref": 53.2,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "Top point folded down, giving a new trapezoid outline that is flat and complete; the next fold starts only after B"
+   },
+   {
+    "t": 72.6,
+    "ref": 64.2,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The right side has been folded down diagonally, creating a new outline. The fold is complete and flat, matching the frame 1 s before. The left-side repeat that follows is the next fold."
+   },
+   {
+    "t": 78.8,
+    "ref": 72.6,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The paper is now a flat diamond with a center crease, a different outline from A's long shape. The frame 1 s before B shows the same flat state, and the next fold only begins after B."
+   },
+   {
+    "t": 85.4,
+    "ref": 78.8,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The diamond from A now has its bottom folded up, giving a notched, heart-like outline. This shape is stable from B-1s to B+2s, and the caption 'Flip over the model' shows the fold is finished."
+   },
+   {
+    "t": 89.6,
+    "ref": 85.4,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The model has been flipped over, so the front of the heart now faces up, with the two rounded lobes and the horizontal band visible. A showed the back with the central seam. B is flat and complete, and the caption 'Flip over the model' confirms the flip. The rotation in the following frames is only repositioning before the next step."
+   },
+   {
+    "t": 99.6,
+    "ref": 89.6,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The right top lobe of the heart now has its tip folded down, unlike A. The fold is complete: it is unchanged at +1s, and the left lobe is only being worked on afterwards."
+   },
+   {
+    "t": 111.4,
+    "ref": 99.6,
+    "verdict": "same",
+    "action": "replace previous",
+    "reason": "Same finished heart shape as A with the folded top edges and lobes; B is only zoomed in, and the context frames show no new fold."
+   },
+   {
+    "t": 116.8,
+    "ref": 111.4,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The heart outline is narrower than in A, with the side corners folded in. The state is stable from -1s to +1s, and the paper only starts moving at +2s for the next step."
+   },
+   {
+    "t": 126.2,
+    "ref": 116.8,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "The heart is folded in half and pressed flat into a half-heart outline, which differs from the open heart in A. The 1 s before B shows the same settled state, so the fold is complete; the unfolding at +1s is the next step."
+   },
+   {
+    "t": 133.8,
+    "ref": 126.2,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "B shows the finished heart with both top lobes shaped and the outline complete. In A the paper was still half-shaped and rotated. The context frames show the same stable state, only held and zoomed."
+   },
+   {
+    "t": 136.8,
+    "ref": 133.8,
+    "verdict": "same",
+    "action": "replace previous",
+    "reason": "B shows the same finished heart as A, only zoomed in and held closer. There is no new fold. The paper being turned afterwards is the next action and does not change this state."
+   },
+   {
+    "t": 146.2,
+    "ref": 136.8,
+    "verdict": "new",
+    "action": "keep",
+    "reason": "B shows the finished heart with the front side up, a centre seam and folded side corners, which differs from A's back view; the hands are away and the paper is stable in the following frames."
+   }
+  ],
+  "n": 16,
+  "required": 14,
+  "hits": 13,
+  "extras": 1,
+  "duplicates": 1,
+  "detail": "HHHHHHHHhDHHoXHH",
+  "missed": [
+   1
+  ]
+ }
+}

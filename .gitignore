@@ -67,3 +67,10 @@ node_modules/
 .vscode/
 *.swp
 .claude/settings.local.json
+
+# ---- local-only files (keys, slides, Claude Code settings) ----
+OrigamiAD.txt
+*.pptx
+*.pdf
+.claude/
+.agents/

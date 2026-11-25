@@ -22,6 +22,15 @@ from origami_ad.run_agent import DEFAULT_MODEL, build_purelandfold_manifest, run
 DEFAULT_SEQUENCES = ["yacht", "ladybug", "snake"]
 
 
+def _parse_steps(text: str) -> list[int]:
+    """'1-5,7,9-10' -> [1, 2, 3, 4, 5, 7, 9, 10]."""
+    out: list[int] = []
+    for part in text.split(","):
+        lo, _, hi = part.strip().partition("-")
+        out.extend(range(int(lo), int(hi or lo) + 1))
+    return sorted(set(out))
+
+
 def main() -> None:
     p = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
@@ -30,9 +39,19 @@ def main() -> None:
     p.add_argument("--model", default=DEFAULT_MODEL)
     p.add_argument("--max-iterations", type=int, default=None)
     p.add_argument("--skip-eval", action="store_true")
+    p.add_argument(
+        "--steps",
+        help="keyframe subset, e.g. 1-5,7-12,14,16,17 (results go to results/<--condition>/)",
+    )
+    p.add_argument("--condition", help="results folder for a --steps subset run")
     a = p.parse_args()
+    steps = _parse_steps(a.steps) if a.steps else None
+    if steps and not a.condition:
+        p.error("--steps needs --condition so subset runs stay apart from full benchmark runs")
     for seq in a.sequence or DEFAULT_SEQUENCES:
-        spec = build_purelandfold_manifest(seq)
+        spec = build_purelandfold_manifest(
+            seq, steps=steps, condition=a.condition or "purelandfold"
+        )
         spec.model = a.model
         print(f"\n=== {seq}: {len(spec.keyframes)} keyframes, model {a.model} ===")
         log = run(spec, max_iterations=a.max_iterations)

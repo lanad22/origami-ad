@@ -14,9 +14,11 @@ dependencies = [
     "requests>=2.31",
     "scipy>=1.11",
     "networkx>=3.0",
+    "shapely>=2.0",  # describe.py paper-state sentences
     "yt-dlp>=2024.1",
     "opencv-python-headless>=4.9",
     "mediapipe>=0.10",
+    "anthropic>=1.0",  # keyframe_select
     "tqdm>=4.60",
     "tabulate>=0.9",
     # FoldingAgent + its engine, installed from the submodule / git pin

@@ -75,28 +75,44 @@ the fold is finished, paper flat and visible, hands out of the way where possibl
 run FoldingAgent on them and score against the benchmark. Does it still produce reasonable
 programs when keyframes are not hand-picked and the camera is not the authors' setup?
 
-**Keyframe quality decides everything downstream.** The method in the repo is one
-starting point; the team task is to try others and pick the best by judgment.
+**Keyframe quality decides everything downstream.** Compared on 7 hand-labelled
+tutorials plus the heart video (`data/annotations/keyframe_labels.json`,
+`scripts/keyframe_bench.py`); write-up, method map and numbers in
+`results/keyframing/README.md`.
 
-- Current method (`keyframing.py`, settings in `KeyframeParams`): sample at 5 fps, detect
+- Default since 2026-11-22: `keyframe_select.py` with the pairwise review
+  (`--keyframer pairwise`, `SelectParams.review="pairwise"`). After the pick pass (below),
+  each pick is judged against the last kept keyframe at 512 px, with frames 1 s before and 1–2 s
+  after, as `new` / `same` / `midfold`, and kept only when new (for `same`, the clearer
+  frame stays). Held-out test: 19/24 states, 1 bad pick; heart: 13/14, 2 bad. About
+  $0.15–0.25 per video on top of the pick pass.
+- Previous default (2026-11-01): same module with the grid review (`--keyframer grid`). One calm
+  candidate per second (least motion + hand cover, from `keyframing`'s signals), shown to
+  Claude Opus 5.5 in numbered grids with the last chosen keyframe as tile 0; it keeps one
+  frame per new finished state, then one grid review over all picks drops repeats and
+  mid-fold frames. Held-out test: 17/24 states, 3 bad picks (stillness: 14/24, 17 bad).
+  ~$0.04 per video minute, replies cached in `data/cache/keyframe_select/`.
+  Both Claude keyframers fall back to stillness without `ANTHROPIC_API_KEY`.
+- Stillness method (`keyframing.py`, `--keyframer stillness`, settings in
+  `KeyframeParams`): sample at 5 fps, detect
   hands with MediaPipe and mask them out (dilated landmark hull + forearm), measure how
   much of the hand-free image changes between frames, take one frame per pause where the
   paper stopped changing (rest >= 0.4 s; least hand cover, then least motion), merge
   near-duplicate pauses (adaptive threshold, 35% of the video's typical fold change).
   Intro: start at first hand appearance; outro: one shot after hands leave.
+  Its rest frames contain only 74% of labelled states (folds often end without a rest), and
+  threshold tuning on dev did not carry over to test.
 - Run: `python scripts/run_youtube.py VIDEO_ID SEQUENCE --keyframes-only`.
   Outputs under `data/keyframes/youtube_auto/VIDEO_ID/`: `keyframes_auto.jpg` (chosen
-  frames with timestamps), `keyframes_auto.json` (per-frame signals), `keyframes.json`
-  (the manifest FoldingAgent reads).
-- Known misses (tuned on two ladybug videos, 12 and 19 keyframes for ~10 and ~13 folds):
-  very fast opening folds with no rest, frames where hands fully cover the model.
-- Ideas to try: other thresholds, hand velocity from landmarks, hands leaving the frame,
-  shot-cut detection, clustering frames by how the paper looks, a vision model picking
-  frames.
-- How to judge: for each matched video open `keyframes_auto.jpg`, compare with the
-  PurelandFold steps for that model (review page), count folds found, folds missed, extra
-  frames. Best = most folds on most videos without many extras. Write down what was tried
-  and how it did so the team can compare.
+  frames with timestamps), `keyframes_auto.json` (per-frame signals; with `pairwise` or
+  `grid`, the candidates, picks and model replies under `params.selection`),
+  `keyframes.json` (the manifest FoldingAgent reads).
+- Tried and dropped: tuned thresholds, edge-based change, smoothed motion, scene-aware
+  intro, 2 s candidates, no review pass, codec I-frames (uniform ~5 s, mostly mid-fold).
+  Not yet tried: HaMeR hands for snapping, Gemini or
+  Claude Haiku 5.5 as the picker.
+- How to judge a new idea: add it to `scripts/keyframe_bench.py`, tune on `--split dev`,
+  run test once, add a row to `results/keyframing/README.md`.
 - Final check: `python scripts/run_youtube.py VIDEO_ID SEQUENCE` (condition B, default).
   `eval.py` aligns the agent's checkpoints to PurelandFold steps by DTW on CPD
   (`alignment: auto_dtw`). Compare the YouTube row with the benchmark row in
@@ -156,6 +172,9 @@ origami-ad/
 │   ├── bases.py            # shared opening-step detection across sequences
 │   ├── video.py            # yt-dlp download, ffmpeg frame extraction
 │   ├── keyframing.py       # automatic keyframes: hand-masked paper stillness (MediaPipe Hands)
+│   ├── keyframe_select.py  # default keyframer: calm candidates, Claude pick pass, pairwise
+│   │                       # review (or grid review, the previous default)
+│   ├── keyframe_bench.py   # score keyframes against keyframe_labels.json
 │   ├── align.py            # optional manual YT timestamp -> step mapping (Condition A)
 │   ├── run_agent.py        # manifests + wrapper to run FoldingAgent, JSON run logs
 │   ├── describe.py         # fold program -> plain-language action + paper sentences
@@ -163,7 +182,7 @@ origami-ad/
 │   ├── testing.py          # scripted LLM backend for key-free end-to-end tests
 │   └── metrics/            # flatfolder (CV), cpd, origamispace (TSS/GS/CS/FFS), fold_utils
 ├── scripts/                # reproduce.py, coverage_audit.py, alignment.py, run_youtube.py,
-│                           # evaluate.py, describe_run.py, flatfolder_compile.mjs
+│                           # evaluate.py, describe_run.py, keyframe_bench.py, flatfolder_compile.mjs
 ├── tests/
 └── results/                # <condition>/{runs,logs,metrics}; logs+metrics committed,
                             # runs gitignored except whitelisted example runs

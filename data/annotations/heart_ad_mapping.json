@@ -1,0 +1,33 @@
+{
+  "_note": "Professional accessible description (AD) for the PurelandFold 'heart' design, mapped to PurelandFold steps. Used to score how describe.py groups program steps into AD steps. Step summaries are our paraphrases; the original text stays on the source page (non-commercial use only), so it is not copied here.",
+  "sequence": "heart",
+  "reference": {
+    "title": "Origami Easiest Ever Heart (MDL0044)",
+    "author": "Lindy van der Merwe",
+    "compiled": "2019-05",
+    "revised": "2022-07",
+    "url": "https://www.accessorigami.com/2023/01/mdl0044-origami-easiest-ever-heart-for.html",
+    "adapted_from": "https://www.origamiway.com/origami-heart/",
+    "audience": "blind and low-vision folders"
+  },
+  "ad_steps": [
+    {"ad_step": 1, "kind": "orient", "summary": "Lay the square as a diamond.", "purelandfold_steps": [1, 2]},
+    {"ad_step": 2, "kind": "crease", "summary": "Left point to right point, crease, unfold.", "purelandfold_steps": [5, 6, 7]},
+    {"ad_step": 3, "kind": "crease", "summary": "Top point to bottom point, crease, unfold.", "purelandfold_steps": [3, 4]},
+    {"ad_step": 4, "kind": "fold", "summary": "Top point down to the centre.", "purelandfold_steps": [8]},
+    {"ad_step": 5, "kind": "fold", "summary": "Bottom point up to the top edge.", "purelandfold_steps": [9]},
+    {"ad_step": 6, "kind": "symmetric_pair", "summary": "Bottom left and right edges to the centre crease.", "purelandfold_steps": [10, 11]},
+    {"ad_step": 7, "kind": "finishing", "summary": "Fold back top points and side corners (no turning over).", "purelandfold_steps": [12, 13, 14, 15, 16, 17]}
+  ],
+  "grouping_rules": [
+    "A fold followed by its unfold is one step.",
+    "Mirror-image folds are one step.",
+    "Finishing folds are one step; 'fold back' replaces turning the paper over."
+  ],
+  "order_note": "Her steps 2 and 3 make the two diagonal creases in the opposite order to PurelandFold (PurelandFold folds top-to-bottom first).",
+  "website_photos": {
+    "_note": "origamiway.com step photo number -> PurelandFold step. PurelandFold 6 (rotation), 13 and 15 (one half of a symmetric pair) have no photo.",
+    "map": {"1": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 7, "7": 8, "8": 9, "9": 10, "10": 11, "11": 12, "12": 14, "13": 16, "14": 17}
+  },
+  "keyframe_target_14": [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 14, 16, 17]
+}

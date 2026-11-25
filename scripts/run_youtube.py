@@ -4,7 +4,9 @@
 Condition B, the default (automatic keyframes, no timestamps; steps aligned by DTW in eval):
     python scripts/run_youtube.py VIDEO_ID SEQUENCE [VIDEO_ID SEQUENCE ...]
     python scripts/run_youtube.py VIDEO_ID SEQUENCE --keyframes-only
-    python scripts/run_youtube.py --matches [--sequence yacht]     # every exact match from the review
+    python scripts/run_youtube.py VIDEO_ID SEQUENCE --keyframer grid        # previous default
+    python scripts/run_youtube.py VIDEO_ID SEQUENCE --keyframer stillness   # no API
+    python scripts/run_youtube.py --matches [--sequence yacht]   # every exact match
 
 Condition A (manual timestamps in data/annotations/alignment/, ablation only):
     python scripts/run_youtube.py --condition A VIDEO_ID [VIDEO_ID ...] [--fps 2]
@@ -21,7 +23,13 @@ from origami_ad.align import Alignment, list_alignments
 from origami_ad.audit.search import load_matches
 from origami_ad.describe import describe_run
 from origami_ad.eval import evaluate_run, summarize, write_metrics
-from origami_ad.run_agent import DEFAULT_MODEL, build_auto_manifest, build_youtube_manifest, run
+from origami_ad.run_agent import (
+    DEFAULT_MODEL,
+    KEYFRAMERS,
+    build_auto_manifest,
+    build_youtube_manifest,
+    run,
+)
 from origami_ad.video import DEFAULT_FPS
 
 
@@ -47,6 +55,12 @@ def main() -> None:
         action="store_true",
         help="condition B: propose keyframes, skip the agent",
     )
+    p.add_argument(
+        "--keyframer",
+        choices=KEYFRAMERS,
+        default=KEYFRAMERS[0],
+        help="condition B: pairwise review (default), grid review or stillness",
+    )
     a = p.parse_args()
 
     if a.condition == "B":
@@ -65,7 +79,7 @@ def main() -> None:
         else:
             pairs = list(zip(a.video_ids[::2], a.video_ids[1::2], strict=True))
         for vid, seq in pairs:
-            spec = build_auto_manifest(vid, seq)
+            spec = build_auto_manifest(vid, seq, keyframer=a.keyframer)
             spec.model = a.model
             sheet = spec.manifest.parent / "keyframes_auto.jpg"
             print(f"\n=== {seq} / {vid}: {len(spec.keyframes)} auto keyframes (sheet: {sheet}) ===")
